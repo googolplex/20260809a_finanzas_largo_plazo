@@ -6,6 +6,8 @@ Este archivo es la vista legible de `referencias.bib`. Se actualiza de manera ac
 
 Aguilera Méndez, R. (2026, 4 de julio). *El ciclo evaluativo en el aula universitaria: diagnóstico, proceso y cierre* [Presentación institucional]. Universidad Americana.
 
+Brigham, E. F., & Houston, J. F. (2020). *Fundamentos de administración financiera* (E. C. Mercado González, Trad.; 15.ª ed.). Cengage Learning Editores. ISBN 978-607-526-936-8.
+
 Universidad Americana. (2026, 28 de abril). *Resolución CSU N.º 016/2026: Reglamento de Actividad Docente* [Resolución del Consejo Superior Universitario].
 
 Universidad Americana. (s. f.). *Finanzas a Largo Plazo: Programa de estudios* [Programa oficial de asignatura].
