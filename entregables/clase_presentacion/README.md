@@ -4,12 +4,18 @@ Material de trabajo de la misión `20260809b_clase_presentacion_asignatura`.
 
 ## Estado
 
-- Fuente LaTeX local de trabajo: `main_v01.tex`.
+- Fuente LaTeX local de trabajo: `main_v02.tex`.
+- La iteración `v02` deriva **exclusivamente del último archivo `main.tex` suministrado por el docente el 09/08/2026**; no se mezcló con versiones anteriores.
+- Cambio específico de esta iteración: depuración de autoría/docencia para dejar únicamente a **Roger Román Armoa García**.
 - Estado de la fuente en GitHub: **pendiente de commit** hasta depurar la subsección heredada de carga/créditos de FP-UNA y realizar la compilación final.
 - Estado del contenido: preparación avanzada; varios bloques ya fueron aprobados durante la revisión del 09/08/2026.
 - Bibliografía de trabajo en GitHub: [`referencias.bib`](referencias.bib).
 - PDF final para estudiantes/NotebookLM: pendiente de recompilación y control final.
 - Misión: continúa en curso hasta la realización y cierre de la primera clase del 10/08/2026.
+
+## Particularidad docente
+
+Para **Finanzas a Largo Plazo — Grupo 80 — Economía — modalidad presencial — Sede ASU — 2026.2**, el docente de la asignatura es **Roger Román Armoa García**. En los materiales de esta misión no deben figurar Hilda Echegaray de Palacios ni Víctor Hugo Santacruz Delvalle como autores o docentes de esta asignatura.
 
 ## Flujo previsto
 
@@ -47,7 +53,7 @@ El borrador conserva una subsección heredada que todavía menciona reglas de ca
 
 Una vez corregido el bloque heredado y realizada una compilación completa sin errores, se incorporarán al directorio, según corresponda:
 
-- `main_v01.tex` o su siguiente versión efectiva si el contenido cambia;
+- `main_v02.tex` o su siguiente versión efectiva si el contenido cambia;
 - los recursos gráficos aprobados;
 - el PDF final utilizado en la primera clase, si se decide conservarlo en el repositorio;
 - el archivo `.txt` del Adversarial Pass Protocol utilizado con los estudiantes.
