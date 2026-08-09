@@ -66,21 +66,34 @@ Observación de privacidad: cuando el material institucional habla de repositori
 ## 7. Bibliografía académica principal
 
 ### Van Horne, James C. y Wachowicz, John M., Jr.
-*Fundamentos de Administración Financiera*, 13.ª edición. Pearson Educación, México, 2010.
+*Fundamentos de Administración Financiera*, 13.ª edición. Pearson Educación, México, 2010. Traducción de Marcia Aida González Osuna. ISBN impreso 978-607-442-948-0; ISBN e-book 978-607-442-949-7.
 
-Uso: texto académico principal para desarrollo conceptual, ejemplos y ejercicios.
+**Papel dentro del proyecto:** texto académico y técnico principal para desarrollar conceptos, ejemplos, problemas, autoevaluaciones y actividades. No sustituye al programa oficial ni a la normativa institucional.
 
-Temas especialmente relacionados con el programa:
-- Riesgo y rendimiento.
-- Presupuesto de capital.
-- Técnicas de presupuesto de capital.
-- Riesgo en presupuesto de capital.
-- Rendimientos requeridos y costo de capital.
-- Apalancamiento.
-- Estructura de capital.
-- Política de dividendos.
+### Mapeo principal con las unidades de FINANZAS A LARGO PLAZO
 
-**Nota de derechos de autor:** el libro completo no debe incorporarse al repositorio público.
+- **Unidad I — Costo de capital y presupuesto de capital:** capítulo 5 (riesgo, rendimiento y MPAC/CAPM como antecedente para rendimiento requerido), capítulo 12 (presupuesto de capital y estimación de flujos), capítulo 13 (técnicas de presupuesto de capital, incluyendo análisis de sensibilidad) y capítulo 15 (rendimientos requeridos y costo de capital).
+- **Unidad II — Presupuesto de capital en condiciones de riesgo:** capítulo 5 (riesgo y rendimiento) y capítulo 14 (riesgo y opciones administrativas/reales en presupuesto de capital).
+- **Unidad III — Formación de un portfolio:** capítulo 5 y apéndice A del capítulo 5 (medición del riesgo de un portafolio, rendimiento, desviación estándar, covarianza y diversificación).
+- **Unidad IV — Estructura financiera óptima:** capítulos 15, 16 y 17 (costo de capital, apalancamiento y determinación de la estructura de capital).
+- **Unidad V — Valorización de una empresa y política de dividendos:** capítulo 4 (valuación de valores a largo plazo), capítulo 17 (estructura de capital/valor) y capítulo 18 (política de dividendos).
+
+### Capítulos complementarios útiles
+
+- Capítulo 3 — valor del dinero en el tiempo: prerrequisito técnico para valuación y presupuesto de capital.
+- Capítulos 6 y 7 — análisis financiero, fondos, flujo de efectivo y planeación: apoyo para lectura de estados financieros y construcción/interpretación de flujos.
+- Capítulos 19 a 21 — mercados y financiamiento de mediano/largo plazo: ampliación para fuentes de financiamiento.
+- Capítulo 23 — fusiones y otras reestructuraciones corporativas: ampliación para valoración y decisiones estratégicas.
+
+### Recursos pedagógicos del propio texto
+
+Cada capítulo incluye objetivos, puntos clave, preguntas y problemas. El libro contiene además problemas de autoevaluación con soluciones detalladas, que pueden utilizarse como referencia para diseñar ejercicios propios y retroalimentación. El prefacio señala también el uso de hojas de cálculo como apoyo a la resolución de problemas.
+
+### Cautela temporal
+
+La edición española es de **2010**. Sus principios financieros y modelos se utilizan como fundamentos, pero cifras tributarias, normas legales, valores de mercado, ejemplos institucionales, datos de empresas y enlaces web reflejan el contexto de la edición y **no deben asumirse vigentes en 2026**. El propio libro advierte que las leyes fiscales cambian con frecuencia y que los sitios web son transitorios. Cuando esos datos sean necesarios para una actividad actual, deberán verificarse con una fuente vigente.
+
+**Nota de derechos de autor:** el libro completo no debe incorporarse al repositorio público. Solo se conserva la referencia bibliográfica, el mapeo temático y materiales propios derivados de su estudio dentro de los límites correspondientes.
 
 ## Bibliografía señalada por el programa
 
