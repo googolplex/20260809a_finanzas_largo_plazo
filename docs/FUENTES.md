@@ -98,13 +98,33 @@ Observación de privacidad: cuando el material institucional habla de repositori
 - **Unidad IV — Estructura financiera óptima:** capítulo 10 (WACC) y capítulo 14 (riesgo de negocios y financiero, apalancamiento, estructura óptima y teorías de estructura de capital).
 - **Unidad V — Valorización de una empresa y política de dividendos:** capítulo 9 (valor intrínseco, acciones y modelos de valoración) y capítulo 15 (dividendos, recompras y política de distribución). El capítulo 21 puede utilizarse como ampliación para valoración en fusiones y adquisiciones.
 
+### Material visual: «Fundamentos de la administración financiera: El rol estratégico moderno y la creación de valor corporativo»
+
+Material didáctico visual en PDF, 15 páginas. **No se identifican autor, institución responsable ni fecha de publicación en el documento recibido**, por lo que esos datos no se infieren.
+
+**Papel dentro del proyecto:** material de síntesis y apoyo visual, especialmente útil para introducción, diagnóstico, discusión y cierre de conceptos. No se considera fuente normativa ni sustituye a los textos académicos principales.
+
+Aportes conceptuales aprovechables:
+- evolución del CFO desde recaudación/control hacia creación estratégica de valor;
+- administración financiera articulada alrededor de tres decisiones: **inversión, financiamiento y administración de bienes**;
+- distinción entre maximización de utilidades y creación de riqueza/valor de largo plazo;
+- problema de agencia entre principales y agentes, con incentivos y supervisión como mecanismos de alineación;
+- incorporación de stakeholders, responsabilidad social corporativa y sostenibilidad dentro de una visión de valor de largo plazo;
+- gobernanza corporativa mediante accionistas, consejo directivo y alta administración;
+- estructura funcional del equipo financiero: CEO/CFO, tesorería y contraloría;
+- referencia ilustrativa a Sarbanes-Oxley y PCAOB dentro del contexto regulatorio estadounidense.
+
+**Uso pedagógico sugerido:** varias de sus láminas pueden servir como puente conceptual para la primera clase o para preguntas diagnósticas, siempre que las afirmaciones técnicas importantes se contrasten con Van Horne/Wachowicz, Brigham/Houston u otra fuente académica identificable.
+
 ### Recursos pedagógicos útiles de los textos
 
 Ambos textos ofrecen preguntas, problemas y casos. Brigham & Houston incorpora además casos integrados, problemas de autoevaluación y uso explícito de calculadoras financieras y hojas de cálculo. Estos recursos se utilizarán como inspiración para crear ejercicios propios, no para copiar extensamente material protegido.
 
-### Cautela temporal
+### Cautela temporal y contextual
 
 Van Horne & Wachowicz es una edición española de **2010** y Brigham & Houston una edición española de **2020**. Sus principios financieros y modelos se utilizan como fundamentos, pero cifras tributarias, normas legales, valores de mercado, ejemplos institucionales, datos de empresas y enlaces web reflejan el contexto de sus respectivas ediciones y **no deben asumirse vigentes en 2026**. Cuando esos datos sean necesarios para una actividad actual, deberán verificarse con una fuente vigente.
+
+De igual modo, referencias a legislación, organismos o prácticas de otros países —por ejemplo **Sarbanes-Oxley (SOX)** o **PCAOB** en Estados Unidos— se emplearán como ejemplos comparativos y no como normativa aplicable en Paraguay salvo verificación específica.
 
 **Nota de derechos de autor:** los libros completos no deben incorporarse al repositorio público. Solo se conserva la referencia bibliográfica, el mapeo temático y materiales propios derivados de su estudio dentro de los límites correspondientes.
 
