@@ -32,5 +32,10 @@
 - Incorporado **Brigham & Houston, Fundamentos de administración financiera, 15.ª ed. (2020)** como bibliografía académica complementaria, con ficha BibTeX/APA y mapeo por unidades.
 - Registrado que el PDF disponible de Brigham & Houston es una obra distinta de la referencia institucional «Weston y Brigham (2000), Manual de Administración Financiera»; ambas deben conservarse separadas y trazables.
 - Añadida la regla `BIB-006` para no sustituir silenciosamente obras o ediciones del programa cuando el material efectivamente disponible tenga distinta autoría, título, año o edición.
+- Incorporado el material visual **Fundamentos de la administración financiera: El rol estratégico moderno y la creación de valor corporativo** como fuente de síntesis conceptual; autoría, institución y fecha quedan explícitamente sin atribuir por no figurar en el PDF.
+- Registrados como ejes didácticos del material: rol estratégico del CFO, decisiones de inversión/financiamiento/administración de bienes, creación de valor de largo plazo, problema de agencia, stakeholders, sostenibilidad, gobernanza y arquitectura del equipo financiero.
+- Añadida la regla `BIB-007` para materiales con metadatos incompletos.
+- Añadida `CONT-001`: referencias regulatorias extranjeras —por ejemplo SOX, SEC o PCAOB— no se tratarán como normativa paraguaya sin verificación específica.
+- Añadida `CONT-002`: infografías y materiales de síntesis sirven como apoyo didáctico, pero los contenidos técnicos centrales deben poder respaldarse en fuentes académicas o primarias identificables.
 
 **Nota de versionado:** estas actualizaciones afectan documentación, reglas y fuentes del proyecto; no constituyen una nueva iteración de la Planificación Didáctica. La versión vigente continúa siendo **v29**.
