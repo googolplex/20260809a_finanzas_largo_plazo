@@ -6,9 +6,17 @@ Este archivo es la vista legible de `referencias.bib`. Se actualiza de manera ac
 
 Aguilera Méndez, R. (2026, 4 de julio). *El ciclo evaluativo en el aula universitaria: diagnóstico, proceso y cierre* [Presentación institucional]. Universidad Americana.
 
+Armoa García, R. R. (2026). *Planificación Didáctica Semestral: Finanzas a Largo Plazo* [Documento de planeamiento, versión 30 aprobada]. Universidad Americana.
+
 Brigham, E. F., & Houston, J. F. (2020). *Fundamentos de administración financiera* (E. C. Mercado González, Trad.; 15.ª ed.). Cengage Learning Editores. ISBN 978-607-526-936-8.
 
 *Fundamentos de la administración financiera: El rol estratégico moderno y la creación de valor corporativo*. (s. f.). [Material didáctico visual en PDF]. Autoría e institución responsable no indicadas en el material recibido.
+
+Google. (s. f.). *NotebookLM*. Consultado el 9 de agosto de 2026.
+
+Universidad Americana. (2020). *Plenario Docente 2020: Modelo de Aprendizaje Basado en Competencias* [Página institucional].
+
+Universidad Americana. (2026). *Calendario académico del segundo periodo académico 2026* [Calendario institucional para modalidad presencial].
 
 Universidad Americana. (2026, 28 de abril). *Resolución CSU N.º 016/2026: Reglamento de Actividad Docente* [Resolución del Consejo Superior Universitario].
 
@@ -46,9 +54,19 @@ Báez, J. (s. f.). *Finanzas a largo plazo. Unidad IV: Estructura financiera óp
 
 *Finanzas a largo plazo. Unidad IV: Estructura financiera óptima*. (s. f.). [Material audiovisual de curso en PDF]. Universidad Americana. Autoría personal no indicada; 3 páginas.
 
-## Referencias secundarias extraídas de los materiales y verificadas
+## Referencias clásicas y secundarias verificadas
+
+Markowitz, H. (1952). Portfolio selection. *The Journal of Finance, 7*(1), 77–91. https://doi.org/10.1111/j.1540-6261.1952.tb01525.x
+
+Miller, M. H., & Modigliani, F. (1961). Dividend policy, growth, and the valuation of shares. *The Journal of Business, 34*(4), 411–433. https://doi.org/10.1086/294442
+
+Modigliani, F., & Miller, M. H. (1958). The cost of capital, corporation finance and the theory of investment. *The American Economic Review, 48*(3), 261–297.
+
+Modigliani, F., & Miller, M. H. (1963). Corporate income taxes and the cost of capital: A correction. *The American Economic Review, 53*(3), 433–443.
 
 Montesinos, F. (2006). *Finanzas II: Serie de apuntes* (2.ª ed.). Editorial Universidad Americana.
+
+Sharpe, W. F. (1964). Capital asset prices: A theory of market equilibrium under conditions of risk. *The Journal of Finance, 19*(3), 425–442. https://doi.org/10.1111/j.1540-6261.1964.tb02865.x
 
 Duran Chinchilla, C. M. (2024). Análisis de la implementación de resultados de aprendizaje en la educación superior: una revisión investigativa. *Sophia, 20*(1). https://doi.org/10.18634/sophiaj.20v.1i.1356
 
