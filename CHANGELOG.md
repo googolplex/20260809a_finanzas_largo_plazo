@@ -62,14 +62,27 @@
 - Incorporado el calendario académico presencial y el calendario de clases de los lunes.
 - Detectado un error de compilación por uso de `longtable` sin paquete cargado; la fuente de trabajo fue corregida incorporando `\usepackage{longtable}`.
 - Corregido el bloque principal de carga académica para utilizar únicamente **51 horas totales, 36 teóricas y 15 prácticas**, junto con lunes 18:15–21:15.
-- Identificada como pendiente de depuración una subsección heredada que todavía menciona 4 h de trabajo acompañado, 4 h independientes, 8 h semanales y 27 h/crédito de FP-UNA; se registra explícitamente que esa regla no corresponde a la asignatura actual.
+- Identificada como pendiente de depuración una subsección heredada que todavía menciona 4 h de trabajo acompañado, 4 h independientes y 8 h semanales; se registra que esas cifras no deben presentarse como carga oficial sin respaldo institucional específico.
 - Sustituida la antigua sección transversal de carreras por **Relación con la carrera**, específica para Economía.
 - Ampliado el control de calidad de las evidencias para revisar datos, fórmulas, resultados, coherencia tasa–periodo, interpretación, conclusiones y fuentes.
 - Sustituido el bloque **Datos del estudiante** por **Datos de identificación del trabajo**, alineado con los requisitos de entrega.
 - Eliminados del modelo de identificación el número de C.I. y la firma manuscrita real, fortaleciendo la privacidad en un repositorio y carpetas compartidas.
-- Alineada la lista de datos mínimos de las entregas con Facultad de Ciencias Económicas y Administrativas, Universidad Americana, grupo/sección, docente y fecha.
-- Realizada una pasada específica de citas sobre el LaTeX sin modificar el contenido sustantivo de los bloques revisados.
+- Realizada una pasada específica de citas sobre el LaTeX.
 - Creado `entregables/clase_presentacion/README.md` para documentar estado, activos, privacidad y pendientes.
-- Creado `entregables/clase_presentacion/referencias.bib` como bibliografía de trabajo de la presentación, incluyendo programa, planeamiento v30, calendario, reglamento institucional, MAC, NotebookLM, bibliografía financiera principal, Cuadernos 1–5 y referencias clásicas de portfolio/CAPM/estructura de capital/dividendos.
-- La antigua referencia de FP-UNA se conserva en la bibliografía específica únicamente como **referencia heredada temporal**, marcada para eliminación cuando se depure el texto correspondiente.
-- La misión permanece **en curso** hasta la realización y cierre de la primera clase del 10/08/2026.
+- Creado `entregables/clase_presentacion/referencias.bib` como bibliografía de trabajo de la presentación.
+- Registrado que **Roger Román Armoa García es el único docente** de Finanzas a Largo Plazo — Grupo 80 — 2026.2.
+
+## 2026-08-09 — Consolidación v03 de la presentación
+
+- Recibidos por el docente un nuevo `main.tex` y un nuevo `referencias.bib`, declarados expresamente como las únicas bases vigentes para continuar la misión.
+- Incorporado a GitHub `entregables/clase_presentacion/main_v03.tex` como nueva iteración efectiva del documento de presentación.
+- Reemplazado `entregables/clase_presentacion/referencias.bib` por la última bibliografía suministrada por el docente, sin mezclar entradas de versiones anteriores.
+- La bibliografía específica ya no contiene la referencia heredada `fpuna2025reglamentoCreditos`.
+- Conservados los cinco **Cuadernos de Economía Aplicada** con sus ISBN definitivos.
+- Aprobada e incorporada en las cinco unidades una **guía de lectura de alta precisión**, indicando obra, edición, capítulo/sección, páginas y función de la lectura.
+- Para Van Horne & Wachowicz se registran rangos de lectura por unidad sobre la 13.ª edición; para Brigham & Houston, sobre la 15.ª edición; y para los Cuadernos del docente se indican los volúmenes y páginas pertinentes.
+- Establecida como regla general `VERSION-002`: cuando el docente indique archivos base vigentes, las nuevas iteraciones derivan exclusivamente de ellos y no mezclan silenciosamente versiones anteriores.
+- Añadidas las reglas `BIB-008` a `BIB-010`: bibliografía operativa por unidad, precisión de páginas/edición y tratamiento de materiales propios con ISBN.
+- Registrado que los rangos de páginas deben corresponder a la edición efectivamente verificada y que, cuando exista ambigüedad, debe distinguirse la paginación impresa de la numeración del visor PDF.
+- Actualizados la misión `20260809b` y el índice `entregables/clase_presentacion/README.md` para reconocer `main_v03.tex` + `referencias.bib` como el par reproducible vigente.
+- La misión permanece **en curso** hasta la realización de la primera clase y el registro posterior de ajustes pedagógicos.
