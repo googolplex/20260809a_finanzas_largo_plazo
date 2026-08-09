@@ -16,6 +16,7 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Primera clase del semestre: 10/08/2026.
 - Fecha límite informada para entregar la planificación didáctica: 21/08/2026.
 - Planificación didáctica vigente de trabajo: **v29**.
+- Archivo aprobado en GitHub: `entregables/20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`.
 - Próxima iteración documental: **v30**, solamente cuando exista un cambio que justifique una nueva versión.
 
 ## Jerarquía documental de trabajo
@@ -41,6 +42,8 @@ Si dos fuentes parecen contradecirse, no se reconciliarán silenciosamente: se r
 
 - [`docs/REGLAS_PROYECTO.md`](docs/REGLAS_PROYECTO.md): reglas operativas y de cumplimiento.
 - [`docs/FUENTES.md`](docs/FUENTES.md): fuentes rectoras y bibliográficas.
+- [`bibliografia/referencias.bib`](bibliografia/referencias.bib): base bibliográfica acumulativa BibTeX/BibLaTeX.
+- [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión vigente.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
