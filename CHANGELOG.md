@@ -42,5 +42,7 @@
 - **v30 aprobada por el docente el 09/08/2026.**
 - La versión vigente del planeamiento pasa a ser **v30**; la siguiente iteración posible es v31.
 - La misión `20260809a_integracion_institucional_y_preparacion_clase_inicial` se marca como **completada**.
-- Próxima misión prevista: **clase de presentación**, aún no iniciada.
 - El archivo binario `.docx` de v30 queda pendiente de carga manual a GitHub; la documentación del repositorio ya reconoce v30 como versión aprobada.
+- Iniciada la misión **`20260809b_clase_presentacion_asignatura`** para preparar la primera clase del 10/08/2026.
+- La nueva misión establece como entregables previstos: material de presentación, guion de conducción, diagnóstico inicial y material breve para estudiantes si resulta útil.
+- Se mantiene como mensaje central de la primera clase: **datos confiables → formulación correcta → cálculo con herramientas adecuadas → interpretación → decisión fundamentada**.
