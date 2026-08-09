@@ -8,6 +8,8 @@ Aguilera Méndez, R. (2026, 4 de julio). *El ciclo evaluativo en el aula univers
 
 Brigham, E. F., & Houston, J. F. (2020). *Fundamentos de administración financiera* (E. C. Mercado González, Trad.; 15.ª ed.). Cengage Learning Editores. ISBN 978-607-526-936-8.
 
+*Fundamentos de la administración financiera: El rol estratégico moderno y la creación de valor corporativo*. (s. f.). [Material didáctico visual en PDF]. Autoría e institución responsable no indicadas en el material recibido.
+
 Universidad Americana. (2026, 28 de abril). *Resolución CSU N.º 016/2026: Reglamento de Actividad Docente* [Resolución del Consejo Superior Universitario].
 
 Universidad Americana. (s. f.). *Finanzas a Largo Plazo: Programa de estudios* [Programa oficial de asignatura].
@@ -38,3 +40,4 @@ La presentación también incluye una referencia a OpenAI (2026) como respuesta 
 - Esta vista APA se mantiene sincronizada para lectura y control humano.
 - No se inventan datos bibliográficos faltantes.
 - Cuando una fuente secundaria pueda verificarse por DOI, editor o repositorio académico confiable, se completa y se incorpora a ambos archivos.
+- Los materiales visuales sin autoría o fecha explícitas se registran con los metadatos efectivamente disponibles; no se atribuyen a una persona, institución o fecha por inferencia.
