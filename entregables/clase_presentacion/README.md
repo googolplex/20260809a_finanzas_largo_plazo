@@ -4,9 +4,10 @@ Material de trabajo de la misión `20260809b_clase_presentacion_asignatura`.
 
 ## Estado
 
-- Fuente LaTeX de trabajo: `main_v01.tex`.
+- Fuente LaTeX local de trabajo: `main_v01.tex`.
+- Estado de la fuente en GitHub: **pendiente de commit** hasta depurar la subsección heredada de carga/créditos de FP-UNA y realizar la compilación final.
 - Estado del contenido: preparación avanzada; varios bloques ya fueron aprobados durante la revisión del 09/08/2026.
-- Bibliografía de trabajo: `referencias.bib`.
+- Bibliografía de trabajo en GitHub: [`referencias.bib`](referencias.bib).
 - PDF final para estudiantes/NotebookLM: pendiente de recompilación y control final.
 - Misión: continúa en curso hasta la realización y cierre de la primera clase del 10/08/2026.
 
@@ -16,7 +17,7 @@ LaTeX → PDF → NotebookLM → preguntas de los estudiantes → contraste crí
 
 El PDF utilizado en NotebookLM funciona como fuente académica de la actividad; las respuestas de la IA deben contrastarse con el documento fuente.
 
-## Elementos ya incorporados al material
+## Elementos ya incorporados al material de trabajo
 
 - Presentación de la asignatura y enfoque por competencias.
 - Cinco unidades de Finanzas a Largo Plazo.
@@ -36,11 +37,20 @@ La fuente LaTeX referencia actualmente:
 - `portada_presentacion_asignatura_v1.png`
 - `proceso_iterativo.png`
 
-Ambos recursos fueron aprobados durante la preparación, pero deben encontrarse en la carpeta de compilación para reproducir el PDF.
+Ambos recursos fueron aprobados durante la preparación, pero deben encontrarse en la carpeta de compilación para reproducir el PDF. Su incorporación al repositorio se realizará cuando se consolide el paquete final de la presentación.
 
 ## Observación pendiente de depuración
 
-El borrador conserva una subsección heredada que todavía menciona reglas de carga independiente y créditos de FP-UNA. Esa parte no corresponde a la Universidad Americana y queda marcada para corrección antes de considerar el PDF como versión final. La referencia bibliográfica heredada se conserva temporalmente solo para que el borrador pueda compilar mientras se realiza esa depuración.
+El borrador conserva una subsección heredada que todavía menciona reglas de carga independiente y créditos de FP-UNA. Esa parte no corresponde a la Universidad Americana y queda marcada para corrección antes de considerar el PDF como versión final. La referencia bibliográfica heredada se conserva temporalmente en la bibliografía de trabajo solo para que el borrador pueda compilar mientras se realiza esa depuración.
+
+## Próximo commit del material
+
+Una vez corregido el bloque heredado y realizada una compilación completa sin errores, se incorporarán al directorio, según corresponda:
+
+- `main_v01.tex` o su siguiente versión efectiva si el contenido cambia;
+- los recursos gráficos aprobados;
+- el PDF final utilizado en la primera clase, si se decide conservarlo en el repositorio;
+- el archivo `.txt` del Adversarial Pass Protocol utilizado con los estudiantes.
 
 ## Privacidad
 
