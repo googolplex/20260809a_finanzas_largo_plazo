@@ -38,6 +38,22 @@ Estas reglas gobiernan el trabajo documental y académico del proyecto **FINANZA
 
 **PLAN-006 — Trabajo independiente.** Las actividades de trabajo independiente deben ser concretas, estar vinculadas con el contenido de la unidad y contribuir a consolidar objetivos y resultados de aprendizaje.
 
+**PLAN-007 — Estructura de los resultados de aprendizaje.** Para redactar un resultado de aprendizaje se utilizará como guía la estructura **Verbo de acción + Objeto de aprendizaje + Condición/Criterio/Contexto**. El resultado debe expresar un desempeño observable del estudiante.
+
+**PLAN-008 — Verbos observables.** En resultados de aprendizaje se evitarán, cuando funcionen como única acción evaluable, verbos internos o ambiguos como *conocer, saber, entender, aprender* o *profundizar*. Se preferirán verbos que permitan obtener evidencia verificable del desempeño.
+
+**PLAN-009 — Nivel universitario.** Antes de adoptar un resultado de aprendizaje se comprobará que sea observable, medible, evaluable y adecuado al nivel universitario; no debe limitarse a repetición cuando el objetivo y el contenido requieren aplicación, análisis, evaluación o creación.
+
+**ALIN-001 — Alineación constructiva.** Cada resultado de aprendizaje debe guardar correspondencia con las actividades/metodologías mediante las cuales se desarrolla y con las evidencias e instrumentos mediante los cuales se evalúa. La pregunta operativa será: **qué queremos que logre → cómo lo aprende → cómo demuestra que lo logró**.
+
+## Reglas para actividades y consignas
+
+**CONSIGNA-001 — Estructura.** Las consignas de tareas relevantes deben especificar, cuando corresponda, **verbo de acción + contenido + condición + producto final esperado**.
+
+**CONSIGNA-002 — Claridad.** La consigna debe ser clara y específica respecto de lo que el estudiante debe pensar y realizar, así como de los procedimientos, recursos o materiales necesarios cuando estos sean pertinentes.
+
+**CONSIGNA-003 — Producto verificable.** Cuando una actividad esté destinada a evidenciar un resultado de aprendizaje, debe quedar claro qué producto o desempeño permitirá verificarlo: por ejemplo ejercicio resuelto, planilla de cálculo, informe, análisis de caso, recomendación argumentada, presentación o proyecto.
+
 ## Reglas de evaluación
 
 **EVAL-001 — Procedimiento e instrumento.** No son equivalentes. El formato institucional distingue procedimientos como **prueba, observación e informe** y exige asociarlos con instrumentos apropiados.
@@ -59,6 +75,18 @@ Ejemplos institucionales de instrumentos:
 
 **EVAL-007 — Evaluación sumativa.** Debe representar los saberes y competencias trabajados. La orientación pedagógica institucional propone como criterio usual una distribución de dificultad 20%-60%-20% para los ítems.
 
+**EVAL-008 — Retroalimentación durante el proceso.** En metodologías activas la evaluación formativa debe acompañar el trabajo del estudiante y proporcionar retroalimentación que permita ajustar el aprendizaje antes de la evaluación de cierre.
+
+**EVAL-009 — Evaluación de proyectos y productos.** Cuando se utilicen proyectos, casos integradores u otras metodologías orientadas a productos, la evidencia del logro no debe descansar exclusivamente en pruebas o test. Se combinarán, según pertinencia, productos verificables con rúbricas, listas de cotejo, observación sistemática, informes o bitácoras.
+
+## Evidencias y resguardo
+
+**EVID-001 — Evidencia del resultado.** Todo resultado de aprendizaje importante debe poder asociarse con una evidencia verificable de logro.
+
+**EVID-002 — Resguardo.** Las evidencias académicas pueden documentarse mediante registros de tareas, planillas de proceso, portafolios o repositorios institucionales, conforme a la modalidad y las herramientas disponibles.
+
+**EVID-003 — Repositorio institucional ≠ GitHub público.** Las evidencias que contengan identidad, desempeño, retroalimentación o calificaciones de estudiantes deben resguardarse en la plataforma institucional o en otro medio autorizado y privado. **No deben almacenarse en este repositorio público de GitHub.**
+
 ## Reglamento de Actividad Docente — puntos operativos
 
 **REG-001.** La planificación académica, contenido programático, registro académico de clases, asistencia, planilla de notas, actas y actualización de materiales/actividades/evaluaciones forman parte de los documentos académicos docentes de grado.
@@ -70,6 +98,14 @@ Ejemplos institucionales de instrumentos:
 **REG-004.** Para grado se prevén **14 horas cátedra para evaluaciones**: 6 para parciales o recuperación y 8 para finales ordinarios y extraordinarios.
 
 **REG-005.** Las clases deben desarrollarse conforme a la planificación y al horario asignado, manteniendo los registros institucionales exigidos.
+
+## Bibliografía y trazabilidad de fuentes
+
+**BIB-001 — Bibliografía acumulativa.** La bibliografía del proyecto se mantendrá de manera acumulativa en `bibliografia/referencias.bib`, con una vista humana en formato APA en `bibliografia/REFERENCIAS_APA.md`.
+
+**BIB-002 — No inventar metadatos.** Si una cita incluida en un material recibido no permite identificar de forma inequívoca la obra, quedará marcada como pendiente hasta poder verificarla. No se completarán autores, títulos, editoriales o años por inferencia.
+
+**BIB-003 — Prioridad de verificación.** Cuando una referencia secundaria disponga de DOI, página oficial de la revista, editor o repositorio académico confiable, esos datos se utilizarán para depurar la entrada bibliográfica antes de emplearla en materiales del curso.
 
 ## Resolución de conflictos documentales
 
