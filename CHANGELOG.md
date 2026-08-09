@@ -43,5 +43,12 @@
 - Registradas las compilaciones de **Justo Báez** para valorización de empresas/política de dividendos y estructura financiera óptima, conservando separada la autoría de las fuentes en que se basan.
 - Creado `docs/REGLAS_MATERIALES_CURSO_PREVIO.md` con reglas `LEGACY-001` a `LEGACY-006` sobre jerarquía, verificación técnica, vigencia temporal, procedencia, deduplicación y tratamiento de materiales propios derivados.
 - La bibliografía BibTeX y su vista APA fueron actualizadas con los seis materiales únicos y con Montesinos (2006).
+- Incorporados como bibliografía propia del docente los cinco volúmenes 2026 de **Cuadernos de Economía Aplicada**, con autoría, volumen e ISBN verificados directamente en sus páginas legales.
+- Creado `docs/MATERIALES_DOCENTE_2026.md` con el mapeo de los cinco cuadernos respecto de las unidades vigentes, su papel didáctico y los elementos temporales que requieren revalidación antes de reutilizarse.
+- Creado `docs/REGLAS_MATERIALES_DOCENTE.md` con reglas `DOC-001` a `DOC-012` sobre base didáctica, uso de herramientas computacionales, calidad de datos, reproducibilidad, consistencia flujo–tasa, notación, revalidación temporal, secuencia aplicada, evaluación formativa y privacidad.
+- Se registra como enfoque didáctico preferente **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
+- Se registra que la mecánica de cálculo puede apoyarse en planillas, programación u otras herramientas, priorizando la interpretación financiera y la justificación de resultados.
+- Los Volúmenes 1–2 se mapean principalmente con Unidad I; el Volumen 4 con Unidad IV; los Volúmenes 3 y 5 con Unidad V. Para Unidades II y III se mantienen otras fuentes complementarias.
+- La planificación vigente no fue modificada por esta incorporación documental.
 
 **Nota de versionado:** estas actualizaciones afectan documentación, reglas y fuentes del proyecto; no constituyen una nueva iteración de la Planificación Didáctica. La versión vigente continúa siendo **v29**.
