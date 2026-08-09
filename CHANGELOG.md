@@ -46,3 +46,4 @@
 - Iniciada la misión **`20260809b_clase_presentacion_asignatura`** para preparar la primera clase del 10/08/2026.
 - La nueva misión establece como entregables previstos: material de presentación, guion de conducción, diagnóstico inicial y material breve para estudiantes si resulta útil.
 - Se mantiene como mensaje central de la primera clase: **datos confiables → formulación correcta → cálculo con herramientas adecuadas → interpretación → decisión fundamentada**.
+- Añadidas las reglas `ESTILO-001` a `ESTILO-004`: español institucional neutro, sin argentinismos ni voseo rioplatense; corrección ortográfica, gramatical y sintáctica; redacción eficaz y clara sin sobrecargar al lector; y consistencia terminológica en todos los materiales del proyecto.
