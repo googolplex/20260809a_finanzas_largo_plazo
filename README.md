@@ -6,7 +6,7 @@ Proyecto institucional de apoyo a la asignatura **FINANZAS A LARGO PLAZO — Gru
 
 Mantener trazabilidad de la planificación académica, misiones de trabajo, reglas institucionales, fuentes normativas, decisiones metodológicas y materiales académicos producidos durante la asignatura.
 
-El repositorio está diseñado para poder mantenerse **público**. Por ello no debe contener nombres de estudiantes, calificaciones individuales, asistencia individual, correos, documentos de identidad, teléfonos ni otros datos personales o sensibles.
+El repositorio está diseñado para poder mantenerse **público**. Por ello no debe contener nombres de estudiantes, calificaciones individuales, asistencia individual, correos, documentos de identidad, teléfonos, firmas reales ni otros datos personales o sensibles.
 
 ## Estado actual
 
@@ -21,6 +21,27 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Próxima iteración documental: **v31**, solamente cuando exista un cambio real que justifique una nueva versión.
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
 - Misión vigente: **20260809b — Clase de presentación de la asignatura**.
+- Estado de la misión vigente: **preparación avanzada; material aprobado por bloques; cierre pendiente de la realización de la clase**.
+- Nuevo directorio de trabajo: [`entregables/clase_presentacion/`](entregables/clase_presentacion/).
+- Bibliografía específica de trabajo para la presentación: [`entregables/clase_presentacion/referencias.bib`](entregables/clase_presentacion/referencias.bib).
+
+## Primera clase — flujo de trabajo
+
+La misión de presentación utiliza el siguiente flujo:
+
+**LaTeX → PDF → NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
+
+Regla académica de la actividad:
+
+**La IA es una interfaz de consulta; el documento fuente conserva la autoridad académica de la actividad.**
+
+El documento de presentación incorpora una indagación inicial de 18 ítems, puntos de control de la clase, calendario de evaluaciones, calendario de clases, carga oficial de 51 horas (36 teóricas + 15 prácticas), relación con la carrera de Economía y un procedimiento de control de calidad de las evidencias.
+
+El bloque de identificación de los trabajos fue alineado con los requisitos de entrega y ya no solicita C.I. ni firma manuscrita real.
+
+### Pendiente antes del PDF final
+
+El borrador de presentación conserva todavía una subsección heredada de otro contexto académico que menciona carga independiente y créditos de FP-UNA. Esa parte está identificada como **pendiente de depuración** y no se considera regla aplicable a Finanzas a Largo Plazo en la Universidad Americana.
 
 ## Jerarquía documental de trabajo
 
@@ -65,6 +86,7 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`bibliografia/referencias.bib`](bibliografia/referencias.bib): base bibliográfica acumulativa BibTeX/BibLaTeX.
 - [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
+- [`entregables/clase_presentacion/README.md`](entregables/clase_presentacion/README.md): estado y control del material para la primera clase.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
 - [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión vigente para la primera clase.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
