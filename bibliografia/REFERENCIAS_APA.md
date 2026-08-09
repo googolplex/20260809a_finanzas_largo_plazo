@@ -20,7 +20,23 @@ Universidad Americana, Dirección de Calidad Institucional, & Coordinación de G
 
 Van Horne, J. C., & Wachowicz, J. M., Jr. (2010). *Fundamentos de administración financiera* (M. A. González Osuna, Trad.; 13.ª ed.). Pearson Educación. ISBN 978-607-442-948-0.
 
+## Materiales del curso previo aportados como antecedentes
+
+*Finanzas a largo plazo. Unidad I: Costo de capital y presupuesto de capital. Presupuesto de capital*. (s. f.). [Material de curso en PDF]. Universidad Americana. Autoría personal no indicada. Las copias `u1_presupuesto_de_capital.pdf` y `Unidad 1.1.pdf` son duplicados exactos.
+
+*Finanzas a largo plazo. Unidad I: Costo de capital y presupuesto de capital. Costo de capital*. (s. f.). [Material de curso en PDF]. Universidad Americana. Autoría personal no indicada. Archivo `Unidad 1.2.pdf`.
+
+*Finanzas a largo plazo. Unidad II: Presupuesto de capital en condiciones de riesgo*. (s. f.). [Material de curso en PDF]. Universidad Americana. Autoría personal no indicada. Las copias `u2_presupuesto_capital_con_riesgo.pdf` y `Unidad 2.pdf` son duplicados exactos.
+
+Báez, J. (s. f.). *Finanzas a largo plazo. Unidad III: Valorización de empresas y política de dividendos* [Compilación/material de curso]. Universidad Americana. El documento declara que la compilación fue realizada por el profesor Justo Báez utilizando como base principal a Montesinos (2006).
+
+Báez, J. (s. f.). *Finanzas a largo plazo. Unidad IV: Estructura financiera óptima* [Compilación/material de curso]. Universidad Americana. Compilación basada principalmente en Montesinos (2006).
+
+*Finanzas a largo plazo. Unidad IV: Estructura financiera óptima*. (s. f.). [Material audiovisual de curso en PDF]. Universidad Americana. Autoría personal no indicada; 3 páginas.
+
 ## Referencias secundarias extraídas de los materiales y verificadas
+
+Montesinos, F. (2006). *Finanzas II: Serie de apuntes* (2.ª ed.). Editorial Universidad Americana.
 
 Duran Chinchilla, C. M. (2024). Análisis de la implementación de resultados de aprendizaje en la educación superior: una revisión investigativa. *Sophia, 20*(1). https://doi.org/10.18634/sophiaj.20v.1i.1356
 
@@ -32,6 +48,8 @@ Gatica-Lara, F., & Uribarren-Berrueta, T. del N. J. (2013). ¿Cómo elaborar una
 
 La presentación *Resultados de aprendizaje: Alineación constructiva* menciona, entre otras, referencias abreviadas a Biggs (2014), Carlino (2021), Hernández García y Cabrera Albert (2021), Henríquez Orrego (2023), Rogers (1983), Vygotsky (1978), Piaget (1964), Bandura (1986), Carless (2015) y Yauzas et al. (2024). No se completan por inferencia: se incorporarán cuando la obra exacta pueda identificarse con suficiente certeza.
 
+Los materiales del curso previo mencionan además a Vaca (2001), Sapag (2001), Van Horne (2002), Lincoyan Portus (2005), Frank Ayres (1991) y otros autores. Se mantienen como menciones internas hasta verificar con certeza la obra y edición exactas.
+
 La presentación también incluye una referencia a OpenAI (2026) como respuesta de ChatGPT. Se registra su existencia como parte de la procedencia del material, pero por ahora no se adopta como referencia bibliográfica reproducible del proyecto.
 
 ## Criterio de mantenimiento
@@ -41,3 +59,4 @@ La presentación también incluye una referencia a OpenAI (2026) como respuesta 
 - No se inventan datos bibliográficos faltantes.
 - Cuando una fuente secundaria pueda verificarse por DOI, editor o repositorio académico confiable, se completa y se incorpora a ambos archivos.
 - Los materiales visuales sin autoría o fecha explícitas se registran con los metadatos efectivamente disponibles; no se atribuyen a una persona, institución o fecha por inferencia.
+- Las copias idénticas de un mismo PDF se registran una sola vez como obra/material bibliográfico y se documentan sus nombres alternativos en la trazabilidad.
