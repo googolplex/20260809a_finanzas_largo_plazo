@@ -111,6 +111,8 @@ Ejemplos institucionales de instrumentos:
 
 **BIB-005 — Jerarquía académica.** Una referencia bibliográfica, incluso cuando sea el texto principal del curso, no modifica por sí sola los contenidos obligatorios del programa ni las exigencias normativas o de formato institucional. Se utiliza para desarrollar y sustentar académicamente esos contenidos.
 
+**BIB-006 — Identidad de obras y ediciones.** Cuando un material recibido difiera en autoría, título, año o edición de una referencia consignada en el programa oficial, se registrará como obra distinta. No se sustituirá ni corregirá silenciosamente la referencia institucional solo por similitud temática o de autores. La referencia del programa y la edición efectivamente disponible deberán permanecer trazables por separado.
+
 ## Resolución de conflictos documentales
 
 **TRAZA-001.** Cada regla relevante debe poder relacionarse con su fuente.
