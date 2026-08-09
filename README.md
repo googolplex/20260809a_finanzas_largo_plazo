@@ -4,7 +4,7 @@ Proyecto institucional de apoyo a la asignatura **FINANZAS A LARGO PLAZO — Gru
 
 ## Propósito
 
-Mantener trazabilidad de la planificación académica, misiones de trabajo, reglas institucionales, fuentes normativas y decisiones metodológicas de la asignatura.
+Mantener trazabilidad de la planificación académica, misiones de trabajo, reglas institucionales, fuentes normativas, decisiones metodológicas y materiales académicos producidos durante la asignatura.
 
 El repositorio está diseñado para poder mantenerse **público**. Por ello no debe contener nombres de estudiantes, calificaciones individuales, asistencia individual, correos, documentos de identidad, teléfonos ni otros datos personales o sensibles.
 
@@ -41,8 +41,13 @@ Si dos fuentes parecen contradecirse, no se reconciliarán silenciosamente: se r
 
 - [`docs/REGLAS_PROYECTO.md`](docs/REGLAS_PROYECTO.md): reglas operativas y de cumplimiento.
 - [`docs/FUENTES.md`](docs/FUENTES.md): fuentes rectoras y bibliográficas.
+- [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión vigente.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
+
+## Materiales producidos en el proyecto
+
+Los materiales académicos que se elaboren conjuntamente —planificaciones, guías de clase, instrumentos evaluativos, ejercicios, casos, planillas, presentaciones y documentos equivalentes— deben incorporarse al proyecto y mantenerse versionados cuando corresponda. Las fuentes externas extensas o protegidas por derechos de autor se mantienen como referencias y no necesitan copiarse íntegramente al repositorio.
 
 ## Regla de privacidad
 
