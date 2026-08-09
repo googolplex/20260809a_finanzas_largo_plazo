@@ -20,6 +20,18 @@ Universidad Americana, Dirección de Calidad Institucional, & Coordinación de G
 
 Van Horne, J. C., & Wachowicz, J. M., Jr. (2010). *Fundamentos de administración financiera* (M. A. González Osuna, Trad.; 13.ª ed.). Pearson Educación. ISBN 978-607-442-948-0.
 
+## Cuadernos de Economía Aplicada — materiales propios del docente
+
+Armoa García, R. R. (2026). *Conceptos fundamentales de finanzas de largo plazo* (Cuadernos de Economía Aplicada, Vol. 1) [Material de apoyo académico]. Universidad Americana. ISBN 978-99989-1-754-5.
+
+Armoa García, R. R. (2026). *Ejercicios sobre finanzas de largo plazo* (Cuadernos de Economía Aplicada, Vol. 2) [Material de apoyo académico]. Universidad Americana. ISBN 978-99989-1-762-0.
+
+Armoa García, R. R. (2026). *Ejercicios sobre valoración de empresas* (Cuadernos de Economía Aplicada, Vol. 3) [Material de apoyo académico]. Universidad Americana. ISBN 978-99989-1-820-7.
+
+Armoa García, R. R. (2026). *Finanzas de largo plazo: Arbitraje de acciones* (Cuadernos de Economía Aplicada, Vol. 4) [Material de apoyo académico]. Universidad Americana. ISBN 978-99989-1-834-4.
+
+Armoa García, R. R. (2026). *Finanzas de largo plazo: Política de dividendos* (Cuadernos de Economía Aplicada, Vol. 5) [Material de apoyo académico]. Universidad Americana. ISBN 978-99989-1-850-4.
+
 ## Materiales del curso previo aportados como antecedentes
 
 *Finanzas a largo plazo. Unidad I: Costo de capital y presupuesto de capital. Presupuesto de capital*. (s. f.). [Material de curso en PDF]. Universidad Americana. Autoría personal no indicada. Las copias `u1_presupuesto_de_capital.pdf` y `Unidad 1.1.pdf` son duplicados exactos.
@@ -50,6 +62,8 @@ La presentación *Resultados de aprendizaje: Alineación constructiva* menciona,
 
 Los materiales del curso previo mencionan además a Vaca (2001), Sapag (2001), Van Horne (2002), Lincoyan Portus (2005), Frank Ayres (1991) y otros autores. Se mantienen como menciones internas hasta verificar con certeza la obra y edición exactas.
 
+Los Cuadernos de Economía Aplicada del docente contienen referencias a bibliografía académica y fuentes contemporáneas/locales. Las referencias que aún no estén identificadas de manera inequívoca se incorporarán al fichero general solo después de verificar la obra o fuente exacta. Los datos dependientes del tiempo se revalidarán antes de su reutilización.
+
 La presentación también incluye una referencia a OpenAI (2026) como respuesta de ChatGPT. Se registra su existencia como parte de la procedencia del material, pero por ahora no se adopta como referencia bibliográfica reproducible del proyecto.
 
 ## Criterio de mantenimiento
@@ -60,3 +74,4 @@ La presentación también incluye una referencia a OpenAI (2026) como respuesta 
 - Cuando una fuente secundaria pueda verificarse por DOI, editor o repositorio académico confiable, se completa y se incorpora a ambos archivos.
 - Los materiales visuales sin autoría o fecha explícitas se registran con los metadatos efectivamente disponibles; no se atribuyen a una persona, institución o fecha por inferencia.
 - Las copias idénticas de un mismo PDF se registran una sola vez como obra/material bibliográfico y se documentan sus nombres alternativos en la trazabilidad.
+- Los cuadernos del docente se registran como obras propias de 2026, preservando volumen, ISBN y función de material de apoyo académico.
