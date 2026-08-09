@@ -2,308 +2,238 @@
 
 ## Estado
 
-**En curso — preparación avanzada y material de trabajo aprobado por bloques**
+**En curso — preparación avanzada; fuente LaTeX v03 y bibliografía específica consolidadas**
 
-La misión permanecerá abierta hasta la realización y cierre de la primera clase del **10/08/2026**. La preparación documental realizada el 09/08/2026 queda registrada como avance aprobado, pero el cierre definitivo de la misión dependerá de la experiencia real de aula y de los ajustes posteriores que resulten necesarios.
+La misión permanecerá abierta hasta la realización y cierre de la primera clase del **10/08/2026, 18:15–21:15**. Después de la clase se registrarán únicamente conclusiones pedagógicas agregadas y ajustes que puedan mejorar misiones posteriores.
 
-## Fecha de la clase
+## Identidad de la asignatura
 
-**10/08/2026 — 18:15 a 21:15**
+- Asignatura: **Finanzas a Largo Plazo**.
+- Grupo: **80**.
+- Carrera: **Economía**.
+- Facultad: **Facultad de Ciencias Económicas y Administrativas**.
+- Universidad: **Universidad Americana**.
+- Sede: **ASU**.
+- Modalidad: **presencial**.
+- Periodo: **2026.2**.
+- Docente único del grupo: **Roger Román Armoa García**.
+
+### Particularidad docente de esta misión
+
+Para esta asignatura y este grupo, **Roger Román Armoa García es el único docente**. Los materiales vigentes de la misión no deben atribuir autoría o docencia a Hilda Echegaray de Palacios ni a Víctor Hugo Santacruz Delvalle.
+
+## Fuentes vigentes de esta misión
+
+La iteración actual se conserva en:
+
+- `entregables/clase_presentacion/main_v03.tex`
+- `entregables/clase_presentacion/referencias.bib`
+
+**Regla de procedencia:** esta iteración se deriva exclusivamente de los dos últimos archivos entregados por el docente el 09/08/2026. No se mezclará automáticamente con versiones anteriores del LaTeX ni de la bibliografía.
+
+La fuente `main_v03.tex` usa `\addbibresource{referencias.bib}`; por ello ambos archivos forman una unidad reproducible y deben mantenerse sincronizados.
 
 ## Propósito
 
-Preparar y desarrollar la primera clase de **FINANZAS A LARGO PLAZO — Grupo 80 — Economía — modalidad presencial — Sede ASU — 2026.2**, de modo que los estudiantes comprendan qué estudia la asignatura, cómo se trabajará durante el semestre, qué se espera de ellos y cuál es su punto de partida respecto de los conocimientos necesarios para abordar la Unidad I.
+Preparar y desarrollar la primera clase de Finanzas a Largo Plazo de modo que los estudiantes comprendan qué estudia la asignatura, cómo se trabajará durante el semestre, qué se espera de ellos, qué bibliografía corresponde a cada unidad y cuál es su punto de partida respecto de los conocimientos necesarios para abordar la Unidad I.
 
-La clase debe ser coherente con la **Planificación Didáctica Semestral v30 aprobada**, con el programa oficial y con las reglas institucionales registradas en el proyecto.
+La clase debe ser coherente con la **Planificación Didáctica Semestral v30 aprobada**, el programa oficial y las reglas institucionales registradas en el proyecto.
 
-## Objetivos de la misión
+## Mensaje central
 
-1. Presentar la asignatura, su propósito, las cinco unidades y la lógica general del semestre.
-2. Explicar el enfoque de trabajo del curso: teoría aplicada, resolución de problemas, uso inteligente de herramientas computacionales e interpretación financiera.
-3. Presentar la base bibliográfica y los materiales de apoyo que se utilizarán, incluyendo los **Cuadernos de Economía Aplicada** del docente.
-4. Explicar de manera general la evaluación, distinguiendo diagnóstico, evaluación formativa y evaluación sumativa.
-5. Realizar un diagnóstico inicial no calificativo para identificar conocimientos previos y necesidades de nivelación.
-6. Introducir conceptualmente la Unidad I — **Costo de capital y presupuesto de capital** — sin convertir la primera clase en una exposición extensa de contenido técnico.
-7. Cerrar la clase con una síntesis clara de qué deberán poder hacer los estudiantes a medida que avance la asignatura.
+**datos confiables → formulación correcta → cálculo con herramientas adecuadas → interpretación → decisión fundamentada**
 
-## Mensaje central para los estudiantes
-
-**Finanzas de largo plazo no consiste solamente en calcular indicadores: consiste en obtener datos confiables, construir correctamente el problema financiero, calcular con herramientas apropiadas, interpretar el resultado y tomar una decisión fundamentada.**
-
-El enfoque didáctico operativo se resume en:
+La secuencia didáctica operativa se mantiene como:
 
 **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
 
-## Metodología operativa de esta misión
+## Metodología operativa
 
-La clase de presentación se construye mediante un **documento fuente redactado en LaTeX**. El flujo de trabajo previsto es:
+El flujo previsto es:
 
 **LaTeX → PDF → Google NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
 
-### Fuente LaTeX
+El PDF compilado constituye la fuente académica de la actividad con NotebookLM. La IA funciona como interfaz de consulta y apoyo; no sustituye la autoridad del documento fuente ni la responsabilidad de verificar las respuestas.
 
-- El contenido de la clase se redacta y revisa en LaTeX.
-- El archivo `.tex` constituye la fuente reproducible del material.
-- El trabajo se realiza progresivamente, revisando contenido, estructura, citas, consistencia institucional y claridad antes de compilar la versión final utilizada en clase.
-- El borrador actual utiliza `longtable`; durante la revisión se detectó que el paquete no estaba cargado en una compilación previa y se incorporó `\usepackage{longtable}` en la fuente de trabajo.
+## Lecturas exactas por unidad — particularidad aprobada de la misión
 
-### PDF para los estudiantes y para NotebookLM
+La versión v03 incorpora una guía de estudio explícita dentro de cada unidad. El objetivo es que el estudiante no reciba una bibliografía genérica, sino instrucciones precisas sobre **qué obra, qué edición, qué capítulo y qué páginas** estudiar.
 
-- El LaTeX se compilará a **PDF**.
-- El docente cargará ese PDF como fuente en **Google NotebookLM**.
-- Los estudiantes interactuarán con NotebookLM formulando preguntas sobre la asignatura y sobre el contenido del documento.
-- Para esta actividad, el PDF constituye la **fuente académica canónica**: las respuestas generadas por NotebookLM son interpretaciones de esa fuente y no sustituyen el contenido del documento.
+### Unidad I — Costo de capital y presupuesto de capital
 
-### Adversarial Pass Protocol
+**Van Horne y Wachowicz, 13.ª ed.**
+- Cap. 5, pp. 97–116.
+- Cap. 12, pp. 307–322.
+- Cap. 13, pp. 323–340; apéndices pp. 341–352.
+- Cap. 15, pp. 381–406; apéndices pp. 407–418.
 
-Además del PDF, los estudiantes recibirán un archivo `.txt` con el **Adversarial Pass Protocol**.
+**Brigham y Houston, 15.ª ed.**
+- Cap. 8, pp. 270–315.
+- Cap. 10, pp. 356–384.
+- Cap. 11, pp. 385–416.
+- Cap. 12, pp. 417–452.
 
-Su función dentro de la actividad será fomentar una interacción crítica con la IA: los estudiantes podrán utilizar el protocolo para cuestionar, verificar y auditar las respuestas obtenidas, en lugar de aceptarlas de manera automática.
+**Cuadernos de Economía Aplicada**
+- Vol. 1, pp. 1–14.
+- Vol. 2, pp. 2–19 y 21–29.
 
-El uso conjunto de PDF + NotebookLM + Adversarial Pass Protocol busca que el estudiante practique tres capacidades desde la primera clase:
+### Unidad II — Presupuesto de capital en condiciones de riesgo
 
-1. formular buenas preguntas;
-2. contrastar la respuesta de una IA con una fuente explícita;
-3. detectar errores, omisiones, supuestos o respuestas insuficientemente sustentadas.
+**Van Horne y Wachowicz, 13.ª ed.**
+- Cap. 5, pp. 97–116.
+- Cap. 14, pp. 353–380.
 
-### Regla metodológica de fuente
+**Brigham y Houston, 15.ª ed.**
+- Cap. 8, pp. 270–315.
+- Cap. 12, pp. 417–452.
+- Cap. 13, pp. 453–473, como ampliación.
 
-**La IA es una interfaz de consulta; el documento fuente conserva la autoridad académica de la actividad.** Si NotebookLM produce una respuesta que no puede sustentarse en el PDF, dicha respuesta deberá considerarse una ampliación, inferencia o posible error y no contenido oficial de la asignatura.
+### Unidad III — Formación de un portfolio
 
-## Estructura didáctica de la clase
+**Van Horne y Wachowicz, 13.ª ed.**
+- Cap. 5, pp. 97–116.
+- Apéndice A del cap. 5, pp. 117–118.
 
-### Inicio
+**Brigham y Houston, 15.ª ed.**
+- Cap. 8, pp. 270–315.
 
-- Bienvenida y presentación del docente y de la asignatura.
-- Ubicación de Finanzas de Largo Plazo dentro de la formación del economista.
-- Presentación del objetivo general del curso y de las cinco unidades.
-- Explicación breve de la dinámica del semestre, materiales, herramientas y forma de trabajo.
-- Presentación de la dinámica PDF + NotebookLM + Adversarial Pass Protocol.
-- Inicio del diagnóstico de conocimientos previos.
+La lectura se complementa con ejercicios y planillas para rendimiento esperado, desviación estándar, covarianza, correlación y diversificación.
 
-### Desarrollo
+### Unidad IV — Estructura financiera óptima
 
-- Exploración del documento fuente mediante preguntas formuladas por los estudiantes en NotebookLM.
-- Observación docente de los tipos de preguntas, conceptos recuperados y dificultades detectadas.
-- Conversación diagnóstica sobre conocimientos previos relevantes: estados financieros, valor del dinero en el tiempo, tasas, flujos, riesgo y rendimiento.
-- Presentación de la lógica de las decisiones financieras de largo plazo: inversión, financiamiento, riesgo, estructura de capital, valoración y dividendos.
-- Presentación del criterio de calidad de datos: antes de calcular un indicador, verificar que la información sea coherente y económicamente plausible.
-- Uso de planillas de cálculo, programación y otras herramientas apropiadas, manteniendo el foco en formular, verificar, interpretar y justificar.
-- Aplicación del Adversarial Pass Protocol sobre algunas respuestas de la IA.
-- Puente hacia la Unidad I: costo de capital, tasa de descuento, presupuesto de capital y creación de valor.
+**Van Horne y Wachowicz, 13.ª ed.**
+- Cap. 15, pp. 381–406.
+- Cap. 16, pp. 419–450.
+- Cap. 17, pp. 451–474.
 
-### Cierre
+**Brigham y Houston, 15.ª ed.**
+- Cap. 10, pp. 356–384.
+- Cap. 14, pp. 474–516.
 
-- Síntesis conjunta de la lógica general de la asignatura.
-- Discusión breve sobre qué respuestas de la IA estuvieron bien sustentadas, cuáles requirieron corrección y por qué.
-- Verificación formativa informal de conocimientos que requieren nivelación.
-- Presentación de los materiales iniciales y de la siguiente clase.
-- Registro docente de necesidades de ajuste sin publicar información individual en GitHub.
+**Cuadernos de Economía Aplicada**
+- Vol. 4, pp. 1–18.
+
+### Unidad V — Valorización de una empresa y política de dividendos
+
+**Van Horne y Wachowicz, 13.ª ed.**
+- Cap. 4, pp. 73–96.
+- Cap. 17, pp. 451–474.
+- Cap. 18, pp. 475–504.
+
+**Brigham y Houston, 15.ª ed.**
+- Cap. 9, pp. 316–355.
+- Cap. 15, pp. 517–550.
+
+**Cuadernos de Economía Aplicada**
+- Vol. 3, pp. 2–41.
+- Vol. 5, pp. 1–22.
+
+## Regla de precisión bibliográfica aplicada en esta misión
+
+Las páginas solo se incorporan cuando la obra y la edición están identificadas con suficiente certeza. Las referencias deben indicar la edición utilizada y, cuando pueda existir diferencia con un visor PDF, debe entenderse o explicitarse que el rango corresponde a la **paginación impresa de la obra**.
+
+No se inventarán rangos de páginas ni se trasladarán números de una edición a otra.
+
+## Bibliografía específica
+
+El `referencias.bib` vigente contiene, entre otros:
+
+- Programa oficial de Finanzas a Largo Plazo.
+- Planificación Didáctica Semestral v30.
+- Calendario académico presencial 2026.2.
+- Resolución CSU N.º 016/2026.
+- Modelo de Aprendizaje Basado en Competencias de la Universidad Americana.
+- Google NotebookLM.
+- Van Horne & Wachowicz (2010), 13.ª ed.
+- Brigham & Houston (2020), 15.ª ed.
+- Cuadernos de Economía Aplicada, Vols. 1–5, todos con ISBN.
+- Markowitz (1952), Sharpe (1964), Modigliani & Miller (1958, 1963) y Miller & Modigliani (1961).
+
+Los cinco Cuadernos del docente quedan identificados con sus ISBN:
+
+1. Vol. 1 — `978-99989-1-754-5`.
+2. Vol. 2 — `978-99989-1-762-0`.
+3. Vol. 3 — `978-99989-1-820-7`.
+4. Vol. 4 — `978-99989-1-834-4`.
+5. Vol. 5 — `978-99989-1-850-4`.
 
 ## Diagnóstico inicial
 
-El diagnóstico será **no calificativo**. El documento de trabajo contiene una indagación inicial de **18 ítems** con tres niveles de autopercepción: **Lo entiendo bien / Más o menos / Nada de nada**.
+La indagación inicial es **no calificativa** y contiene 18 ítems con tres niveles de autopercepción: `Lo entiendo bien / Más o menos / Nada de nada`.
 
-Los ítems cubren, entre otros:
-
-- balance general y estado de resultados;
-- utilidad contable y flujo de efectivo;
-- coherencia de datos financieros;
-- valor presente y valor futuro;
-- tasas y correspondencia con periodos;
-- flujo de fondos de proyectos;
-- costo de capital, deuda y capital propio;
-- CAPM y WACC;
-- VAN, TIR, IR y Payback;
-- escenarios y sensibilidad;
-- riesgo y rendimiento;
-- correlación, diversificación y portfolios;
-- apalancamiento;
-- FCF, NOF, tasa de descuento y valor residual;
-- uso de planillas de cálculo.
-
-El instrumento incluye además un espacio para que el estudiante identifique el número del tema que considera que necesita reforzar más.
+Incluye balance, estado de resultados, utilidad vs. flujo, calidad de datos, valor del dinero, tasas, flujo de proyectos, costo de capital, CAPM, WACC, VAN, TIR, IR, Payback, sensibilidad, riesgo/rendimiento, portfolios, apalancamiento, FCF/NOF/valor residual y uso de planillas.
 
 ## Puntos de control de la primera clase
 
-El material incorpora los siguientes puntos de referencia operativa:
+- 18:15 — inicio y presentación.
+- 18:45 — fin previsto de presentación e inicio de indagación.
+- 19:15 — fuentes y NotebookLM.
+- 19:45 — receso.
+- 20:00 — regreso.
+- 20:15 — actividad práctica con NotebookLM.
+- 20:45 — revisión crítica/adversarial.
+- 21:00 — síntesis.
+- 21:15 — finalización.
 
-- **18:15** — inicio de la clase y presentación general.
-- **18:45** — finalización prevista de la presentación e inicio de la indagación.
-- **19:15** — cierre previsto de la indagación y presentación de fuentes/NotebookLM.
-- **19:45** — receso.
-- **20:00** — regreso del receso.
-- **20:15** — actividad práctica con NotebookLM.
-- **20:45** — revisión crítica mediante protocolo adversarial.
-- **21:00** — síntesis.
-- **21:15** — finalización.
+## Calendario de evaluaciones incorporado
 
-Los horarios son referencias de conducción, no límites rígidos.
+Fechas previstas, sujetas a confirmación institucional:
 
-## Calendario académico y de evaluaciones incorporado
+- Primer parcial: 14/09/2026.
+- Segundo parcial: 12/10/2026.
+- Tercer parcial: 23/11/2026.
+- Final: 14/12/2026.
+- Extraordinario: 21/12/2026.
 
-El material registra, como fechas previstas y sujetas a confirmación institucional:
+## Carga académica oficial registrada
 
-- Primer examen parcial: **14/09/2026**.
-- Segundo examen parcial: **12/10/2026**.
-- Tercer examen parcial: **23/11/2026**.
-- Examen final: **14/12/2026**.
-- Examen extraordinario: **21/12/2026**.
+- 51 horas totales.
+- 36 horas teóricas.
+- 15 horas prácticas.
+- Clases presenciales: lunes, 18:15–21:15.
 
-También se incorporó el calendario de clases de los lunes y la secuencia prevista de las cinco unidades.
+## Control de calidad de trabajos
 
-## Carga académica
+El control de calidad puede incluir:
 
-Se corrigió el bloque principal para utilizar exclusivamente la carga oficial de la asignatura:
-
-- **51 horas totales**;
-- **36 horas teóricas**;
-- **15 horas prácticas**;
-- clases presenciales los lunes de **18:15 a 21:15**.
-
-No se atribuyen a la asignatura créditos, 72 horas independientes ni 144 horas totales sin una fuente institucional de la Universidad Americana que los establezca.
-
-### Pendiente importante
-
-El borrador de trabajo conserva todavía una subsección heredada posterior al bloque de carga académica que menciona **4 horas de trabajo acompañado, 4 horas de trabajo independiente, 8 horas semanales y un normalizador de 27 horas por crédito de FP-UNA**. Esa subsección no corresponde a la Universidad Americana y deberá depurarse antes de considerar el PDF como versión final.
-
-La referencia bibliográfica de FP-UNA se considera **legada y temporal**, no fuente rectora de esta asignatura.
-
-## Relación con la carrera
-
-Se sustituyó la antigua sección transversal de carreras de FP-UNA por una sección específica de **Relación con la carrera**, vinculando Finanzas a Largo Plazo con la formación del estudiante de **Economía** y con decisiones sobre inversión, riesgo, financiamiento, portfolios, valoración y dividendos.
-
-## Control de calidad
-
-El control de calidad de los trabajos se amplió para contemplar, según la actividad:
-
-- procedencia y calidad de los datos;
+- procedencia y calidad de datos;
 - fórmulas, cálculos y resultados;
 - coherencia entre tasas y periodos;
 - interpretación financiera;
-- correspondencia entre conclusiones y análisis;
+- relación entre conclusiones y análisis;
 - fuentes y referencias bibliográficas.
 
-El proceso es iterativo: presentación → revisión → observaciones → corrección → nueva versión cuando resulte necesario.
+El proceso es iterativo: **presentación → revisión → observaciones → corrección → nueva versión**.
 
-## Identificación de los trabajos
+## Identificación y privacidad
 
-Se aprobó la sustitución del antiguo bloque **Datos del estudiante** por **Datos de identificación del trabajo**, alineándolo con la estructura que se exige posteriormente en las entregas.
+El modelo de identificación prioriza los datos académicos necesarios y evita publicar C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos u otra información personal en el repositorio público.
 
-El encabezado modelo contiene:
+La información diagnóstica individual permanece fuera de GitHub; solo se documentarán conclusiones agregadas o pedagógicas.
 
-- nombre y apellido;
-- asignatura: Finanzas a Largo Plazo;
-- carrera: Economía;
-- Facultad de Ciencias Económicas y Administrativas;
-- Universidad Americana;
-- Grupo 80 — Presencial;
-- docente: Roger Román Armoa García;
-- fecha.
+## Recursos gráficos de compilación
 
-Se eliminan del encabezado el **número de C.I.** y la **firma manuscrita real**, de acuerdo con el criterio de minimización de datos y con la advertencia de seguridad ya incluida en el documento para trabajos almacenados en carpetas compartidas.
+La fuente LaTeX referencia:
 
-La sección posterior de requisitos de identificación se alinea con la misma estructura.
+- `portada_presentacion_asignatura_v1.png`
+- `proceso_iterativo.png`
 
-## Bibliografía y citas
-
-Se realizó una pasada específica de citación sobre la fuente LaTeX sin modificar el contenido sustantivo de los bloques revisados.
-
-La bibliografía de trabajo de la clase contempla:
-
-- programa oficial de Finanzas a Largo Plazo;
-- Planificación Didáctica Semestral v30;
-- calendario académico presencial 2026.2;
-- Resolución CSU N.º 016/2026;
-- referencia institucional al Modelo de Aprendizaje Basado en Competencias (MAC);
-- Google NotebookLM;
-- Van Horne & Wachowicz (2010);
-- Brigham & Houston (2020);
-- Cuadernos de Economía Aplicada, Vols. 1–5;
-- Markowitz (1952);
-- Sharpe (1964);
-- Modigliani & Miller (1958, 1963);
-- Miller & Modigliani (1961).
-
-Las antiguas citas vinculadas a FP-UNA deben desaparecer a medida que se depure el contenido heredado que todavía las necesita.
-
-## Recursos gráficos aprobados
-
-Durante la preparación se aprobaron dos recursos gráficos utilizados por la fuente LaTeX:
-
-- `portada_presentacion_asignatura_v1.png` — portada de **Finanzas de Largo Plazo — Presentación de la asignatura**.
-- `proceso_iterativo.png` — gráfico **Proceso iterativo de elaboración y revisión**.
-
-La fuente requiere que ambos archivos estén presentes en la carpeta de compilación.
-
-## Materiales de apoyo previstos
-
-- Documento fuente de presentación redactado en LaTeX.
-- PDF compilado del documento de presentación para estudiantes y NotebookLM.
-- Archivo `.txt` del Adversarial Pass Protocol.
-- Planificación Didáctica Semestral 2026.2 v30.
-- Programa oficial de la asignatura.
-- Cuadernos de Economía Aplicada, Volúmenes 1–5.
-- Van Horne & Wachowicz (2010).
-- Brigham & Houston (2020).
-- Pizarra, proyección y herramientas computacionales según disponibilidad.
+Deben estar presentes en la carpeta de compilación para reproducir el PDF.
 
 ## Entregables de la misión
 
-- Fuente LaTeX versionada del documento de presentación.
-- Bibliografía BibLaTeX/BibTeX utilizada por el documento.
-- PDF compilado utilizado como fuente académica para NotebookLM y como material entregado a los estudiantes.
+- `main_v03.tex` — fuente LaTeX vigente.
+- `referencias.bib` — bibliografía específica vigente.
+- PDF compilado para estudiantes y NotebookLM.
 - Recursos gráficos utilizados por la fuente.
-- Archivo `.txt` del Adversarial Pass Protocol utilizado en la actividad.
-- Registro de ajustes pedagógicos posteriores a la primera clase.
-
-## Criterios de calidad
-
-La clase de presentación debe:
-
-- ser clara y breve en lo administrativo;
-- mostrar desde el comienzo el carácter aplicado de la asignatura;
-- evitar sobrecargar la primera sesión con teoría;
-- convertir a los estudiantes en participantes activos;
-- enseñar desde el inicio que una respuesta de IA debe contrastarse con una fuente;
-- conectar conocimientos previos con problemas financieros;
-- permitir al docente obtener información diagnóstica útil;
-- mantener explícito que el uso de herramientas computacionales está permitido y que la interpretación financiera es central;
-- mantener coherencia con la planificación v30, el programa y la normativa institucional.
-
-## Privacidad
-
-El diagnóstico puede generar información sobre conocimientos o desempeño de estudiantes. Esa información se utilizará para ajustar la enseñanza, pero **no se registrará de forma identificable en el repositorio público**.
-
-No deben publicarse en GitHub nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos ni formularios completados.
-
-La interacción con herramientas externas deberá evitar la inclusión innecesaria de datos personales.
-
-## Avance aprobado — 09/08/2026
-
-Quedan registrados como aprobados durante la preparación:
-
-- portada de la presentación;
-- gráfico del proceso iterativo;
-- estructura de cinco unidades;
-- explicación simplificada de IA y NotebookLM;
-- criterio de selección y control de fuentes;
-- indagación inicial de 18 ítems;
-- horario de receso y puntos de control;
-- calendario de evaluaciones;
-- calendario académico y calendario de clases;
-- bloque principal de carga académica oficial;
-- relación con la carrera de Economía;
-- control de calidad de los trabajos;
-- estructura de identificación de los trabajos;
-- estrategia bibliográfica y de citación.
+- Archivo `.txt` del Adversarial Pass Protocol.
+- Registro de ajustes posteriores a la primera clase.
 
 ## Próximos pasos
 
-1. Depurar la subsección heredada de carga académica/créditos de FP-UNA que todavía permanece en el borrador.
-2. Realizar una compilación completa y sin errores del LaTeX con bibliografía y recursos gráficos presentes.
-3. Revisar visualmente el PDF completo.
-4. Cargar el PDF definitivo en NotebookLM.
-5. Preparar/distribuir el Adversarial Pass Protocol en `.txt`.
-6. Desarrollar la primera clase del 10/08/2026.
-7. Registrar después de la clase únicamente conclusiones pedagógicas agregadas y ajustes para futuras sesiones.
+1. Compilar `main_v03.tex` junto con el `referencias.bib` vigente y los recursos gráficos.
+2. Revisar visualmente el PDF completo.
+3. Cargar el PDF definitivo en NotebookLM.
+4. Preparar/distribuir el Adversarial Pass Protocol en `.txt`.
+5. Desarrollar la primera clase del 10/08/2026.
+6. Registrar después de la clase los ajustes pedagógicos que deban conservarse para futuras misiones.
