@@ -18,6 +18,7 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Planificación didáctica vigente de trabajo: **v29**.
 - Archivo aprobado en GitHub: `entregables/20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`.
 - Próxima iteración documental: **v30**, solamente cuando exista un cambio que justifique una nueva versión.
+- Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
 
 ## Jerarquía documental de trabajo
 
@@ -27,6 +28,7 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 4. Calendario académico presencial.
 5. Orientaciones pedagógicas institucionales.
 6. Bibliografía académica de referencia.
+7. Materiales propios del docente como base didáctica operativa, subordinados a las fuentes rectoras anteriores.
 
 Si dos fuentes parecen contradecirse, no se reconciliarán silenciosamente: se registrará el conflicto y se solicitará confirmación institucional cuando corresponda.
 
@@ -38,10 +40,26 @@ Si dos fuentes parecen contradecirse, no se reconciliarán silenciosamente: se r
 4. Estructura financiera óptima.
 5. Valorización de una empresa y política de dividendos.
 
+## Base didáctica propia 2026
+
+La colección **Cuadernos de Economía Aplicada** del docente queda registrada como material de trabajo preferente para el aula:
+
+- Volumen 1 — *Conceptos fundamentales de finanzas de largo plazo*.
+- Volumen 2 — *Ejercicios sobre finanzas de largo plazo*.
+- Volumen 3 — *Ejercicios sobre valoración de empresas*.
+- Volumen 4 — *Finanzas de largo plazo: Arbitraje de acciones*.
+- Volumen 5 — *Finanzas de largo plazo: Política de dividendos*.
+
+El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**. Se permite y fomenta el uso de herramientas computacionales para los cálculos, priorizando la comprensión financiera, la consistencia y la justificación de las decisiones.
+
 ## Documentación del proyecto
 
 - [`docs/REGLAS_PROYECTO.md`](docs/REGLAS_PROYECTO.md): reglas operativas y de cumplimiento.
 - [`docs/FUENTES.md`](docs/FUENTES.md): fuentes rectoras y bibliográficas.
+- [`docs/MATERIALES_CURSO_PREVIO.md`](docs/MATERIALES_CURSO_PREVIO.md): trazabilidad de antecedentes didácticos del curso previo.
+- [`docs/REGLAS_MATERIALES_CURSO_PREVIO.md`](docs/REGLAS_MATERIALES_CURSO_PREVIO.md): reglas para antecedentes y materiales históricos.
+- [`docs/MATERIALES_DOCENTE_2026.md`](docs/MATERIALES_DOCENTE_2026.md): registro, mapeo y uso de los cinco cuadernos propios del docente.
+- [`docs/REGLAS_MATERIALES_DOCENTE.md`](docs/REGLAS_MATERIALES_DOCENTE.md): reglas derivadas de la práctica didáctica contenida en los cuadernos.
 - [`bibliografia/referencias.bib`](bibliografia/referencias.bib): base bibliográfica acumulativa BibTeX/BibLaTeX.
 - [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
@@ -52,6 +70,8 @@ Si dos fuentes parecen contradecirse, no se reconciliarán silenciosamente: se r
 
 Los materiales académicos que se elaboren conjuntamente —planificaciones, guías de clase, instrumentos evaluativos, ejercicios, casos, planillas, presentaciones y documentos equivalentes— deben incorporarse al proyecto y mantenerse versionados cuando corresponda. Las fuentes externas extensas o protegidas por derechos de autor se mantienen como referencias y no necesitan copiarse íntegramente al repositorio.
 
+Los materiales propios del docente pueden incorporarse al repositorio cuando se decida publicarlos deliberadamente. La bibliografía y la documentación de uso didáctico se mantienen aun cuando los PDF originales no estén alojados en GitHub.
+
 ## Regla de privacidad
 
-Este repositorio documenta la **asignatura**, no a las personas que la cursan. Todo material que pueda hacerse público debe pasar por ese criterio antes de incorporarse.
+Este repositorio documenta la **asignatura**, no a las personas que la cursan. Todo material que pueda hacerse público debe pasar por ese criterio antes de incorporarse. Los formularios vacíos pueden conservarse como plantillas; las copias completadas con datos personales o desempeño individual no deben publicarse.
