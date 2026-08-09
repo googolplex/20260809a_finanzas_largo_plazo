@@ -1,6 +1,6 @@
 # Changelog
 
-## 2026-08-09 — Estado v29
+## 2026-08-09 — Estado v30
 
 - Inicialización efectiva del repositorio GitHub del proyecto.
 - Registro de modalidad presencial, Grupo 80, Economía, Sede ASU.
@@ -14,41 +14,33 @@
 - Aprobación de la planificación 2026.2 v29.
 - Regla de versionado establecida: incremento exacto de +1 por iteración.
 - Regla de entrega establecida: Word por defecto; PDF únicamente a pedido expreso.
-- Misión vigente actualizada para integrar materiales institucionales y preparar la primera clase del 10/08/2026.
 - Nombre del repositorio corregido a `20260809a_finanzas_largo_plazo`.
 - Nueva regla: los materiales creados conjuntamente deben incorporarse al proyecto y mantenerse versionados cuando corresponda.
 - Creación del índice `entregables/README.md` para registrar los materiales co-creados.
 - Confirmada la carga en GitHub de `entregables/20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`.
 - Creada la bibliografía acumulativa en `bibliografia/referencias.bib` y su vista APA en `bibliografia/REFERENCIAS_APA.md`.
-- Incorporado el material institucional **Resultados de aprendizaje: Alineación constructiva** (mayo de 2026).
+- Incorporado el material institucional **Resultados de aprendizaje: Alineación constructiva**.
 - Añadidas reglas para redactar resultados de aprendizaje mediante verbo de acción + objeto + condición/criterio/contexto.
 - Añadida la regla de alineación constructiva entre resultados, actividades/metodologías y evaluación.
 - Añadidas reglas de claridad de consignas, productos verificables, retroalimentación formativa y resguardo de evidencias.
 - Aclarado que evidencias identificables de estudiantes deben conservarse en plataforma institucional o medio privado, no en el GitHub público.
-- Revisado nuevamente **Van Horne & Wachowicz, Fundamentos de administración financiera, 13.ª ed. (2010)** y enriquecida su ficha bibliográfica con traductora, ISBN impreso y referencia a la edición electrónica.
-- Incorporado el mapeo explícito del texto principal con las cinco unidades de la asignatura y capítulos complementarios útiles.
-- Añadida la regla `BIB-004` de vigencia temporal: modelos y fundamentos pueden conservar valor académico, pero tasas fiscales, legislación, cifras de mercado, datos empresariales y enlaces antiguos deben verificarse antes de usarse como información vigente.
-- Añadida la regla `BIB-005`: la bibliografía sustenta y desarrolla el programa, pero no reemplaza la autoridad del programa, reglamento, calendario ni formato institucional.
-- Incorporado **Brigham & Houston, Fundamentos de administración financiera, 15.ª ed. (2020)** como bibliografía académica complementaria, con ficha BibTeX/APA y mapeo por unidades.
-- Registrado que el PDF disponible de Brigham & Houston es una obra distinta de la referencia institucional «Weston y Brigham (2000), Manual de Administración Financiera»; ambas deben conservarse separadas y trazables.
-- Añadida la regla `BIB-006` para no sustituir silenciosamente obras o ediciones del programa cuando el material efectivamente disponible tenga distinta autoría, título, año o edición.
-- Incorporado el material visual **Fundamentos de la administración financiera: El rol estratégico moderno y la creación de valor corporativo** como fuente de síntesis conceptual; autoría, institución y fecha quedan explícitamente sin atribuir por no figurar en el PDF.
-- Registrados como ejes didácticos del material: rol estratégico del CFO, decisiones de inversión/financiamiento/administración de bienes, creación de valor de largo plazo, problema de agencia, stakeholders, sostenibilidad, gobernanza y arquitectura del equipo financiero.
-- Añadida la regla `BIB-007` para materiales con metadatos incompletos.
-- Añadida `CONT-001`: referencias regulatorias extranjeras —por ejemplo SOX, SEC o PCAOB— no se tratarán como normativa paraguaya sin verificación específica.
-- Añadida `CONT-002`: infografías y materiales de síntesis sirven como apoyo didáctico, pero los contenidos técnicos centrales deben poder respaldarse en fuentes académicas o primarias identificables.
-- Incorporado el lote de materiales de un curso previo de Finanzas a Largo Plazo como antecedentes didácticos y bibliográficos.
-- Verificada la deduplicación binaria del lote: 11 archivos PDF corresponden a 6 contenidos únicos; las equivalencias y hashes quedaron documentados en `docs/MATERIALES_CURSO_PREVIO.md`.
-- Incorporada como fuente recurrente identificada **Montesinos, Francisco (2006), Finanzas II – Serie de Apuntes, 2.ª ed., Editorial Universidad Americana**.
-- Registradas las compilaciones de **Justo Báez** para valorización de empresas/política de dividendos y estructura financiera óptima, conservando separada la autoría de las fuentes en que se basan.
-- Creado `docs/REGLAS_MATERIALES_CURSO_PREVIO.md` con reglas `LEGACY-001` a `LEGACY-006` sobre jerarquía, verificación técnica, vigencia temporal, procedencia, deduplicación y tratamiento de materiales propios derivados.
-- La bibliografía BibTeX y su vista APA fueron actualizadas con los seis materiales únicos y con Montesinos (2006).
-- Incorporados como bibliografía propia del docente los cinco volúmenes 2026 de **Cuadernos de Economía Aplicada**, con autoría, volumen e ISBN verificados directamente en sus páginas legales.
-- Creado `docs/MATERIALES_DOCENTE_2026.md` con el mapeo de los cinco cuadernos respecto de las unidades vigentes, su papel didáctico y los elementos temporales que requieren revalidación antes de reutilizarse.
-- Creado `docs/REGLAS_MATERIALES_DOCENTE.md` con reglas `DOC-001` a `DOC-012` sobre base didáctica, uso de herramientas computacionales, calidad de datos, reproducibilidad, consistencia flujo–tasa, notación, revalidación temporal, secuencia aplicada, evaluación formativa y privacidad.
-- Se registra como enfoque didáctico preferente **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
-- Se registra que la mecánica de cálculo puede apoyarse en planillas, programación u otras herramientas, priorizando la interpretación financiera y la justificación de resultados.
-- Los Volúmenes 1–2 se mapean principalmente con Unidad I; el Volumen 4 con Unidad IV; los Volúmenes 3 y 5 con Unidad V. Para Unidades II y III se mantienen otras fuentes complementarias.
-- La planificación vigente no fue modificada por esta incorporación documental.
-
-**Nota de versionado:** estas actualizaciones afectan documentación, reglas y fuentes del proyecto; no constituyen una nueva iteración de la Planificación Didáctica. La versión vigente continúa siendo **v29**.
+- Revisado **Van Horne & Wachowicz, Fundamentos de administración financiera, 13.ª ed. (2010)** y enriquecida su ficha bibliográfica.
+- Incorporado el mapeo explícito del texto principal con las cinco unidades.
+- Añadidas reglas de vigencia temporal y jerarquía bibliográfica.
+- Incorporado **Brigham & Houston, Fundamentos de administración financiera, 15.ª ed. (2020)** como bibliografía complementaria y mapeado por unidades.
+- Registrado que Brigham & Houston (2020) es una obra distinta de la referencia «Weston y Brigham (2000)» consignada en el programa.
+- Incorporado el material visual **Fundamentos de la administración financiera: El rol estratégico moderno y la creación de valor corporativo** como fuente de síntesis conceptual.
+- Incorporado el lote de materiales de un curso previo como antecedentes didácticos y bibliográficos.
+- Verificada la deduplicación del lote y registrada **Montesinos, Francisco (2006), Finanzas II – Serie de Apuntes, 2.ª ed.** como fuente recurrente.
+- Registradas las compilaciones de Justo Báez para valorización/política de dividendos y estructura financiera óptima.
+- Creado `docs/REGLAS_MATERIALES_CURSO_PREVIO.md`.
+- Incorporados como bibliografía propia del docente los cinco volúmenes 2026 de **Cuadernos de Economía Aplicada**, con autoría, volumen e ISBN verificados.
+- Creado `docs/MATERIALES_DOCENTE_2026.md` con mapeo de los cinco cuadernos respecto de las unidades vigentes.
+- Creado `docs/REGLAS_MATERIALES_DOCENTE.md` con reglas sobre base didáctica, herramientas computacionales, calidad de datos, reproducibilidad, consistencia flujo–tasa, notación, revalidación temporal, secuencia aplicada, evaluación formativa y privacidad.
+- Registrado como enfoque didáctico preferente **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
+- Preparada la **Planificación Didáctica Semestral 2026.2 v30** como iteración conservadora de v29, incorporando los Cuadernos de Economía Aplicada y la metodología real de aula sin alterar objetivos oficiales, contenidos, carga horaria ni cronograma.
+- **v30 aprobada por el docente el 09/08/2026.**
+- La versión vigente del planeamiento pasa a ser **v30**; la siguiente iteración posible es v31.
+- La misión `20260809a_integracion_institucional_y_preparacion_clase_inicial` se marca como **completada**.
+- Próxima misión prevista: **clase de presentación**, aún no iniciada.
+- El archivo binario `.docx` de v30 queda pendiente de carga manual a GitHub; la documentación del repositorio ya reconoce v30 como versión aprobada.
