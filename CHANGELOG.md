@@ -29,5 +29,8 @@
 - Incorporado el mapeo explícito del texto principal con las cinco unidades de la asignatura y capítulos complementarios útiles.
 - Añadida la regla `BIB-004` de vigencia temporal: modelos y fundamentos pueden conservar valor académico, pero tasas fiscales, legislación, cifras de mercado, datos empresariales y enlaces antiguos deben verificarse antes de usarse como información vigente.
 - Añadida la regla `BIB-005`: la bibliografía sustenta y desarrolla el programa, pero no reemplaza la autoridad del programa, reglamento, calendario ni formato institucional.
+- Incorporado **Brigham & Houston, Fundamentos de administración financiera, 15.ª ed. (2020)** como bibliografía académica complementaria, con ficha BibTeX/APA y mapeo por unidades.
+- Registrado que el PDF disponible de Brigham & Houston es una obra distinta de la referencia institucional «Weston y Brigham (2000), Manual de Administración Financiera»; ambas deben conservarse separadas y trazables.
+- Añadida la regla `BIB-006` para no sustituir silenciosamente obras o ediciones del programa cuando el material efectivamente disponible tenga distinta autoría, título, año o edición.
 
 **Nota de versionado:** estas actualizaciones afectan documentación, reglas y fuentes del proyecto; no constituyen una nueva iteración de la Planificación Didáctica. La versión vigente continúa siendo **v29**.
