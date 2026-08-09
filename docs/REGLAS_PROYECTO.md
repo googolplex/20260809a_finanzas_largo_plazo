@@ -107,6 +107,10 @@ Ejemplos institucionales de instrumentos:
 
 **BIB-003 — Prioridad de verificación.** Cuando una referencia secundaria disponga de DOI, página oficial de la revista, editor o repositorio académico confiable, esos datos se utilizarán para depurar la entrada bibliográfica antes de emplearla en materiales del curso.
 
+**BIB-004 — Vigencia temporal.** Los libros y materiales históricos pueden utilizarse como fuentes de fundamentos, modelos y metodología, pero los datos dependientes del tiempo —tasas fiscales, legislación, normas, cifras de mercado, datos de empresas, productos financieros, sitios web o ejemplos institucionales— no se asumirán vigentes. Cuando sean necesarios para una actividad actual, se verificarán con una fuente contemporánea.
+
+**BIB-005 — Jerarquía académica.** Una referencia bibliográfica, incluso cuando sea el texto principal del curso, no modifica por sí sola los contenidos obligatorios del programa ni las exigencias normativas o de formato institucional. Se utiliza para desarrollar y sustentar académicamente esos contenidos.
+
 ## Resolución de conflictos documentales
 
 **TRAZA-001.** Cada regla relevante debe poder relacionarse con su fuente.
