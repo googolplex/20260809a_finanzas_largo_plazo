@@ -42,12 +42,26 @@ Las fechas exactas utilizadas en la planificación deben entenderse como propues
 
 Se conserva únicamente como **información colateral de referencia institucional**. No gobierna el cronograma de esta asignatura presencial.
 
-## 6. Orientación pedagógica institucional sobre evaluación
+## 6. Orientaciones pedagógicas institucionales
 
 ### «El ciclo evaluativo en el aula universitaria: diagnóstico, proceso y cierre»
 Raúl Aguilera Méndez, 04/07/2026.
 
 Uso en el proyecto: evaluación diagnóstica, formativa y sumativa; momentos didácticos; diversificación de instrumentos; orientación de dificultad 20%-60%-20% en evaluación sumativa.
+
+### «Resultados de aprendizaje: Alineación constructiva»
+Universidad Americana — Dirección de Calidad Institucional — Coordinación de Gestión Curricular, mayo de 2026.
+
+Uso en el proyecto:
+- estructura de resultados de aprendizaje mediante **verbo de acción + objeto + condición/criterio/contexto**;
+- selección de verbos observables y medibles;
+- alineación entre resultados, metodologías/actividades y evaluación;
+- formulación de consignas claras y orientadas a productos verificables;
+- evaluación diagnóstica, formativa y de cierre;
+- resguardo de evidencias mediante registros de tareas, planillas de proceso, portafolios y repositorios institucionales;
+- uso de metodologías activas en función del nivel de aprendizaje esperado.
+
+Observación de privacidad: cuando el material institucional habla de repositorio de evidencias, en este proyecto se interpreta como plataforma institucional o medio privado autorizado para evidencias identificables. El GitHub público no se utilizará para guardar desempeño, retroalimentación ni calificaciones individuales.
 
 ## 7. Bibliografía académica principal
 
@@ -76,3 +90,12 @@ El programa oficial también menciona, entre otras referencias:
 - Francisco Montecinos — *Manual de Finanzas I*.
 - Brealey/Myers — financiación empresarial.
 - Weston y Copeland — *Finanzas en Administración*.
+
+## 8. Base bibliográfica acumulativa del proyecto
+
+La bibliografía normalizada se mantiene en:
+
+- `bibliografia/referencias.bib` — archivo de trabajo BibTeX/BibLaTeX.
+- `bibliografia/REFERENCIAS_APA.md` — vista legible en formato APA.
+
+La base incluye las fuentes primarias recibidas y, cuando pueden verificarse de manera inequívoca, referencias secundarias relevantes contenidas en esos materiales. Las citas incompletas quedan señaladas como pendientes y no se completan por inferencia.
