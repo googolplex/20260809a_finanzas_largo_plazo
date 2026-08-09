@@ -17,11 +17,9 @@ Este directorio registra los materiales académicos y documentales producidos co
 - **Versión vigente:** v29
 - **Estado:** aprobada
 - **Formato de entrega:** Word (`.docx`)
+- **Estado en GitHub:** archivo binario confirmado en el repositorio.
+- **Ruta:** `entregables/20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`
 - **Próxima versión:** v30, únicamente cuando exista una nueva iteración real del documento.
-
-Nombre del archivo de trabajo aprobado:
-
-`20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`
 
 ## Próximos materiales
 
