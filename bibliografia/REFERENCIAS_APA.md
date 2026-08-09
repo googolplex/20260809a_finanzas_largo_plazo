@@ -14,7 +14,7 @@ Universidad Americana. (s. f.). *Planificación didáctica semestral* [Plantilla
 
 Universidad Americana, Dirección de Calidad Institucional, & Coordinación de Gestión Curricular. (2026, mayo). *Resultados de aprendizaje: Alineación constructiva* [Presentación institucional].
 
-Van Horne, J. C., & Wachowicz, J. M., Jr. (2010). *Fundamentos de administración financiera* (13.ª ed.). Pearson Educación.
+Van Horne, J. C., & Wachowicz, J. M., Jr. (2010). *Fundamentos de administración financiera* (M. A. González Osuna, Trad.; 13.ª ed.). Pearson Educación. ISBN 978-607-442-948-0.
 
 ## Referencias secundarias extraídas de los materiales y verificadas
 
