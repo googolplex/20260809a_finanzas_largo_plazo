@@ -47,3 +47,29 @@
 - La nueva misión establece como entregables previstos: material de presentación, guion de conducción, diagnóstico inicial y material breve para estudiantes si resulta útil.
 - Se mantiene como mensaje central de la primera clase: **datos confiables → formulación correcta → cálculo con herramientas adecuadas → interpretación → decisión fundamentada**.
 - Añadidas las reglas `ESTILO-001` a `ESTILO-004`: español institucional neutro, sin argentinismos ni voseo rioplatense; corrección ortográfica, gramatical y sintáctica; redacción eficaz y clara sin sobrecargar al lector; y consistencia terminológica en todos los materiales del proyecto.
+
+## 2026-08-09 — Avance de la misión 20260809b
+
+- Preparación avanzada del documento LaTeX para la primera clase de **Finanzas a Largo Plazo — Grupo 80**.
+- Registrado el flujo didáctico **LaTeX → PDF → NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
+- Aprobada la portada específica de la presentación y registrado el recurso `portada_presentacion_asignatura_v1.png` como activo esperado de compilación.
+- Aprobado el gráfico **Proceso iterativo de elaboración y revisión**, registrado como `proceso_iterativo.png`.
+- Corregida la estructura temática para utilizar las cinco unidades oficiales de Finanzas a Largo Plazo.
+- Incorporada una explicación simplificada del uso de inteligencia artificial y NotebookLM, enfatizando la verificación de fuentes.
+- Incorporada una indagación inicial no calificativa de **18 ítems**, con autoevaluación `Lo entiendo bien / Más o menos / Nada de nada` y selección del tema que requiere mayor refuerzo.
+- Aprobados el horario de receso y los puntos de control de la primera clase de 18:15 a 21:15.
+- Aprobado el calendario de evaluaciones con fechas previstas 14/09, 12/10, 23/11, 14/12 y 21/12, sujetas a confirmación institucional.
+- Incorporado el calendario académico presencial y el calendario de clases de los lunes.
+- Detectado un error de compilación por uso de `longtable` sin paquete cargado; la fuente de trabajo fue corregida incorporando `\usepackage{longtable}`.
+- Corregido el bloque principal de carga académica para utilizar únicamente **51 horas totales, 36 teóricas y 15 prácticas**, junto con lunes 18:15–21:15.
+- Identificada como pendiente de depuración una subsección heredada que todavía menciona 4 h de trabajo acompañado, 4 h independientes, 8 h semanales y 27 h/crédito de FP-UNA; se registra explícitamente que esa regla no corresponde a la asignatura actual.
+- Sustituida la antigua sección transversal de carreras por **Relación con la carrera**, específica para Economía.
+- Ampliado el control de calidad de las evidencias para revisar datos, fórmulas, resultados, coherencia tasa–periodo, interpretación, conclusiones y fuentes.
+- Sustituido el bloque **Datos del estudiante** por **Datos de identificación del trabajo**, alineado con los requisitos de entrega.
+- Eliminados del modelo de identificación el número de C.I. y la firma manuscrita real, fortaleciendo la privacidad en un repositorio y carpetas compartidas.
+- Alineada la lista de datos mínimos de las entregas con Facultad de Ciencias Económicas y Administrativas, Universidad Americana, grupo/sección, docente y fecha.
+- Realizada una pasada específica de citas sobre el LaTeX sin modificar el contenido sustantivo de los bloques revisados.
+- Creado `entregables/clase_presentacion/README.md` para documentar estado, activos, privacidad y pendientes.
+- Creado `entregables/clase_presentacion/referencias.bib` como bibliografía de trabajo de la presentación, incluyendo programa, planeamiento v30, calendario, reglamento institucional, MAC, NotebookLM, bibliografía financiera principal, Cuadernos 1–5 y referencias clásicas de portfolio/CAPM/estructura de capital/dividendos.
+- La antigua referencia de FP-UNA se conserva en la bibliografía específica únicamente como **referencia heredada temporal**, marcada para eliminación cuando se depure el texto correspondiente.
+- La misión permanece **en curso** hasta la realización y cierre de la primera clase del 10/08/2026.
