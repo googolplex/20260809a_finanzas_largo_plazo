@@ -14,13 +14,14 @@ Este directorio registra los materiales académicos y documentales producidos co
 
 ### Planificación Didáctica Semestral 2026.2
 
-- **Versión vigente:** v29
+- **Versión vigente:** v30
 - **Estado:** aprobada
 - **Formato de entrega:** Word (`.docx`)
-- **Estado en GitHub:** archivo binario confirmado en el repositorio.
-- **Ruta:** `entregables/20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`
-- **Próxima versión:** v30, únicamente cuando exista una nueva iteración real del documento.
+- **Archivo:** `20260809a_Planificación_Didáctica_Semestral_2026_2_v30.docx`
+- **Estado en GitHub:** pendiente de carga manual del binario `.docx`; la documentación del proyecto ya reconoce v30 como versión aprobada.
+- **Versión anterior conservada en GitHub:** v29.
+- **Próxima versión:** v31, únicamente cuando exista una nueva iteración real del documento.
 
 ## Próximos materiales
 
-A medida que se desarrollen las misiones del semestre, este índice deberá incorporar las guías de clase, ejercicios, casos, instrumentos evaluativos, planillas, presentaciones y demás materiales producidos conjuntamente.
+La siguiente misión prevista es la **clase de presentación**. A medida que se desarrollen las misiones del semestre, este índice deberá incorporar las guías de clase, ejercicios, casos, instrumentos evaluativos, planillas, presentaciones y demás materiales producidos conjuntamente.
