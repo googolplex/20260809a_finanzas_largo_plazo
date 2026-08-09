@@ -15,10 +15,12 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Horario: 18:15–21:15.
 - Primera clase del semestre: 10/08/2026.
 - Fecha límite informada para entregar la planificación didáctica: 21/08/2026.
-- Planificación didáctica vigente de trabajo: **v29**.
-- Archivo aprobado en GitHub: `entregables/20260809a_Planificación_Didáctica_Semestral_2026_2_v29.docx`.
-- Próxima iteración documental: **v30**, solamente cuando exista un cambio que justifique una nueva versión.
+- Planificación didáctica vigente: **v30 aprobada**.
+- Archivo v30 generado: `20260809a_Planificación_Didáctica_Semestral_2026_2_v30.docx`.
+- Estado del binario v30 en GitHub: **pendiente de carga manual**; el conector de GitHub utilizado por el proyecto no permite subir directamente archivos `.docx` binarios.
+- Próxima iteración documental: **v31**, solamente cuando exista un cambio real que justifique una nueva versión.
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
+- Próxima misión prevista: **clase de presentación**, aún no iniciada.
 
 ## Jerarquía documental de trabajo
 
@@ -63,7 +65,7 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`bibliografia/referencias.bib`](bibliografia/referencias.bib): base bibliográfica acumulativa BibTeX/BibLaTeX.
 - [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
-- [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión vigente.
+- [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
 
 ## Materiales producidos en el proyecto
