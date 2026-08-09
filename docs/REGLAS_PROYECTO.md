@@ -18,6 +18,12 @@ Estas reglas gobiernan el trabajo documental y académico del proyecto **FINANZA
 
 **ENTREGA-002.** El PDF se genera o entrega únicamente cuando se solicite expresamente.
 
+**ENTREGA-003 — Materiales co-creados.** Los materiales académicos y documentales producidos conjuntamente durante este proyecto deben incorporarse al repositorio y mantenerse versionados cuando corresponda. Esto incluye, entre otros, planificaciones, guías de clase, instrumentos evaluativos, ejercicios, casos, planillas, presentaciones, notas técnicas y documentación de misiones.
+
+**ENTREGA-004 — Fuentes externas.** Los documentos externos de referencia no necesitan copiarse al repositorio. Cuando sean extensos, estén protegidos por derechos de autor o exista otra razón práctica para no publicarlos, se conservará en GitHub su referencia y el conocimiento derivado necesario para el proyecto.
+
+**ENTREGA-005 — Fuente reproducible.** Siempre que sea práctico, además del archivo final de entrega se mantendrá en el repositorio una representación editable o reproducible del material creado conjuntamente (por ejemplo Markdown, texto fuente, planilla o código), de modo que el proyecto no dependa exclusivamente de archivos binarios ni del historial del chat.
+
 ## Reglas de planificación institucional
 
 **PLAN-001 — Transcripción literal.** Los datos de identificación, objetivo general, objetivos específicos, nombres de unidades y contenidos que el formato institucional identifica como provenientes del programa deben transcribirse conforme al programa oficial y no reformularse libremente.
