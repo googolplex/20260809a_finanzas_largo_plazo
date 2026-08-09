@@ -113,6 +113,14 @@ Ejemplos institucionales de instrumentos:
 
 **BIB-006 — Identidad de obras y ediciones.** Cuando un material recibido difiera en autoría, título, año o edición de una referencia consignada en el programa oficial, se registrará como obra distinta. No se sustituirá ni corregirá silenciosamente la referencia institucional solo por similitud temática o de autores. La referencia del programa y la edición efectivamente disponible deberán permanecer trazables por separado.
 
+**BIB-007 — Materiales sin metadatos completos.** Los materiales visuales, resúmenes o documentos que no indiquen claramente autoría, institución, fecha u otros metadatos podrán registrarse con los datos efectivamente visibles, dejando explícitas las ausencias. No se atribuirán autores, fechas o entidades responsables a partir del nombre del archivo, marcas de herramientas o inferencias no documentadas.
+
+## Contextualización académica y jurídica
+
+**CONT-001 — Jurisdicción y contexto.** Las leyes, reguladores, instituciones y prácticas mencionadas en bibliografía internacional se tratarán como ejemplos del contexto al que pertenecen. No se presentarán como normativa aplicable en Paraguay sin verificación específica. Esto incluye, por ejemplo, referencias estadounidenses a Sarbanes-Oxley (SOX), SEC o PCAOB.
+
+**CONT-002 — Material de síntesis.** Las infografías, presentaciones y materiales visuales pueden utilizarse para introducir, diagnosticar, resumir o discutir conceptos, pero las afirmaciones técnicas centrales y los contenidos evaluables deberán poder respaldarse también en el programa oficial, textos académicos identificables o fuentes primarias pertinentes.
+
 ## Resolución de conflictos documentales
 
 **TRAZA-001.** Cada regla relevante debe poder relacionarse con su fuente.
