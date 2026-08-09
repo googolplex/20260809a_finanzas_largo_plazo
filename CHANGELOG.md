@@ -37,5 +37,11 @@
 - Añadida la regla `BIB-007` para materiales con metadatos incompletos.
 - Añadida `CONT-001`: referencias regulatorias extranjeras —por ejemplo SOX, SEC o PCAOB— no se tratarán como normativa paraguaya sin verificación específica.
 - Añadida `CONT-002`: infografías y materiales de síntesis sirven como apoyo didáctico, pero los contenidos técnicos centrales deben poder respaldarse en fuentes académicas o primarias identificables.
+- Incorporado el lote de materiales de un curso previo de Finanzas a Largo Plazo como antecedentes didácticos y bibliográficos.
+- Verificada la deduplicación binaria del lote: 11 archivos PDF corresponden a 6 contenidos únicos; las equivalencias y hashes quedaron documentados en `docs/MATERIALES_CURSO_PREVIO.md`.
+- Incorporada como fuente recurrente identificada **Montesinos, Francisco (2006), Finanzas II – Serie de Apuntes, 2.ª ed., Editorial Universidad Americana**.
+- Registradas las compilaciones de **Justo Báez** para valorización de empresas/política de dividendos y estructura financiera óptima, conservando separada la autoría de las fuentes en que se basan.
+- Creado `docs/REGLAS_MATERIALES_CURSO_PREVIO.md` con reglas `LEGACY-001` a `LEGACY-006` sobre jerarquía, verificación técnica, vigencia temporal, procedencia, deduplicación y tratamiento de materiales propios derivados.
+- La bibliografía BibTeX y su vista APA fueron actualizadas con los seis materiales únicos y con Montesinos (2006).
 
 **Nota de versionado:** estas actualizaciones afectan documentación, reglas y fuentes del proyecto; no constituyen una nueva iteración de la Planificación Didáctica. La versión vigente continúa siendo **v29**.
