@@ -121,6 +121,16 @@ Ejemplos institucionales de instrumentos:
 
 **CONT-002 — Material de síntesis.** Las infografías, presentaciones y materiales visuales pueden utilizarse para introducir, diagnosticar, resumir o discutir conceptos, pero las afirmaciones técnicas centrales y los contenidos evaluables deberán poder respaldarse también en el programa oficial, textos académicos identificables o fuentes primarias pertinentes.
 
+## Estilo institucional y redacción
+
+**ESTILO-001 — Español institucional neutro.** Los materiales del proyecto destinados a uso institucional, académico o estudiantil se redactarán en español estándar y formal. Se evitarán argentinismos, voseo rioplatense y regionalismos coloquiales que puedan restar neutralidad o adecuación institucional al texto.
+
+**ESTILO-002 — Corrección gramatical y sintáctica.** Todo escrito deberá mantener corrección ortográfica, gramatical, sintáctica y de puntuación. Las oraciones deberán presentar relaciones lógicas claras y una terminología consistente a lo largo del documento.
+
+**ESTILO-003 — Eficacia y carga de lectura.** La redacción deberá ser eficaz, clara, precisa y suficiente para cumplir su propósito, sin abrumar al lector. Se evitarán redundancias, explicaciones innecesariamente extensas, acumulaciones de incisos y complejidad sintáctica que no aporte valor. La concisión no deberá sacrificar rigor académico ni información necesaria.
+
+**ESTILO-004 — Claridad terminológica.** Los términos técnicos y acrónimos se definirán cuando aparezcan por primera vez o cuando exista riesgo razonable de ambigüedad. Se mantendrá una nomenclatura coherente dentro de cada documento y entre materiales relacionados.
+
 ## Resolución de conflictos documentales
 
 **TRAZA-001.** Cada regla relevante debe poder relacionarse con su fuente.
