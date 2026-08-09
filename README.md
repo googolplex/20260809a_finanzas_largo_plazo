@@ -20,7 +20,7 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Estado del binario v30 en GitHub: **pendiente de carga manual**; el conector de GitHub utilizado por el proyecto no permite subir directamente archivos `.docx` binarios.
 - Próxima iteración documental: **v31**, solamente cuando exista un cambio real que justifique una nueva versión.
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
-- Próxima misión prevista: **clase de presentación**, aún no iniciada.
+- Misión vigente: **20260809b — Clase de presentación de la asignatura**.
 
 ## Jerarquía documental de trabajo
 
@@ -66,6 +66,7 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
+- [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión vigente para la primera clase.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
 
 ## Materiales producidos en el proyecto
