@@ -25,5 +25,9 @@
 - Añadida la regla de alineación constructiva entre resultados, actividades/metodologías y evaluación.
 - Añadidas reglas de claridad de consignas, productos verificables, retroalimentación formativa y resguardo de evidencias.
 - Aclarado que evidencias identificables de estudiantes deben conservarse en plataforma institucional o medio privado, no en el GitHub público.
+- Revisado nuevamente **Van Horne & Wachowicz, Fundamentos de administración financiera, 13.ª ed. (2010)** y enriquecida su ficha bibliográfica con traductora, ISBN impreso y referencia a la edición electrónica.
+- Incorporado el mapeo explícito del texto principal con las cinco unidades de la asignatura y capítulos complementarios útiles.
+- Añadida la regla `BIB-004` de vigencia temporal: modelos y fundamentos pueden conservar valor académico, pero tasas fiscales, legislación, cifras de mercado, datos empresariales y enlaces antiguos deben verificarse antes de usarse como información vigente.
+- Añadida la regla `BIB-005`: la bibliografía sustenta y desarrolla el programa, pero no reemplaza la autoridad del programa, reglamento, calendario ni formato institucional.
 
 **Nota de versionado:** estas actualizaciones afectan documentación, reglas y fuentes del proyecto; no constituyen una nueva iteración de la Planificación Didáctica. La versión vigente continúa siendo **v29**.
