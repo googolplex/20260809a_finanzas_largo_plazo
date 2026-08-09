@@ -14,6 +14,8 @@ Estas reglas gobiernan el trabajo documental y académico del proyecto **FINANZA
 
 **VERSION-001.** Cada iteración documental aumenta exactamente una unidad: v28 → v29 → v30 → v31. No se saltan números salvo instrucción expresa.
 
+**VERSION-002 — Base explícita de iteración.** Cuando el docente indique expresamente cuáles son los archivos vigentes que deben utilizarse como base, toda nueva iteración deberá derivarse exclusivamente de esos archivos. No se mezclarán silenciosamente contenidos de versiones anteriores, aun cuando contengan correcciones o elementos que hayan existido previamente. Cualquier recuperación de contenido anterior requerirá decisión explícita.
+
 **ENTREGA-001.** Por defecto, cuando se genere una nueva versión de la planificación u otro documento editable, se entrega solamente el archivo **Word (.docx)**.
 
 **ENTREGA-002.** El PDF se genera o entrega únicamente cuando se solicite expresamente.
@@ -114,6 +116,12 @@ Ejemplos institucionales de instrumentos:
 **BIB-006 — Identidad de obras y ediciones.** Cuando un material recibido difiera en autoría, título, año o edición de una referencia consignada en el programa oficial, se registrará como obra distinta. No se sustituirá ni corregirá silenciosamente la referencia institucional solo por similitud temática o de autores. La referencia del programa y la edición efectivamente disponible deberán permanecer trazables por separado.
 
 **BIB-007 — Materiales sin metadatos completos.** Los materiales visuales, resúmenes o documentos que no indiquen claramente autoría, institución, fecha u otros metadatos podrán registrarse con los datos efectivamente visibles, dejando explícitas las ausencias. No se atribuirán autores, fechas o entidades responsables a partir del nombre del archivo, marcas de herramientas o inferencias no documentadas.
+
+**BIB-008 — Bibliografía operativa por unidad.** Cuando las fuentes disponibles lo permitan, los materiales destinados a estudiantes deben transformar la bibliografía general en una guía de estudio concreta por unidad: **obra + edición + capítulo/sección + rango de páginas + propósito de lectura**. La precisión debe ayudar al estudiante a localizar directamente el contenido requerido.
+
+**BIB-009 — Precisión de páginas y edición.** Los números de página solo se consignarán cuando hayan sido verificados para la edición citada. No se trasladarán rangos de páginas entre ediciones ni se inventará precisión. Cuando el soporte sea un PDF de una obra impresa, se distinguirá, cuando sea necesario, la **paginación impresa de la obra** del número de página que muestra el visor PDF.
+
+**BIB-010 — Materiales propios con ISBN.** Cuando los materiales propios del docente tengan ISBN definitivo, la referencia deberá conservar autoría, año, título, volumen, edición e ISBN y, cuando resulte pedagógicamente útil, mapearse a las unidades y páginas específicas en las que se utilizarán.
 
 ## Contextualización académica y jurídica
 
