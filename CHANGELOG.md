@@ -15,7 +15,6 @@
 - Regla de versionado establecida: incremento exacto de +1 por iteración.
 - Regla de entrega establecida: Word por defecto; PDF únicamente a pedido expreso.
 - Misión vigente actualizada para integrar materiales institucionales y preparar la primera clase del 10/08/2026.
-
-## Nota sobre el nombre del repositorio
-
-El repositorio creado en GitHub se denomina actualmente `20260809a_finanzas_largo_plaz` (sin la letra «o» final de `plazo`). El nombre conceptual del proyecto continúa siendo `20260809a_finanzas_largo_plazo`.
+- Nombre del repositorio corregido a `20260809a_finanzas_largo_plazo`.
+- Nueva regla: los materiales creados conjuntamente deben incorporarse al proyecto y mantenerse versionados cuando corresponda.
+- Creación del índice `entregables/README.md` para registrar los materiales co-creados.
