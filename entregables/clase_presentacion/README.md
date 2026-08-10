@@ -2,50 +2,80 @@
 
 Material de trabajo de la misión `20260809b_clase_presentacion_asignatura`.
 
-## Estado al cierre del 09/08/2026
+## Estado vigente — 10/08/2026
 
-- La sesión de preparación del 09/08/2026 está cerrada.
-- La misión continúa abierta hasta la primera clase del 10/08/2026 y el registro posterior de ajustes pedagógicos.
-- Último LaTeX consolidado previamente en GitHub: [`main_v03.tex`](main_v03.tex).
-- Bibliografía específica vigente en GitHub: [`referencias.bib`](referencias.bib), sincronizada con el último archivo entregado por el docente.
-- El último `main.tex` recibido al cierre de la sesión queda identificado por SHA-256 `ecad09ea6a4b61fa2a65dfe78f7acad2515fa00316975deffda4621fa74c4ed6` y será la única base válida para la próxima iteración efectiva del LaTeX.
-- El estado detallado de cierre se conserva en [`../../docs/CIERRE_SESION_20260809.md`](../../docs/CIERRE_SESION_20260809.md).
+- Programa rector confirmado: **ECO-132**.
+- Carrera: **Economía**.
+- Grupo: **80**.
+- Modalidad: **presencial**.
+- Sede: **ASU**.
+- Docente único: **Roger Román Armoa García**.
+- ORCID: `0009-0008-9149-3619`.
+- Planificación Didáctica Semestral vigente: **v32 aprobada el 10/08/2026**.
+- Presentación vigente: **v04 aprobada el 10/08/2026**.
+- Bibliografía específica vigente: [`referencias.bib`](referencias.bib), sincronizada con ECO-132 y v32.
 
-## Regla de fuente vigente
+## Fuente LaTeX aprobada
 
-Cuando se retome esta presentación se utilizarán exclusivamente los dos últimos archivos entregados por el docente el 09/08/2026. No se recuperará contenido anterior de manera automática.
+Archivo local aprobado:
 
-El `referencias.bib` vigente incluye la referencia documental del propio proyecto GitHub con el ORCID del autor.
+`main_ECO132_v04_final.tex`
 
-## Particularidad docente e identidad académica
+Nombre previsto en GitHub:
 
-Para **Finanzas a Largo Plazo — Grupo 80 — Economía — modalidad presencial — Sede ASU — 2026.2**, el docente único es **Roger Román Armoa García**.
+`main_v04.tex`
 
-ORCID: `0009-0008-9149-3619`.
+SHA-256:
 
-El último LaTeX recibido incorpora el ORCID en el bloque de autor y en la página legal. También incorpora una referencia al repositorio público del proyecto como fuente de metodología, versionado y trazabilidad.
+`640cb7f63bb362d125443584ef0b0f7aa3a0558fef61d87cbf1231858b5293a5`
 
-## Presencia en varias carreras
+El conector disponible no permite tomar directamente el archivo local completo como adjunto de una escritura GitHub; por ello la identidad exacta de la fuente aprobada se conserva en [`main_v04_APROBADO.md`](main_v04_APROBADO.md). Una futura carga de `main_v04.tex` deberá coincidir con ese checksum.
 
-El material utiliza una formulación prudente: Finanzas a Largo Plazo está presente en planes de estudio de varias carreras de la Facultad de Ciencias Económicas y Administrativas, entre ellas Economía, Administración de Empresas, Contaduría Pública, Comercio Internacional e Ingeniería Comercial.
+La próxima modificación efectiva de la presentación será **v05**.
 
-Esto no debe confundirse con una confirmación de que el **Grupo 80** sea administrativamente una asignatura homóloga o transversal. Esa clasificación requiere fuente institucional explícita. La regla general se conserva en [`../../docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md`](../../docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md).
+## Programa y planificación vigentes
 
-## Particularidad bibliográfica aprobada
+La presentación está alineada con el programa ECO-132 y la Planificación Didáctica Semestral v32:
 
-Las cinco unidades incorporan lecturas exactas para el estudiante:
+- carga total: **51 horas**;
+- horas teóricas: **15**;
+- horas prácticas: **36**;
+- cuatro unidades oficiales:
+  1. Introducción a las Finanzas Empresariales;
+  2. Estructura de Capital, Fuentes de Financiamiento y Costo de Capital;
+  3. Análisis de Inversiones;
+  4. Estructuras Financieras Óptimas.
 
-- obra;
-- edición;
-- capítulo o sección;
-- rango preciso de páginas;
-- propósito de la lectura.
+El programa anterior de cinco unidades y el código `ICA-035` quedan como antecedentes históricos y no gobiernan los materiales actuales.
 
-Se utilizan como referencias principales Van Horne & Wachowicz, 13.ª edición; Brigham & Houston, 15.ª edición; y los Cuadernos de Economía Aplicada del docente.
+## Particularidades de v04
 
-Los números de página se conservan únicamente para la edición en la que fueron verificados. Cuando un PDF reproduce una obra impresa, la referencia de página corresponde a la paginación impresa salvo indicación contraria.
+- código **ECO-132** incorporado;
+- eliminación de afirmaciones no demostradas de asignatura homóloga/transversal;
+- ORCID en la identificación del autor;
+- objetivo general y contenidos alineados con ECO-132;
+- diagnóstico inicial adaptado;
+- calendario de clases y evaluaciones reorganizado conforme a v32;
+- carga académica corregida a 15T/36P;
+- eliminación de la antigua regla 4+4=8 horas semanales;
+- guía de lecturas exactas por unidad;
+- conservación del flujo NotebookLM + revisión crítica mediante Adversarial Pass Protocol.
 
-## Cuadernos de Economía Aplicada incorporados
+## Bibliografía operativa
+
+Las lecturas se indican, cuando la fuente lo permite, mediante:
+
+**obra + edición + capítulo/sección + páginas verificadas + finalidad de lectura**.
+
+Se mantienen como fuentes principales y de apoyo compatibles:
+
+- Van Horne & Wachowicz, 13.ª edición;
+- Brigham & Houston, 15.ª edición;
+- Cuadernos de Economía Aplicada del docente, vols. 1–5 con ISBN.
+
+Los rangos de páginas solo son válidos para la edición verificada.
+
+## Cuadernos de Economía Aplicada
 
 1. Vol. 1 — *Conceptos fundamentales de finanzas de largo plazo* — ISBN `978-99989-1-754-5`.
 2. Vol. 2 — *Finanzas de largo plazo: Ejercicios* — ISBN `978-99989-1-762-0`.
@@ -53,25 +83,22 @@ Los números de página se conservan únicamente para la edición en la que fuer
 4. Vol. 4 — *Finanzas de largo plazo: Arbitraje de acciones* — ISBN `978-99989-1-834-4`.
 5. Vol. 5 — *Finanzas de largo plazo: Política de dividendos* — ISBN `978-99989-1-850-4`.
 
-## Flujo previsto
+## Flujo de la primera clase
 
 **LaTeX → PDF → NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
 
-El PDF utilizado en NotebookLM funciona como fuente académica de la actividad; las respuestas de la IA deben contrastarse con el documento fuente.
-
-## Pendientes registrados para una futura revisión
-
-- Confirmar o retirar la expresión `Asignatura homóloga / transversal` de la página legal.
-- Sustituir el remanente `Facultad Politécnica` en la identificación de las entregas si se mantiene esa sección.
-- No presentar 4 h acompañadas + 4 h independientes = 8 h semanales como carga oficial sin fuente institucional específica.
-- Mantener `ICA-035` como código histórico/de trabajo mientras no se confirme su vigencia institucional en 2026.2.
-- Mantener el ISBN del Volumen 6 como pendiente hasta su asignación real.
-- No incorporar por ahora el enlace CVPy/CONACYT mientras el servicio no esté estable y operativo.
+El PDF funciona como fuente académica; la IA actúa como interfaz de consulta y apoyo y sus respuestas deben contrastarse con las fuentes.
 
 ## Recursos gráficos requeridos
 
 - `portada_presentacion_asignatura_v1.png`
 - `proceso_iterativo.png`
+
+## Pendiente real
+
+- Compilar la fuente v04 aprobada con el `referencias.bib` vigente y revisar visualmente el PDF definitivo.
+- Mantener el ISBN del Volumen 6 como pendiente hasta su asignación real.
+- El enlace CVPy/CONACYT puede incorporarse más adelante cuando el servicio esté estable y operativo.
 
 ## Privacidad
 
