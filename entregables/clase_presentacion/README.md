@@ -2,33 +2,38 @@
 
 Material de trabajo de la misión `20260809b_clase_presentacion_asignatura`.
 
-## Estado
+## Estado al cierre del 09/08/2026
 
-- Fuente LaTeX vigente en GitHub: [`main_v03.tex`](main_v03.tex).
-- Bibliografía específica vigente: [`referencias.bib`](referencias.bib).
-- Ambos archivos derivan exclusivamente de los **dos últimos archivos suministrados por el docente el 09/08/2026**.
-- PDF definitivo para estudiantes/NotebookLM: pendiente de compilación y control visual final a partir de este par vigente.
-- Misión: continúa en curso hasta la realización y cierre de la primera clase del 10/08/2026.
-
-## Particularidad docente
-
-Para **Finanzas a Largo Plazo — Grupo 80 — Economía — modalidad presencial — Sede ASU — 2026.2**, el docente único de la asignatura es **Roger Román Armoa García**.
-
-Los materiales de esta misión no deben atribuir docencia o autoría de la asignatura a otros profesores.
+- La sesión de preparación del 09/08/2026 está cerrada.
+- La misión continúa abierta hasta la primera clase del 10/08/2026 y el registro posterior de ajustes pedagógicos.
+- Último LaTeX consolidado previamente en GitHub: [`main_v03.tex`](main_v03.tex).
+- Bibliografía específica vigente en GitHub: [`referencias.bib`](referencias.bib), sincronizada con el último archivo entregado por el docente.
+- El último `main.tex` recibido al cierre de la sesión queda identificado por SHA-256 `ecad09ea6a4b61fa2a65dfe78f7acad2515fa00316975deffda4621fa74c4ed6` y será la única base válida para la próxima iteración efectiva del LaTeX.
+- El estado detallado de cierre se conserva en [`../../docs/CIERRE_SESION_20260809.md`](../../docs/CIERRE_SESION_20260809.md).
 
 ## Regla de fuente vigente
 
-`main_v03.tex` y `referencias.bib` forman una unidad reproducible. La fuente LaTeX utiliza:
+Cuando se retome esta presentación se utilizarán exclusivamente los dos últimos archivos entregados por el docente el 09/08/2026. No se recuperará contenido anterior de manera automática.
 
-```latex
-\addbibresource{referencias.bib}
-```
+El `referencias.bib` vigente incluye la referencia documental del propio proyecto GitHub con el ORCID del autor.
 
-Por tanto, cualquier compilación de esta iteración debe realizarse con este archivo bibliográfico y no con una copia anterior.
+## Particularidad docente e identidad académica
+
+Para **Finanzas a Largo Plazo — Grupo 80 — Economía — modalidad presencial — Sede ASU — 2026.2**, el docente único es **Roger Román Armoa García**.
+
+ORCID: `0009-0008-9149-3619`.
+
+El último LaTeX recibido incorpora el ORCID en el bloque de autor y en la página legal. También incorpora una referencia al repositorio público del proyecto como fuente de metodología, versionado y trazabilidad.
+
+## Presencia en varias carreras
+
+El material utiliza una formulación prudente: Finanzas a Largo Plazo está presente en planes de estudio de varias carreras de la Facultad de Ciencias Económicas y Administrativas, entre ellas Economía, Administración de Empresas, Contaduría Pública, Comercio Internacional e Ingeniería Comercial.
+
+Esto no debe confundirse con una confirmación de que el **Grupo 80** sea administrativamente una asignatura homóloga o transversal. Esa clasificación requiere fuente institucional explícita. La regla general se conserva en [`../../docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md`](../../docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md).
 
 ## Particularidad bibliográfica aprobada
 
-Las cinco unidades incorporan **lecturas exactas para el estudiante**, indicando cuando corresponde:
+Las cinco unidades incorporan lecturas exactas para el estudiante:
 
 - obra;
 - edición;
@@ -38,7 +43,7 @@ Las cinco unidades incorporan **lecturas exactas para el estudiante**, indicando
 
 Se utilizan como referencias principales Van Horne & Wachowicz, 13.ª edición; Brigham & Houston, 15.ª edición; y los Cuadernos de Economía Aplicada del docente.
 
-Los rangos de páginas solo deben conservarse para la edición en la que fueron verificados. Cuando un PDF reproduce una obra impresa, la referencia de página corresponde a la paginación impresa salvo indicación contraria.
+Los números de página se conservan únicamente para la edición en la que fueron verificados. Cuando un PDF reproduce una obra impresa, la referencia de página corresponde a la paginación impresa salvo indicación contraria.
 
 ## Cuadernos de Economía Aplicada incorporados
 
@@ -54,21 +59,16 @@ Los rangos de páginas solo deben conservarse para la edición en la que fueron 
 
 El PDF utilizado en NotebookLM funciona como fuente académica de la actividad; las respuestas de la IA deben contrastarse con el documento fuente.
 
-## Elementos incorporados
+## Pendientes registrados para una futura revisión
 
-- Presentación de la asignatura y enfoque por competencias.
-- Cinco unidades de Finanzas a Largo Plazo.
-- Guía de lectura exacta por unidad.
-- Uso de NotebookLM y revisión crítica de respuestas de IA.
-- Indagación inicial de 18 ítems.
-- Puntos de control de la primera clase.
-- Calendario de evaluaciones y calendario de clases.
-- Carga académica oficial: 51 horas, 36 teóricas y 15 prácticas.
-- Relación de la asignatura con la carrera de Economía.
-- Control de calidad de evidencias.
-- Identificación académica de los trabajos.
+- Confirmar o retirar la expresión `Asignatura homóloga / transversal` de la página legal.
+- Sustituir el remanente `Facultad Politécnica` en la identificación de las entregas si se mantiene esa sección.
+- No presentar 4 h acompañadas + 4 h independientes = 8 h semanales como carga oficial sin fuente institucional específica.
+- Mantener `ICA-035` como código histórico/de trabajo mientras no se confirme su vigencia institucional en 2026.2.
+- Mantener el ISBN del Volumen 6 como pendiente hasta su asignación real.
+- No incorporar por ahora el enlace CVPy/CONACYT mientras el servicio no esté estable y operativo.
 
-## Recursos gráficos requeridos para la compilación
+## Recursos gráficos requeridos
 
 - `portada_presentacion_asignatura_v1.png`
 - `proceso_iterativo.png`
@@ -76,7 +76,3 @@ El PDF utilizado en NotebookLM funciona como fuente académica de la actividad; 
 ## Privacidad
 
 Este repositorio es público. No deben incorporarse formularios completados, nombres de estudiantes, números de documento, firmas reales, calificaciones, asistencia individual ni otras evidencias identificables.
-
-## Siguiente paso
-
-Compilar y revisar visualmente el PDF generado desde `main_v03.tex` + `referencias.bib` antes de utilizarlo como fuente de NotebookLM y como material de la primera clase.
