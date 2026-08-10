@@ -2,14 +2,14 @@
 
 ## Estado
 
-**En curso — programa rector ECO-132 confirmado, Planificación Didáctica Semestral v32 aprobada y presentación v04 aprobada el 10/08/2026.**
+**En pausa hasta la primera clase del 10/08/2026, 18:15–21:15. Preparación documental preclase cerrada.**
 
-La misión permanece abierta hasta compilar/revisar el PDF definitivo, desarrollar la primera clase y registrar los ajustes pedagógicos posteriores.
+El programa rector **ECO-132**, la Planificación Didáctica Semestral **v32** y la presentación **v04** fueron aprobados el 10/08/2026. La fuente LaTeX vigente fue compilada con la bibliografía y recursos gráficos presentes en GitHub; el PDF resultante fue revisado y aprobado antes de la clase.
 
-## Identidad vigente de la asignatura
+## Identidad vigente
 
 - Asignatura: **Finanzas a Largo Plazo**.
-- Código vigente: **ECO-132**.
+- Código: **ECO-132**.
 - Carrera: **Economía**.
 - Grupo: **80**.
 - Facultad: **Facultad de Ciencias Económicas y Administrativas**.
@@ -23,115 +23,85 @@ La misión permanece abierta hasta compilar/revisar el PDF definitivo, desarroll
 
 ## Fuente curricular rectora
 
-El docente confirmó el **10/08/2026** que el programa vigente y aplicable a esta asignatura es el correspondiente a **ECO-132** recibido ese mismo día.
+El programa aplicable es **ECO-132**:
 
-Características rectoras:
-
-- carga horaria total: **51 horas**;
-- horas prácticas: **36**;
-- horas teóricas: **15**;
+- 51 horas totales;
+- 15 horas teóricas;
+- 36 horas prácticas;
 - cuatro unidades oficiales:
-  1. **Introducción a las Finanzas Empresariales**;
-  2. **Estructura de Capital, Fuentes de Financiamiento y Costo de Capital**;
-  3. **Análisis de Inversiones**;
-  4. **Estructuras Financieras Óptimas**.
+  1. Introducción a las Finanzas Empresariales;
+  2. Estructura de Capital, Fuentes de Financiamiento y Costo de Capital;
+  3. Análisis de Inversiones;
+  4. Estructuras Financieras Óptimas.
 
-El programa anterior de cinco unidades queda como antecedente histórico y no debe utilizarse para transcribir estructura curricular oficial de ECO-132.
+El programa anterior de cinco unidades y el código `ICA-035` quedan únicamente como antecedentes históricos.
 
-## Control de calidad del 10/08/2026
+## Planeamiento vigente
 
-Durante la revisión se detectó que materiales históricos habían utilizado el código `ICA-035`. Una comunicación institucional de asignación docente confirma para el grupo actual **ECO / ECO-132 / Finanzas a Largo Plazo / Grupo 80 / presencial / lunes / 18:15–21:15 / Roger Armoa**.
+**Planificación Didáctica Semestral v32 — aprobada el 10/08/2026.**
 
-La captura de la comunicación no se publica en GitHub porque contiene datos de contacto de terceros. El proyecto conserva únicamente la información académica necesaria.
-
-También se determinó que la presencia de asignaturas con la misma denominación en otras carreras **no demuestra** que el Grupo 80 sea homólogo o transversal. Esas clasificaciones no se utilizarán sin respaldo institucional explícito.
-
-El detalle del control se conserva en `docs/CONTROL_CALIDAD_20260810_IDENTIDAD_PROGRAMA.md`.
-
-## Historial inmediato del planeamiento
-
-- **v30 — 09/08/2026:** versión aprobada sobre el programa anterior de cinco unidades.
-- **v31 — 10/08/2026:** versión transitoria que corrigió identidad y código a ECO-132.
-- **v32 — 10/08/2026:** reconstrucción curricular completa sobre el programa ECO-132.
-
-### Planeamiento vigente
-
-**La Planificación Didáctica Semestral v32 fue aprobada por el docente el 10/08/2026 y es la planificación vigente.**
-
-Archivo:
+Archivo institucional privado:
 
 `20260810a_Planificación_Didáctica_Semestral_2026_2_v32.docx`
 
-La versión fue renderizada en seis páginas y revisada visualmente sin defectos de maquetación.
+Por decisión del docente, el `.docx` no se publica en este repositorio público. La próxima modificación efectiva del planeamiento será **v33**.
 
-La próxima modificación efectiva del planeamiento deberá ser **v33**.
+## Presentación vigente — v04 aprobada
 
-## Presentación de la asignatura — v04 aprobada
+Fuente reproducible presente en GitHub:
 
-El 10/08/2026 el docente aprobó la nueva presentación alineada con ECO-132 y con la planificación v32.
+`entregables/clase_presentacion/20260810a_main_ECO132_v04_final.tex`
 
-Archivo fuente aprobado localmente:
+Bibliografía canónica utilizada por el LaTeX:
 
-`main_ECO132_v04_final.tex`
+`entregables/clase_presentacion/referencias.bib`
 
-Nombre previsto en el repositorio:
+Copia bibliográfica versionada:
 
-`entregables/clase_presentacion/main_v04.tex`
+`entregables/clase_presentacion/20260810a_referencias_ECO132_v04.bib`
 
-SHA-256 de la fuente aprobada:
+Recursos gráficos presentes en la misma carpeta:
 
-`640cb7f63bb362d125443584ef0b0f7aa3a0558fef61d87cbf1231858b5293a5`
+- `portada_presentacion_asignatura_v1.png`;
+- `proceso_iterativo.png`.
 
-El conector disponible no permite incorporar directamente el archivo local completo como adjunto; por ello su identidad exacta queda registrada en:
+La siguiente modificación efectiva de la presentación será **v05**.
 
-`entregables/clase_presentacion/main_v04_APROBADO.md`
+## Verificación y compilación — 10/08/2026
 
-La siguiente iteración efectiva de la presentación será **v05**.
+Se verificó directamente la rama `main` antes de compilar:
 
-### Cambios curriculares incorporados en v04
+- `20260810a_main_ECO132_v04_final.tex` vigente;
+- `referencias.bib` vigente y alineado con ECO-132 y v32;
+- ambos recursos gráficos presentes.
 
-- código **ECO-132**;
-- carrera Economía, Grupo 80, modalidad presencial;
-- carga **51 horas: 15 teóricas + 36 prácticas**;
-- sustitución de las cinco unidades anteriores por las cuatro unidades oficiales ECO-132;
-- objetivo general y contenidos alineados con el programa rector;
-- eliminación de `ICA-035` como código vigente;
-- eliminación de afirmaciones no demostradas de homología/transversalidad;
-- diagnóstico inicial adaptado a la estructura ECO-132;
-- calendario de clases y evaluaciones reorganizado conforme a v32;
-- lecturas exactas reorganizadas por unidad;
-- eliminación de la regla heredada 4+4=8 horas semanales;
-- conservación de ORCID, referencia GitHub, NotebookLM y revisión crítica mediante Adversarial Pass Protocol.
+La compilación se realizó con la secuencia LaTeX/Biber correspondiente y terminó correctamente. El documento resultante contiene **21 páginas A4**.
 
-## Bibliografía específica de la presentación
+El control posterior confirmó:
 
-`entregables/clase_presentacion/referencias.bib` quedó sincronizado el 10/08/2026 con la presentación v04 y la planificación v32.
+- ECO-132 como código vigente;
+- 15 horas teóricas + 36 prácticas = 51 horas;
+- cuatro unidades oficiales;
+- ausencia de `ICA-035` como código vigente;
+- ausencia de Unidad V;
+- ausencia de afirmaciones de asignatura homóloga/transversal;
+- ausencia de `Facultad Politécnica`;
+- ausencia de la regla heredada 4+4=8 horas semanales;
+- citas y bibliografía resueltas.
 
-La referencia `uaProgramaFinanzasLargoPlazo` identifica el programa rector **ECO-132** y `armoa2026planeamiento` identifica la **v32 aprobada**.
+Solo se observó una advertencia tipográfica mínima en una tabla, sin defecto visual apreciable.
 
-Se conservan, entre otras fuentes:
+## PDF aprobado
 
-- Van Horne & Wachowicz (2010), 13.ª ed.;
-- Brigham & Houston (2020), 15.ª ed.;
-- Cuadernos de Economía Aplicada, vols. 1–5, con ISBN;
-- Modelo de Aprendizaje Basado en Competencias;
-- NotebookLM;
-- repositorio académico GitHub con ORCID del autor.
+El PDF compilado fue revisado visualmente y **aprobado por el docente el 10/08/2026**.
 
-## Particularidades pedagógicas conservadas
+Nombre de trabajo:
 
-La misión mantiene:
+`20260810a_Finanzas_Largo_Plazo_ECO132_presentacion_v04.pdf`
 
-- secuencia preferente **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**;
-- control de calidad de datos, cálculos, interpretación y fuentes;
-- uso de herramientas computacionales y planillas cuando corresponda;
-- metodología de construcción iterativa de evidencias;
-- protección de datos personales y firmas reales;
-- bibliografía operativa por unidad con obra, edición, capítulo/sección y páginas verificadas.
+El PDF no se publica automáticamente en el repositorio; la fuente reproducible (`.tex` + `.bib` + imágenes) sí queda preservada en GitHub.
 
-## Metodología operativa de la primera clase
-
-Flujo previsto:
+## Metodología de la primera clase
 
 **LaTeX → PDF → Google NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
 
@@ -139,16 +109,18 @@ La IA funciona como interfaz de consulta y apoyo. El documento fuente y las refe
 
 ## Diagnóstico inicial
 
-La indagación inicial es no calificativa y fue adaptada para observar conocimientos previos relacionados con las cuatro unidades ECO-132, incluyendo administración financiera, estados financieros, costo de capital, CAPM/WACC, análisis de inversiones, EBITDA/EVA, ROE, apalancamiento, UAII/GPA y política de dividendos.
+La indagación inicial es no calificativa y está alineada con ECO-132. Incluye administración financiera, estados financieros, costo de capital, CAPM/WACC, análisis de inversiones, EBITDA/EVA, ROE, apalancamiento, UAII/GPA y política de dividendos.
 
 ## Privacidad
 
-No se publicarán en el repositorio público nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos ni formularios completados.
+Este repositorio es público. No se publicarán nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos, formularios completados ni documentos institucionales privados que no sea necesario exponer.
 
-## Próximos pasos
+## Cierre preclase — 10/08/2026
 
-1. Compilar la presentación v04 con el `referencias.bib` vigente y los recursos gráficos.
-2. Revisar visualmente el PDF completo.
-3. Utilizar el PDF definitivo como fuente de NotebookLM.
-4. Desarrollar la primera clase del 10/08/2026.
-5. Registrar únicamente conclusiones pedagógicas agregadas y ajustes útiles para futuras misiones.
+La preparación documental queda **cerrada y en pausa** hasta la clase de esta noche.
+
+Próximo paso después de la clase:
+
+1. registrar únicamente conclusiones pedagógicas agregadas;
+2. documentar ajustes útiles detectados durante la experiencia;
+3. abrir una nueva iteración solo si existe una modificación real del material.
