@@ -2,14 +2,14 @@
 
 ## Estado
 
-**En curso — control de calidad realizado el 10/08/2026; primera clase prevista para hoy 18:15–21:15**
+**En curso — control de calidad realizado el 10/08/2026; programa rector ECO-132 confirmado; primera clase prevista para hoy 18:15–21:15**
 
-La preparación documental iniciada el 09/08/2026 continúa con una revisión de identidad académica realizada el **10/08/2026** antes de la primera clase. Esta revisión produjo una nueva iteración real de la planificación: **v31**.
+La preparación documental iniciada el 09/08/2026 continúa con una revisión de identidad académica y curricular realizada el **10/08/2026** antes de la primera clase.
 
 ## Identidad vigente de la asignatura
 
 - Asignatura: **Finanzas a Largo Plazo**.
-- Código vigente confirmado para el grupo: **ECO-132**.
+- Código vigente: **ECO-132**.
 - Carrera: **Economía**.
 - Grupo: **80**.
 - Facultad: **Facultad de Ciencias Económicas y Administrativas**.
@@ -27,6 +27,25 @@ Una comunicación institucional de asignación docente confirma conjuntamente **
 
 La captura de esa comunicación no se publica en GitHub porque contiene datos de contacto personales de terceros. El proyecto conserva únicamente la información académica necesaria derivada de ella.
 
+## Confirmación del programa rector — 10/08/2026
+
+El docente confirmó expresamente que **el programa que se aplica actualmente es el programa correspondiente a ECO-132 recibido el 10/08/2026**.
+
+Esta confirmación resuelve la discrepancia documental detectada durante el control de calidad. El programa ECO-132 pasa a ser la **fuente curricular rectora** para la planificación y para cualquier material que transcriba objetivos, unidades o contenidos oficiales.
+
+Características del programa rector ECO-132:
+
+- carga horaria total: **51 horas**;
+- horas prácticas: **36**;
+- horas teóricas: **15**;
+- **4 unidades**:
+  1. Introducción a las Finanzas Empresariales;
+  2. Estructura de Capital, Fuentes de Financiamiento y Costo de Capital;
+  3. Análisis de Inversiones;
+  4. Estructuras Financieras Óptimas.
+
+El programa anterior de cinco unidades deja de ser fuente rectora para 2026.2. Puede conservarse únicamente como antecedente histórico o fuente de materiales didácticos compatibles, pero no debe utilizarse para transcribir estructura curricular oficial.
+
 ## Cambio realizado el 10/08/2026 y motivo
 
 Durante el control de calidad se detectó que materiales históricos habían utilizado el código **ICA-035**, mientras que la asignación institucional vigente del Grupo 80 identifica la materia como **ECO-132**.
@@ -40,53 +59,31 @@ Cambios de v31:
 3. normalización del nombre del docente a **Roger Román Armoa García**;
 4. actualización del pie de página a **Versión de trabajo v31 - 10/08/2026**.
 
-La v31 conserva deliberadamente objetivos, resultados de aprendizaje, cinco unidades, contenidos, sesiones, cronograma y distribución horaria de v30 mientras se resuelve una discrepancia documental sobre el programa rector.
+Después de la confirmación del programa ECO-132, la v31 queda marcada como **versión transitoria de identidad**: todavía conserva las cinco unidades y la distribución 36T/15P del programa anterior.
+
+La siguiente iteración deberá ser **v32**, con corrección curricular completa conforme al programa ECO-132.
 
 El detalle del control se conserva en `docs/CONTROL_CALIDAD_20260810_IDENTIDAD_PROGRAMA.md`.
 
 ## Consecuencia sobre ICA-035 y la supuesta transversalidad
 
-`ICA-035` ya no debe presentarse como código vigente del Grupo 80. Se conserva únicamente como dato histórico de materiales o instancias anteriores hasta que una fuente institucional demuestre otra cosa.
+`ICA-035` ya no debe presentarse como código vigente del Grupo 80. Se conserva únicamente como dato histórico de materiales o instancias anteriores.
 
 Tampoco se afirmará que el Grupo 80 sea una asignatura **homóloga** o **transversal**. La presencia de una materia denominada Finanzas a Largo Plazo en varias carreras no demuestra que compartan código, programa o grupo.
 
 Esta distinción queda convertida en regla general del proyecto en `docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md`.
 
-## Discrepancia entre programas de estudio detectada hoy
+## Implicaciones para la planificación v32
 
-Se compararon dos documentos titulados como programas de estudio de Finanzas a Largo Plazo.
+La v32 deberá:
 
-### Programa utilizado para construir v30
-
-- 51 horas totales;
-- 36 horas teóricas;
-- 15 horas prácticas;
-- 5 unidades:
-  1. Costo de capital y presupuesto de capital;
-  2. Presupuesto de capital en condiciones de riesgo;
-  3. Formación de un portfolio;
-  4. Estructura financiera óptima;
-  5. Valorización de una empresa y política de dividendos.
-
-### Programa recibido el 10/08/2026
-
-- 51 horas totales;
-- 36 horas prácticas;
-- 15 horas teóricas;
-- 4 unidades;
-- incluye Introducción a las Finanzas Empresariales, Estructura de Capital/Fuentes/Costo de Capital, Análisis de Inversiones y Estructuras Financieras Óptimas;
-- la casilla de **Código** está vacía en el PDF recibido.
-
-### Decisión metodológica
-
-La asignación institucional permite confirmar la identidad operativa **ECO-132 / Economía / Grupo 80**, pero aún no vincula inequívocamente uno de los dos programas con ese código.
-
-Por tanto, la misión aplica una **corrección conservadora**:
-
-- se corrige el código y la identidad del grupo;
-- no se cambia todavía de cinco a cuatro unidades;
-- no se invierte todavía 36T/15P a 15T/36P;
-- cualquier cambio curricular posterior requerirá una fuente que identifique el programa rector de **ECO-132 / Economía / 2026.2**.
+- conservar la identidad confirmada **ECO-132 / Economía / Grupo 80 / presencial / 2026.2**;
+- utilizar **51 horas totales, 36 prácticas y 15 teóricas**;
+- reemplazar la estructura de cinco unidades por las **cuatro unidades oficiales de ECO-132**;
+- transcribir literalmente los objetivos y contenidos que el formato institucional identifica como provenientes del programa;
+- reconstruir resultados de aprendizaje, actividades, sesiones, bibliografía y evaluación para mantener alineación constructiva con el nuevo programa rector;
+- conservar los materiales didácticos propios, libros y ejercicios solamente cuando sean compatibles con los contenidos oficiales ECO-132;
+- documentar claramente qué elementos proceden del programa y cuáles son decisiones didácticas del docente.
 
 ## Fuentes de trabajo vigentes
 
@@ -100,18 +97,18 @@ El material actual incorpora:
 - eliminación de afirmaciones no demostradas de homología/transversalidad;
 - ORCID del docente;
 - referencia documental al repositorio GitHub del proyecto;
-- guía de lecturas exactas por unidad;
+- guía de lecturas exactas;
 - diagnóstico inicial;
 - calendario de clases y evaluaciones;
 - metodología NotebookLM + revisión crítica mediante Adversarial Pass Protocol.
 
+**Pendiente:** la estructura temática y las lecturas por unidad del material de presentación deberán revisarse para alinearlas con las cuatro unidades del programa ECO-132 antes de considerarlo curricularmente definitivo.
+
 ### Planificación
 
-- v30: versión aprobada el 09/08/2026 y base exclusiva de la corrección.
-- v31: nueva iteración generada el 10/08/2026 por corrección de identidad académica.
-- Archivo generado: `20260810a_Planificación_Didáctica_Semestral_2026_2_v31.docx`.
-- El archivo fue renderizado en siete páginas y revisado visualmente sin defectos de maquetación.
-- El binario `.docx` queda pendiente de carga manual al repositorio si el conector GitHub no admite archivos binarios.
+- v30: versión aprobada el 09/08/2026, construida sobre el programa anterior.
+- v31: iteración generada el 10/08/2026 para corregir identidad académica; **transitoria** tras confirmarse el programa ECO-132.
+- próxima versión: **v32**, revisión curricular completa sobre ECO-132.
 
 ## Mensaje central para los estudiantes
 
@@ -127,23 +124,21 @@ Secuencia didáctica preferente:
 
 El PDF funciona como fuente académica de la actividad; la IA actúa como interfaz de consulta y apoyo, no como sustituto de la fuente ni de la verificación del estudiante.
 
-## Lecturas exactas por unidad
+## Bibliografía y materiales propios
 
-La presentación contiene una guía operativa para que el estudiante sepa qué estudiar con precisión: **obra + edición + capítulo/sección + páginas + finalidad de lectura**.
-
-Se mantienen como textos principales:
+Se mantienen como fuentes académicas y didácticas disponibles:
 
 - Van Horne & Wachowicz (2010), 13.ª ed.;
 - Brigham & Houston (2020), 15.ª ed.;
 - Cuadernos de Economía Aplicada, vols. 1–5, con ISBN.
 
-Los rangos de páginas solo son válidos para las ediciones verificadas y corresponden a la paginación impresa cuando el visor PDF muestre una numeración diferente.
+La correspondencia exacta entre capítulos/páginas y unidades deberá revisarse en función de las cuatro unidades oficiales de ECO-132.
 
 ## Diagnóstico inicial
 
 La indagación inicial es **no calificativa** y contiene 18 ítems con tres niveles de autopercepción: `Lo entiendo bien / Más o menos / Nada de nada`.
 
-Incluye estados financieros, calidad de datos, valor del dinero, tasas, flujos, costo de capital, CAPM, WACC, VAN, TIR, IR, Payback, sensibilidad, riesgo/rendimiento, portfolios, apalancamiento, FCF/NOF/valor residual y uso de planillas.
+El instrumento puede conservarse como diagnóstico amplio, pero su interpretación deberá considerar la nueva estructura oficial ECO-132.
 
 ## Puntos de control de la primera clase
 
@@ -157,15 +152,13 @@ Incluye estados financieros, calidad de datos, valor del dinero, tasas, flujos, 
 - 21:00 — síntesis.
 - 21:15 — finalización.
 
-## Carga académica usada provisionalmente en v31
+## Carga académica confirmada para ECO-132
 
-Hasta identificar de manera inequívoca el programa rector de ECO-132, v31 conserva la distribución de su base v30:
+- **51 horas totales**;
+- **36 horas prácticas**;
+- **15 horas teóricas**.
 
-- 51 horas totales;
-- 36 horas teóricas;
-- 15 horas prácticas.
-
-Esta distribución queda marcada como **pendiente de reconfirmación documental**, no como una conclusión definitiva frente al segundo programa recibido hoy.
+La distribución 36T/15P utilizada anteriormente queda superada para la planificación vigente de ECO-132.
 
 ## Privacidad
 
@@ -175,9 +168,10 @@ Las comunicaciones institucionales utilizadas para verificar identidad académic
 
 ## Próximos pasos
 
-1. El docente revisa la v31 generada y confirma si queda aprobada como nueva versión vigente.
-2. Determinar mediante fuente institucional cuál de los dos programas de estudio corresponde específicamente a **ECO-132 / Economía / 2026.2**.
-3. Si el programa rector cambia, generar la siguiente iteración del planeamiento sin mezclar silenciosamente contenidos.
-4. Compilar/revisar el PDF final de presentación.
-5. Desarrollar la primera clase del 10/08/2026.
-6. Registrar después de la clase únicamente conclusiones pedagógicas agregadas y ajustes útiles para futuras misiones.
+1. Generar **Planificación Didáctica Semestral v32** sobre el programa ECO-132 confirmado.
+2. Revisar el `main.tex` de presentación para sustituir la estructura curricular anterior por las cuatro unidades ECO-132.
+3. Rehacer el mapeo de lecturas exactas por unidad cuando corresponda.
+4. Revisar calendario de clases y evaluaciones para alinearlo con las cuatro unidades.
+5. Compilar/revisar el PDF final de presentación.
+6. Desarrollar la primera clase del 10/08/2026.
+7. Registrar después de la clase únicamente conclusiones pedagógicas agregadas y ajustes útiles para futuras misiones.
