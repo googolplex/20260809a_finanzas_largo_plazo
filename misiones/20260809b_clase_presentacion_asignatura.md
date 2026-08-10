@@ -2,9 +2,9 @@
 
 ## Estado
 
-**En curso — programa rector ECO-132 confirmado y Planificación Didáctica Semestral v32 aprobada el 10/08/2026.**
+**En curso — programa rector ECO-132 confirmado, Planificación Didáctica Semestral v32 aprobada y presentación v04 aprobada el 10/08/2026.**
 
-La misión permanece abierta hasta completar la alineación de la presentación `main.tex`, realizar la primera clase y registrar los ajustes pedagógicos posteriores.
+La misión permanece abierta hasta compilar/revisar el PDF definitivo, desarrollar la primera clase y registrar los ajustes pedagógicos posteriores.
 
 ## Identidad vigente de la asignatura
 
@@ -54,9 +54,9 @@ El detalle del control se conserva en `docs/CONTROL_CALIDAD_20260810_IDENTIDAD_P
 - **v31 — 10/08/2026:** versión transitoria que corrigió identidad y código a ECO-132.
 - **v32 — 10/08/2026:** reconstrucción curricular completa sobre el programa ECO-132.
 
-### Estado vigente
+### Planeamiento vigente
 
-**La Planificación Didáctica Semestral v32 fue aprobada por el docente el 10/08/2026 y pasa a ser la planificación vigente.**
+**La Planificación Didáctica Semestral v32 fue aprobada por el docente el 10/08/2026 y es la planificación vigente.**
 
 Archivo:
 
@@ -66,33 +66,68 @@ La versión fue renderizada en seis páginas y revisada visualmente sin defectos
 
 La próxima modificación efectiva del planeamiento deberá ser **v33**.
 
-## Particularidades conservadas en v32
+## Presentación de la asignatura — v04 aprobada
 
-La v32 mantiene las reglas pedagógicas generales del proyecto, pero alineadas con ECO-132:
+El 10/08/2026 el docente aprobó la nueva presentación alineada con ECO-132 y con la planificación v32.
 
-- transcripción literal de objetivo general y contenidos oficiales;
-- resultados de aprendizaje derivados de forma observable y evaluable;
-- alineación constructiva entre resultados, actividades y evaluación;
-- secuencia preferente: **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**;
-- uso de herramientas computacionales y planillas cuando corresponda;
+Archivo fuente aprobado localmente:
+
+`main_ECO132_v04_final.tex`
+
+Nombre previsto en el repositorio:
+
+`entregables/clase_presentacion/main_v04.tex`
+
+SHA-256 de la fuente aprobada:
+
+`640cb7f63bb362d125443584ef0b0f7aa3a0558fef61d87cbf1231858b5293a5`
+
+El conector disponible no permite incorporar directamente el archivo local completo como adjunto; por ello su identidad exacta queda registrada en:
+
+`entregables/clase_presentacion/main_v04_APROBADO.md`
+
+La siguiente iteración efectiva de la presentación será **v05**.
+
+### Cambios curriculares incorporados en v04
+
+- código **ECO-132**;
+- carrera Economía, Grupo 80, modalidad presencial;
+- carga **51 horas: 15 teóricas + 36 prácticas**;
+- sustitución de las cinco unidades anteriores por las cuatro unidades oficiales ECO-132;
+- objetivo general y contenidos alineados con el programa rector;
+- eliminación de `ICA-035` como código vigente;
+- eliminación de afirmaciones no demostradas de homología/transversalidad;
+- diagnóstico inicial adaptado a la estructura ECO-132;
+- calendario de clases y evaluaciones reorganizado conforme a v32;
+- lecturas exactas reorganizadas por unidad;
+- eliminación de la regla heredada 4+4=8 horas semanales;
+- conservación de ORCID, referencia GitHub, NotebookLM y revisión crítica mediante Adversarial Pass Protocol.
+
+## Bibliografía específica de la presentación
+
+`entregables/clase_presentacion/referencias.bib` quedó sincronizado el 10/08/2026 con la presentación v04 y la planificación v32.
+
+La referencia `uaProgramaFinanzasLargoPlazo` identifica el programa rector **ECO-132** y `armoa2026planeamiento` identifica la **v32 aprobada**.
+
+Se conservan, entre otras fuentes:
+
+- Van Horne & Wachowicz (2010), 13.ª ed.;
+- Brigham & Houston (2020), 15.ª ed.;
+- Cuadernos de Economía Aplicada, vols. 1–5, con ISBN;
+- Modelo de Aprendizaje Basado en Competencias;
+- NotebookLM;
+- repositorio académico GitHub con ORCID del autor.
+
+## Particularidades pedagógicas conservadas
+
+La misión mantiene:
+
+- secuencia preferente **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**;
 - control de calidad de datos, cálculos, interpretación y fuentes;
-- actividades de extensión vinculadas con el programa ECO-132;
-- bibliografía institucional y materiales propios compatibles con las cuatro unidades.
-
-## Presentación de la asignatura — pendiente actual
-
-El `main.tex` de la presentación ya fue corregido en cuanto a identidad para utilizar **ECO-132**, eliminar `ICA-035` como código vigente y retirar afirmaciones no demostradas de homología/transversalidad.
-
-Sin embargo, su estructura temática todavía debe revisarse para que coincida exactamente con la planificación v32 y las cuatro unidades oficiales ECO-132.
-
-La siguiente modificación del `main.tex` deberá:
-
-1. sustituir la estructura anterior de cinco unidades por las cuatro unidades ECO-132;
-2. actualizar objetivo general y contenidos oficiales;
-3. rehacer el mapeo de lecturas exactas por unidad;
-4. revisar calendario de clases y evaluaciones según la nueva distribución curricular;
-5. mantener ORCID, trazabilidad GitHub, NotebookLM y los criterios de revisión crítica ya aprobados;
-6. derivarse exclusivamente del último `main.tex` que el docente indique como base.
+- uso de herramientas computacionales y planillas cuando corresponda;
+- metodología de construcción iterativa de evidencias;
+- protección de datos personales y firmas reales;
+- bibliografía operativa por unidad con obra, edición, capítulo/sección y páginas verificadas.
 
 ## Metodología operativa de la primera clase
 
@@ -104,7 +139,7 @@ La IA funciona como interfaz de consulta y apoyo. El documento fuente y las refe
 
 ## Diagnóstico inicial
 
-La indagación inicial sigue siendo no calificativa. Puede conservarse como diagnóstico amplio de conocimientos financieros, pero su interpretación y relación con el curso deben realizarse conforme a las cuatro unidades ECO-132.
+La indagación inicial es no calificativa y fue adaptada para observar conocimientos previos relacionados con las cuatro unidades ECO-132, incluyendo administración financiera, estados financieros, costo de capital, CAPM/WACC, análisis de inversiones, EBITDA/EVA, ROE, apalancamiento, UAII/GPA y política de dividendos.
 
 ## Privacidad
 
@@ -112,8 +147,8 @@ No se publicarán en el repositorio público nombres de estudiantes, C.I., firma
 
 ## Próximos pasos
 
-1. Actualizar el `main.tex` de presentación tomando como referencia curricular la **v32 aprobada** y el programa ECO-132.
-2. Rehacer las lecturas exactas por unidad.
-3. Compilar y revisar el PDF final de presentación.
-4. Desarrollar la primera clase.
+1. Compilar la presentación v04 con el `referencias.bib` vigente y los recursos gráficos.
+2. Revisar visualmente el PDF completo.
+3. Utilizar el PDF definitivo como fuente de NotebookLM.
+4. Desarrollar la primera clase del 10/08/2026.
 5. Registrar únicamente conclusiones pedagógicas agregadas y ajustes útiles para futuras misiones.
