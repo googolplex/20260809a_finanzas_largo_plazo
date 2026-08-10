@@ -6,8 +6,8 @@ Este directorio registra los materiales académicos y documentales producidos co
 
 - Los materiales creados en el proyecto deben quedar incorporados a GitHub y versionados cuando corresponda.
 - Las fuentes externas grandes o protegidas por derechos de autor se referencian y no necesitan copiarse al repositorio.
-- Por defecto, los documentos de entrega se generan en Word; el PDF se produce únicamente a pedido expreso. La misión de clase de presentación constituye una excepción porque su flujo de trabajo requiere LaTeX → PDF → NotebookLM.
-- Siempre que sea práctico, se conservará además una representación editable o reproducible del material.
+- Los documentos institucionales privados no se publican automáticamente en este repositorio público.
+- Siempre que sea práctico, se conservará una representación editable o reproducible del material.
 - Ningún entregable público debe incluir datos personales o sensibles de estudiantes.
 
 ## Estado actual
@@ -20,36 +20,38 @@ Este directorio registra los materiales académicos y documentales producidos co
 - **Grupo:** 80.
 - **Modalidad:** presencial.
 - **Carga:** 51 horas totales; **36 prácticas y 15 teóricas**.
-- **Programa rector:** programa ECO-132 confirmado por el docente el 10/08/2026.
+- **Programa rector:** ECO-132.
 - **Estructura oficial:** 4 unidades.
-- **Archivo:** `20260810a_Planificación_Didáctica_Semestral_2026_2_v32.docx`.
-- **Control visual:** renderizada y revisada en 6 páginas sin defectos de maquetación.
-- **Estado académico:** aprobada por el docente el 10/08/2026.
-- **Estado en GitHub:** la documentación registra v32 como vigente; el binario `.docx` queda pendiente de carga manual si el conector no permite incorporar archivos binarios.
-- **Próxima versión:** **v33**, únicamente ante una nueva modificación efectiva.
+- **Archivo institucional:** `20260810a_Planificación_Didáctica_Semestral_2026_2_v32.docx`.
+- **Control visual:** 6 páginas, revisadas sin defectos de maquetación.
+- **Estado académico:** aprobada el 10/08/2026.
+- **Publicación:** por decisión del docente, el `.docx` **no se publica** en este repositorio público.
+- **Próxima versión:** **v33**, únicamente ante una modificación efectiva.
 
 Historial inmediato:
 
-- v30 — aprobada el 09/08/2026 sobre el programa anterior de cinco unidades;
-- v31 — transitoria, utilizada para corregir la identidad del grupo y el código a ECO-132;
-- v32 — reconstrucción curricular completa conforme al programa ECO-132 y actualmente vigente.
-
-El control de calidad y la razón del cambio están documentados en `docs/CONTROL_CALIDAD_20260810_IDENTIDAD_PROGRAMA.md`.
+- v30 — aprobada sobre el programa anterior de cinco unidades;
+- v31 — transitoria, utilizada para corregir identidad y código;
+- v32 — reconstrucción curricular completa conforme a ECO-132 y actualmente vigente.
 
 ### Clase de presentación — misión 20260809b
 
 Directorio: [`clase_presentacion/`](clase_presentacion/)
 
-- **Estado:** preparación avanzada; misión en curso.
-- **Identidad actual:** Economía — Grupo 80 — presencial — código **ECO-132**.
+- **Estado:** preparación documental preclase cerrada; misión en pausa hasta la clase del 10/08/2026, 18:15–21:15.
+- **Identidad:** Economía — Grupo 80 — presencial — **ECO-132**.
 - **Docente único:** Roger Román Armoa García.
 - **Planificación rectora:** **v32 aprobada**.
-- **Fuente:** LaTeX.
-- **Bibliografía de trabajo:** `clase_presentacion/referencias.bib`.
+- **Presentación vigente:** **v04 aprobada**.
+- **Fuente LaTeX:** `clase_presentacion/20260810a_main_ECO132_v04_final.tex`.
+- **Bibliografía canónica:** `clase_presentacion/referencias.bib`.
+- **Copia bibliográfica versionada:** `clase_presentacion/20260810a_referencias_ECO132_v04.bib`.
+- **Recursos gráficos:** `portada_presentacion_asignatura_v1.png` y `proceso_iterativo.png`.
+- **Compilación:** realizada correctamente con LaTeX/Biber.
+- **PDF resultante:** 21 páginas A4, revisado y aprobado el 10/08/2026.
 - **Flujo didáctico:** LaTeX → PDF → NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol.
-- **Pendiente principal:** adaptar la estructura temática del `main.tex` a las cuatro unidades oficiales ECO-132 y rehacer el mapeo de lecturas exactas por unidad.
-- **Privacidad:** no se publican capturas de comunicaciones institucionales con datos de contacto de terceros; solo se registran los datos académicos necesarios.
+- **Privacidad:** no se publican formularios completados, datos de estudiantes ni documentos institucionales privados.
 
-## Próximos materiales
+## Próximo paso
 
-A medida que se desarrollen las misiones del semestre, este índice deberá incorporar las guías de clase, ejercicios, casos, instrumentos evaluativos, planillas, presentaciones y demás materiales producidos conjuntamente.
+Después de la primera clase se registrarán únicamente conclusiones pedagógicas agregadas y ajustes que justifiquen una nueva iteración real de los materiales.
