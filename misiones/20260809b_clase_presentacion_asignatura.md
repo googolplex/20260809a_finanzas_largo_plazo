@@ -2,36 +2,37 @@
 
 ## Estado
 
-**En curso — preparación avanzada; fuente LaTeX v03 y bibliografía específica consolidadas**
+**En curso — sesión de preparación del 09/08/2026 cerrada; primera clase pendiente de realización**
 
-La misión permanecerá abierta hasta la realización y cierre de la primera clase del **10/08/2026, 18:15–21:15**. Después de la clase se registrarán únicamente conclusiones pedagógicas agregadas y ajustes que puedan mejorar misiones posteriores.
+La sesión de trabajo documental del 09/08/2026 se considera concluida. La misión permanecerá abierta hasta la realización de la primera clase del **10/08/2026, 18:15–21:15** y el registro posterior de ajustes pedagógicos agregados.
 
 ## Identidad de la asignatura
 
 - Asignatura: **Finanzas a Largo Plazo**.
 - Grupo: **80**.
-- Carrera: **Economía**.
+- Carrera rectora confirmada para esta planificación: **Economía**.
 - Facultad: **Facultad de Ciencias Económicas y Administrativas**.
 - Universidad: **Universidad Americana**.
 - Sede: **ASU**.
 - Modalidad: **presencial**.
 - Periodo: **2026.2**.
 - Docente único del grupo: **Roger Román Armoa García**.
+- ORCID del docente: **0009-0008-9149-3619**.
 
-### Particularidad docente de esta misión
+### Particularidad docente
 
-Para esta asignatura y este grupo, **Roger Román Armoa García es el único docente**. Los materiales vigentes de la misión no deben atribuir autoría o docencia a Hilda Echegaray de Palacios ni a Víctor Hugo Santacruz Delvalle.
+Para esta asignatura y este grupo, **Roger Román Armoa García es el único docente**. Los materiales de la misión no deben atribuir docencia o autoría de la asignatura a otros profesores.
 
-## Fuentes vigentes de esta misión
+## Fuentes vigentes al cierre de la sesión
 
-La iteración actual se conserva en:
+Por instrucción expresa del docente, cualquier continuación deberá tomar como base **únicamente los dos últimos archivos entregados el 09/08/2026**:
 
-- `entregables/clase_presentacion/main_v03.tex`
-- `entregables/clase_presentacion/referencias.bib`
+- `main(3).tex` — SHA-256 `ecad09ea6a4b61fa2a65dfe78f7acad2515fa00316975deffda4621fa74c4ed6`.
+- `referencias(2).bib` — SHA-256 `ab6da611135230e30f2f84d5ccc4539abdc4c85890c6201f9a0d0d1541bf6686`.
 
-**Regla de procedencia:** esta iteración se deriva exclusivamente de los dos últimos archivos entregados por el docente el 09/08/2026. No se mezclará automáticamente con versiones anteriores del LaTeX ni de la bibliografía.
+El `referencias.bib` específico de la misión fue sincronizado en GitHub con el último archivo recibido. El último LaTeX consolidado previamente en el repositorio continúa siendo `entregables/clase_presentacion/main_v03.tex`; la próxima incorporación efectiva del nuevo LaTeX deberá respetar el versionado del proyecto y no mezclar contenidos anteriores.
 
-La fuente `main_v03.tex` usa `\addbibresource{referencias.bib}`; por ello ambos archivos forman una unidad reproducible y deben mantenerse sincronizados.
+La regla `VERSION-002` continúa vigente: cuando el docente fija explícitamente los archivos base, no se recupera silenciosamente contenido de otras versiones.
 
 ## Propósito
 
@@ -43,21 +44,50 @@ La clase debe ser coherente con la **Planificación Didáctica Semestral v30 apr
 
 **datos confiables → formulación correcta → cálculo con herramientas adecuadas → interpretación → decisión fundamentada**
 
-La secuencia didáctica operativa se mantiene como:
+Secuencia didáctica preferente:
 
 **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
 
 ## Metodología operativa
 
-El flujo previsto es:
+Flujo previsto:
 
 **LaTeX → PDF → Google NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
 
 El PDF compilado constituye la fuente académica de la actividad con NotebookLM. La IA funciona como interfaz de consulta y apoyo; no sustituye la autoridad del documento fuente ni la responsabilidad de verificar las respuestas.
 
-## Lecturas exactas por unidad — particularidad aprobada de la misión
+## Identidad académica y trazabilidad incorporadas
 
-La versión v03 incorpora una guía de estudio explícita dentro de cada unidad. El objetivo es que el estudiante no reciba una bibliografía genérica, sino instrucciones precisas sobre **qué obra, qué edición, qué capítulo y qué páginas** estudiar.
+El último `main.tex` recibido ya incorpora:
+
+- ORCID `0009-0008-9149-3619` en el bloque de autor;
+- ORCID en la página legal;
+- referencia al repositorio público del proyecto como fuente documental;
+- cita `\parencite{armoa2026githubFinanzasLargoPlazo}`.
+
+El `referencias.bib` vigente contiene `armoa2026githubFinanzasLargoPlazo`, con autoría de Roger Román Armoa García, ORCID y URL del repositorio.
+
+El repositorio se cita para documentar **metodología, versionado, reglas, materiales reproducibles y trazabilidad**. No sustituye a los libros, artículos o fuentes primarias que sustentan los contenidos financieros.
+
+El enlace público al CVPy/CONACYT no se incorpora por ahora porque el servicio se encontraba fuera de línea al cierre de la sesión. Puede reconsiderarse cuando exista un enlace público estable y operativo.
+
+## Presencia de la asignatura en varias carreras
+
+La revisión realizada durante la sesión permitió utilizar una formulación prudente: **Finanzas a Largo Plazo se encuentra incorporada en los planes de estudio de varias carreras de la Facultad de Ciencias Económicas y Administrativas**. El último `main.tex` menciona:
+
+- Economía;
+- Administración de Empresas;
+- Contaduría Pública;
+- Comercio Internacional;
+- Ingeniería Comercial.
+
+Esta observación **no equivale por sí sola** a demostrar que el Grupo 80 sea administrativamente una asignatura homóloga/transversal o que reúna estudiantes de todas esas carreras. La clasificación concreta debe confirmarse mediante una fuente institucional explícita.
+
+Esta regla se conserva para todas las misiones en `docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md`.
+
+## Lecturas exactas por unidad
+
+La guía de estudio aprobada indica obra, edición, capítulo/sección y páginas precisas.
 
 ### Unidad I — Costo de capital y presupuesto de capital
 
@@ -97,8 +127,6 @@ La versión v03 incorpora una guía de estudio explícita dentro de cada unidad.
 **Brigham y Houston, 15.ª ed.**
 - Cap. 8, pp. 270–315.
 
-La lectura se complementa con ejercicios y planillas para rendimiento esperado, desviación estándar, covarianza, correlación y diversificación.
-
 ### Unidad IV — Estructura financiera óptima
 
 **Van Horne y Wachowicz, 13.ª ed.**
@@ -128,28 +156,25 @@ La lectura se complementa con ejercicios y planillas para rendimiento esperado, 
 - Vol. 3, pp. 2–41.
 - Vol. 5, pp. 1–22.
 
-## Regla de precisión bibliográfica aplicada en esta misión
-
-Las páginas solo se incorporan cuando la obra y la edición están identificadas con suficiente certeza. Las referencias deben indicar la edición utilizada y, cuando pueda existir diferencia con un visor PDF, debe entenderse o explicitarse que el rango corresponde a la **paginación impresa de la obra**.
-
-No se inventarán rangos de páginas ni se trasladarán números de una edición a otra.
+Las páginas corresponden a las ediciones verificadas; no se trasladan rangos entre ediciones ni se confunde paginación impresa con numeración del visor PDF.
 
 ## Bibliografía específica
 
-El `referencias.bib` vigente contiene, entre otros:
+El `referencias.bib` vigente contiene:
 
-- Programa oficial de Finanzas a Largo Plazo.
-- Planificación Didáctica Semestral v30.
-- Calendario académico presencial 2026.2.
-- Resolución CSU N.º 016/2026.
-- Modelo de Aprendizaje Basado en Competencias de la Universidad Americana.
-- Google NotebookLM.
-- Van Horne & Wachowicz (2010), 13.ª ed.
-- Brigham & Houston (2020), 15.ª ed.
-- Cuadernos de Economía Aplicada, Vols. 1–5, todos con ISBN.
-- Markowitz (1952), Sharpe (1964), Modigliani & Miller (1958, 1963) y Miller & Modigliani (1961).
+- programa oficial;
+- planeamiento v30;
+- calendario académico presencial 2026.2;
+- Resolución CSU N.º 016/2026;
+- Modelo de Aprendizaje Basado en Competencias;
+- Google NotebookLM;
+- Van Horne & Wachowicz (2010), 13.ª ed.;
+- Brigham & Houston (2020), 15.ª ed.;
+- Cuadernos de Economía Aplicada, Vols. 1–5, con ISBN;
+- Markowitz, Sharpe, Modigliani & Miller y Miller & Modigliani;
+- repositorio académico del proyecto con ORCID del autor.
 
-Los cinco Cuadernos del docente quedan identificados con sus ISBN:
+ISBN de los cinco Cuadernos:
 
 1. Vol. 1 — `978-99989-1-754-5`.
 2. Vol. 2 — `978-99989-1-762-0`.
@@ -175,65 +200,45 @@ Incluye balance, estado de resultados, utilidad vs. flujo, calidad de datos, val
 - 21:00 — síntesis.
 - 21:15 — finalización.
 
-## Calendario de evaluaciones incorporado
-
-Fechas previstas, sujetas a confirmación institucional:
-
-- Primer parcial: 14/09/2026.
-- Segundo parcial: 12/10/2026.
-- Tercer parcial: 23/11/2026.
-- Final: 14/12/2026.
-- Extraordinario: 21/12/2026.
-
-## Carga académica oficial registrada
+## Carga académica confirmada
 
 - 51 horas totales.
 - 36 horas teóricas.
 - 15 horas prácticas.
 - Clases presenciales: lunes, 18:15–21:15.
 
-## Control de calidad de trabajos
+## Pendientes deliberadamente conservados
 
-El control de calidad puede incluir:
+No se modificaron silenciosamente los siguientes elementos del último `main.tex`; quedan para una próxima sesión si el docente decide abordarlos:
 
-- procedencia y calidad de datos;
-- fórmulas, cálculos y resultados;
-- coherencia entre tasas y periodos;
-- interpretación financiera;
-- relación entre conclusiones y análisis;
-- fuentes y referencias bibliográficas.
+1. La página legal aún dice **“Asignatura homóloga / transversal”** y requiere confirmación institucional.
+2. La subsección de identificación de entregas todavía contiene **“Facultad Politécnica”** en lugar de Facultad de Ciencias Económicas y Administrativas.
+3. La explicación de carga académica conserva 4 h acompañadas + 4 h independientes = aproximadamente 8 h semanales; no debe tratarse como carga oficial sin respaldo institucional específico.
+4. `ICA-035` se mantiene como código histórico/de trabajo mientras no exista confirmación actual de 2026.2.
+5. El ISBN del Volumen 6 permanece pendiente de asignación y no debe inventarse.
 
-El proceso es iterativo: **presentación → revisión → observaciones → corrección → nueva versión**.
+## Privacidad
 
-## Identificación y privacidad
+No deben publicarse en GitHub nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos ni formularios completados.
 
-El modelo de identificación prioriza los datos académicos necesarios y evita publicar C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos u otra información personal en el repositorio público.
+La información diagnóstica individual permanece fuera del repositorio público; únicamente pueden documentarse conclusiones agregadas y pedagógicas.
 
-La información diagnóstica individual permanece fuera de GitHub; solo se documentarán conclusiones agregadas o pedagógicas.
+## Recursos gráficos
 
-## Recursos gráficos de compilación
+La compilación utiliza:
 
-La fuente LaTeX referencia:
-
-- `portada_presentacion_asignatura_v1.png`
-- `proceso_iterativo.png`
-
-Deben estar presentes en la carpeta de compilación para reproducir el PDF.
-
-## Entregables de la misión
-
-- `main_v03.tex` — fuente LaTeX vigente.
-- `referencias.bib` — bibliografía específica vigente.
-- PDF compilado para estudiantes y NotebookLM.
-- Recursos gráficos utilizados por la fuente.
-- Archivo `.txt` del Adversarial Pass Protocol.
-- Registro de ajustes posteriores a la primera clase.
+- `portada_presentacion_asignatura_v1.png`;
+- `proceso_iterativo.png`.
 
 ## Próximos pasos
 
-1. Compilar `main_v03.tex` junto con el `referencias.bib` vigente y los recursos gráficos.
-2. Revisar visualmente el PDF completo.
+1. Retomar únicamente si el docente decide corregir alguno de los pendientes registrados.
+2. Compilar y revisar visualmente el PDF final desde la fuente vigente que el docente confirme.
 3. Cargar el PDF definitivo en NotebookLM.
-4. Preparar/distribuir el Adversarial Pass Protocol en `.txt`.
+4. Utilizar el Adversarial Pass Protocol en la actividad prevista.
 5. Desarrollar la primera clase del 10/08/2026.
-6. Registrar después de la clase los ajustes pedagógicos que deban conservarse para futuras misiones.
+6. Registrar después de la clase únicamente conclusiones pedagógicas y ajustes útiles para futuras misiones.
+
+## Cierre de la sesión del 09/08/2026
+
+La preparación de hoy queda cerrada. El estado detallado y los hashes de los dos últimos archivos se conservan en `docs/CIERRE_SESION_20260809.md`.
