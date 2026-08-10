@@ -2,45 +2,118 @@
 
 ## Estado
 
-**En curso — sesión de preparación del 09/08/2026 cerrada; primera clase pendiente de realización**
+**En curso — control de calidad realizado el 10/08/2026; primera clase prevista para hoy 18:15–21:15**
 
-La sesión de trabajo documental del 09/08/2026 se considera concluida. La misión permanecerá abierta hasta la realización de la primera clase del **10/08/2026, 18:15–21:15** y el registro posterior de ajustes pedagógicos agregados.
+La preparación documental iniciada el 09/08/2026 continúa con una revisión de identidad académica realizada el **10/08/2026** antes de la primera clase. Esta revisión produjo una nueva iteración real de la planificación: **v31**.
 
-## Identidad de la asignatura
+## Identidad vigente de la asignatura
 
 - Asignatura: **Finanzas a Largo Plazo**.
+- Código vigente confirmado para el grupo: **ECO-132**.
+- Carrera: **Economía**.
 - Grupo: **80**.
-- Carrera rectora confirmada para esta planificación: **Economía**.
 - Facultad: **Facultad de Ciencias Económicas y Administrativas**.
 - Universidad: **Universidad Americana**.
 - Sede: **ASU**.
 - Modalidad: **presencial**.
 - Periodo: **2026.2**.
+- Frecuencia: **lunes, 18:15–21:15**.
 - Docente único del grupo: **Roger Román Armoa García**.
-- ORCID del docente: **0009-0008-9149-3619**.
+- ORCID: **0009-0008-9149-3619**.
 
-### Particularidad docente
+### Fuente de identidad operativa
 
-Para esta asignatura y este grupo, **Roger Román Armoa García es el único docente**. Los materiales de la misión no deben atribuir docencia o autoría de la asignatura a otros profesores.
+Una comunicación institucional de asignación docente confirma conjuntamente **ECO / ECO-132 / Finanzas a Largo Plazo / Grupo 80 / modalidad presencial / lunes / 18:15–21:15 / Roger Armoa**.
 
-## Fuentes vigentes al cierre de la sesión
+La captura de esa comunicación no se publica en GitHub porque contiene datos de contacto personales de terceros. El proyecto conserva únicamente la información académica necesaria derivada de ella.
 
-Por instrucción expresa del docente, cualquier continuación deberá tomar como base **únicamente los dos últimos archivos entregados el 09/08/2026**:
+## Cambio realizado el 10/08/2026 y motivo
 
-- `main(3).tex` — SHA-256 `ecad09ea6a4b61fa2a65dfe78f7acad2515fa00316975deffda4621fa74c4ed6`.
-- `referencias(2).bib` — SHA-256 `ab6da611135230e30f2f84d5ccc4539abdc4c85890c6201f9a0d0d1541bf6686`.
+Durante el control de calidad se detectó que materiales históricos habían utilizado el código **ICA-035**, mientras que la asignación institucional vigente del Grupo 80 identifica la materia como **ECO-132**.
 
-El `referencias.bib` específico de la misión fue sincronizado en GitHub con el último archivo recibido. El último LaTeX consolidado previamente en el repositorio continúa siendo `entregables/clase_presentacion/main_v03.tex`; la próxima incorporación efectiva del nuevo LaTeX deberá respetar el versionado del proyecto y no mezclar contenidos anteriores.
+Por ello se generó la **Planificación Didáctica Semestral v31 — 10/08/2026**, derivada exclusivamente del último archivo v30 suministrado por el docente.
 
-La regla `VERSION-002` continúa vigente: cuando el docente fija explícitamente los archivos base, no se recupera silenciosamente contenido de otras versiones.
+Cambios de v31:
 
-## Propósito
+1. incorporación de **Código de la asignatura: ECO-132**;
+2. incorporación explícita de **Modalidad: PRESENCIAL**;
+3. normalización del nombre del docente a **Roger Román Armoa García**;
+4. actualización del pie de página a **Versión de trabajo v31 - 10/08/2026**.
 
-Preparar y desarrollar la primera clase de Finanzas a Largo Plazo de modo que los estudiantes comprendan qué estudia la asignatura, cómo se trabajará durante el semestre, qué se espera de ellos, qué bibliografía corresponde a cada unidad y cuál es su punto de partida respecto de los conocimientos necesarios para abordar la Unidad I.
+La v31 conserva deliberadamente objetivos, resultados de aprendizaje, cinco unidades, contenidos, sesiones, cronograma y distribución horaria de v30 mientras se resuelve una discrepancia documental sobre el programa rector.
 
-La clase debe ser coherente con la **Planificación Didáctica Semestral v30 aprobada**, el programa oficial y las reglas institucionales registradas en el proyecto.
+El detalle del control se conserva en `docs/CONTROL_CALIDAD_20260810_IDENTIDAD_PROGRAMA.md`.
 
-## Mensaje central
+## Consecuencia sobre ICA-035 y la supuesta transversalidad
+
+`ICA-035` ya no debe presentarse como código vigente del Grupo 80. Se conserva únicamente como dato histórico de materiales o instancias anteriores hasta que una fuente institucional demuestre otra cosa.
+
+Tampoco se afirmará que el Grupo 80 sea una asignatura **homóloga** o **transversal**. La presencia de una materia denominada Finanzas a Largo Plazo en varias carreras no demuestra que compartan código, programa o grupo.
+
+Esta distinción queda convertida en regla general del proyecto en `docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md`.
+
+## Discrepancia entre programas de estudio detectada hoy
+
+Se compararon dos documentos titulados como programas de estudio de Finanzas a Largo Plazo.
+
+### Programa utilizado para construir v30
+
+- 51 horas totales;
+- 36 horas teóricas;
+- 15 horas prácticas;
+- 5 unidades:
+  1. Costo de capital y presupuesto de capital;
+  2. Presupuesto de capital en condiciones de riesgo;
+  3. Formación de un portfolio;
+  4. Estructura financiera óptima;
+  5. Valorización de una empresa y política de dividendos.
+
+### Programa recibido el 10/08/2026
+
+- 51 horas totales;
+- 36 horas prácticas;
+- 15 horas teóricas;
+- 4 unidades;
+- incluye Introducción a las Finanzas Empresariales, Estructura de Capital/Fuentes/Costo de Capital, Análisis de Inversiones y Estructuras Financieras Óptimas;
+- la casilla de **Código** está vacía en el PDF recibido.
+
+### Decisión metodológica
+
+La asignación institucional permite confirmar la identidad operativa **ECO-132 / Economía / Grupo 80**, pero aún no vincula inequívocamente uno de los dos programas con ese código.
+
+Por tanto, la misión aplica una **corrección conservadora**:
+
+- se corrige el código y la identidad del grupo;
+- no se cambia todavía de cinco a cuatro unidades;
+- no se invierte todavía 36T/15P a 15T/36P;
+- cualquier cambio curricular posterior requerirá una fuente que identifique el programa rector de **ECO-132 / Economía / 2026.2**.
+
+## Fuentes de trabajo vigentes
+
+### Presentación de la asignatura
+
+La última fuente LaTeX suministrada por el docente es la única base válida para la siguiente iteración de la presentación. Las versiones anteriores no deben mezclarse silenciosamente.
+
+El material actual incorpora:
+
+- código **ECO-132**;
+- eliminación de afirmaciones no demostradas de homología/transversalidad;
+- ORCID del docente;
+- referencia documental al repositorio GitHub del proyecto;
+- guía de lecturas exactas por unidad;
+- diagnóstico inicial;
+- calendario de clases y evaluaciones;
+- metodología NotebookLM + revisión crítica mediante Adversarial Pass Protocol.
+
+### Planificación
+
+- v30: versión aprobada el 09/08/2026 y base exclusiva de la corrección.
+- v31: nueva iteración generada el 10/08/2026 por corrección de identidad académica.
+- Archivo generado: `20260810a_Planificación_Didáctica_Semestral_2026_2_v31.docx`.
+- El archivo fue renderizado en siete páginas y revisado visualmente sin defectos de maquetación.
+- El binario `.docx` queda pendiente de carga manual al repositorio si el conector GitHub no admite archivos binarios.
+
+## Mensaje central para los estudiantes
 
 **datos confiables → formulación correcta → cálculo con herramientas adecuadas → interpretación → decisión fundamentada**
 
@@ -48,145 +121,29 @@ Secuencia didáctica preferente:
 
 **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
 
-## Metodología operativa
-
-Flujo previsto:
+## Metodología operativa de la primera clase
 
 **LaTeX → PDF → Google NotebookLM → preguntas de los estudiantes → contraste crítico mediante Adversarial Pass Protocol**.
 
-El PDF compilado constituye la fuente académica de la actividad con NotebookLM. La IA funciona como interfaz de consulta y apoyo; no sustituye la autoridad del documento fuente ni la responsabilidad de verificar las respuestas.
-
-## Identidad académica y trazabilidad incorporadas
-
-El último `main.tex` recibido ya incorpora:
-
-- ORCID `0009-0008-9149-3619` en el bloque de autor;
-- ORCID en la página legal;
-- referencia al repositorio público del proyecto como fuente documental;
-- cita `\parencite{armoa2026githubFinanzasLargoPlazo}`.
-
-El `referencias.bib` vigente contiene `armoa2026githubFinanzasLargoPlazo`, con autoría de Roger Román Armoa García, ORCID y URL del repositorio.
-
-El repositorio se cita para documentar **metodología, versionado, reglas, materiales reproducibles y trazabilidad**. No sustituye a los libros, artículos o fuentes primarias que sustentan los contenidos financieros.
-
-El enlace público al CVPy/CONACYT no se incorpora por ahora porque el servicio se encontraba fuera de línea al cierre de la sesión. Puede reconsiderarse cuando exista un enlace público estable y operativo.
-
-## Presencia de la asignatura en varias carreras
-
-La revisión realizada durante la sesión permitió utilizar una formulación prudente: **Finanzas a Largo Plazo se encuentra incorporada en los planes de estudio de varias carreras de la Facultad de Ciencias Económicas y Administrativas**. El último `main.tex` menciona:
-
-- Economía;
-- Administración de Empresas;
-- Contaduría Pública;
-- Comercio Internacional;
-- Ingeniería Comercial.
-
-Esta observación **no equivale por sí sola** a demostrar que el Grupo 80 sea administrativamente una asignatura homóloga/transversal o que reúna estudiantes de todas esas carreras. La clasificación concreta debe confirmarse mediante una fuente institucional explícita.
-
-Esta regla se conserva para todas las misiones en `docs/REGLAS_AFIRMACIONES_INSTITUCIONALES.md`.
+El PDF funciona como fuente académica de la actividad; la IA actúa como interfaz de consulta y apoyo, no como sustituto de la fuente ni de la verificación del estudiante.
 
 ## Lecturas exactas por unidad
 
-La guía de estudio aprobada indica obra, edición, capítulo/sección y páginas precisas.
+La presentación contiene una guía operativa para que el estudiante sepa qué estudiar con precisión: **obra + edición + capítulo/sección + páginas + finalidad de lectura**.
 
-### Unidad I — Costo de capital y presupuesto de capital
+Se mantienen como textos principales:
 
-**Van Horne y Wachowicz, 13.ª ed.**
-- Cap. 5, pp. 97–116.
-- Cap. 12, pp. 307–322.
-- Cap. 13, pp. 323–340; apéndices pp. 341–352.
-- Cap. 15, pp. 381–406; apéndices pp. 407–418.
-
-**Brigham y Houston, 15.ª ed.**
-- Cap. 8, pp. 270–315.
-- Cap. 10, pp. 356–384.
-- Cap. 11, pp. 385–416.
-- Cap. 12, pp. 417–452.
-
-**Cuadernos de Economía Aplicada**
-- Vol. 1, pp. 1–14.
-- Vol. 2, pp. 2–19 y 21–29.
-
-### Unidad II — Presupuesto de capital en condiciones de riesgo
-
-**Van Horne y Wachowicz, 13.ª ed.**
-- Cap. 5, pp. 97–116.
-- Cap. 14, pp. 353–380.
-
-**Brigham y Houston, 15.ª ed.**
-- Cap. 8, pp. 270–315.
-- Cap. 12, pp. 417–452.
-- Cap. 13, pp. 453–473, como ampliación.
-
-### Unidad III — Formación de un portfolio
-
-**Van Horne y Wachowicz, 13.ª ed.**
-- Cap. 5, pp. 97–116.
-- Apéndice A del cap. 5, pp. 117–118.
-
-**Brigham y Houston, 15.ª ed.**
-- Cap. 8, pp. 270–315.
-
-### Unidad IV — Estructura financiera óptima
-
-**Van Horne y Wachowicz, 13.ª ed.**
-- Cap. 15, pp. 381–406.
-- Cap. 16, pp. 419–450.
-- Cap. 17, pp. 451–474.
-
-**Brigham y Houston, 15.ª ed.**
-- Cap. 10, pp. 356–384.
-- Cap. 14, pp. 474–516.
-
-**Cuadernos de Economía Aplicada**
-- Vol. 4, pp. 1–18.
-
-### Unidad V — Valorización de una empresa y política de dividendos
-
-**Van Horne y Wachowicz, 13.ª ed.**
-- Cap. 4, pp. 73–96.
-- Cap. 17, pp. 451–474.
-- Cap. 18, pp. 475–504.
-
-**Brigham y Houston, 15.ª ed.**
-- Cap. 9, pp. 316–355.
-- Cap. 15, pp. 517–550.
-
-**Cuadernos de Economía Aplicada**
-- Vol. 3, pp. 2–41.
-- Vol. 5, pp. 1–22.
-
-Las páginas corresponden a las ediciones verificadas; no se trasladan rangos entre ediciones ni se confunde paginación impresa con numeración del visor PDF.
-
-## Bibliografía específica
-
-El `referencias.bib` vigente contiene:
-
-- programa oficial;
-- planeamiento v30;
-- calendario académico presencial 2026.2;
-- Resolución CSU N.º 016/2026;
-- Modelo de Aprendizaje Basado en Competencias;
-- Google NotebookLM;
 - Van Horne & Wachowicz (2010), 13.ª ed.;
 - Brigham & Houston (2020), 15.ª ed.;
-- Cuadernos de Economía Aplicada, Vols. 1–5, con ISBN;
-- Markowitz, Sharpe, Modigliani & Miller y Miller & Modigliani;
-- repositorio académico del proyecto con ORCID del autor.
+- Cuadernos de Economía Aplicada, vols. 1–5, con ISBN.
 
-ISBN de los cinco Cuadernos:
-
-1. Vol. 1 — `978-99989-1-754-5`.
-2. Vol. 2 — `978-99989-1-762-0`.
-3. Vol. 3 — `978-99989-1-820-7`.
-4. Vol. 4 — `978-99989-1-834-4`.
-5. Vol. 5 — `978-99989-1-850-4`.
+Los rangos de páginas solo son válidos para las ediciones verificadas y corresponden a la paginación impresa cuando el visor PDF muestre una numeración diferente.
 
 ## Diagnóstico inicial
 
 La indagación inicial es **no calificativa** y contiene 18 ítems con tres niveles de autopercepción: `Lo entiendo bien / Más o menos / Nada de nada`.
 
-Incluye balance, estado de resultados, utilidad vs. flujo, calidad de datos, valor del dinero, tasas, flujo de proyectos, costo de capital, CAPM, WACC, VAN, TIR, IR, Payback, sensibilidad, riesgo/rendimiento, portfolios, apalancamiento, FCF/NOF/valor residual y uso de planillas.
+Incluye estados financieros, calidad de datos, valor del dinero, tasas, flujos, costo de capital, CAPM, WACC, VAN, TIR, IR, Payback, sensibilidad, riesgo/rendimiento, portfolios, apalancamiento, FCF/NOF/valor residual y uso de planillas.
 
 ## Puntos de control de la primera clase
 
@@ -200,45 +157,27 @@ Incluye balance, estado de resultados, utilidad vs. flujo, calidad de datos, val
 - 21:00 — síntesis.
 - 21:15 — finalización.
 
-## Carga académica confirmada
+## Carga académica usada provisionalmente en v31
 
-- 51 horas totales.
-- 36 horas teóricas.
+Hasta identificar de manera inequívoca el programa rector de ECO-132, v31 conserva la distribución de su base v30:
+
+- 51 horas totales;
+- 36 horas teóricas;
 - 15 horas prácticas.
-- Clases presenciales: lunes, 18:15–21:15.
 
-## Pendientes deliberadamente conservados
-
-No se modificaron silenciosamente los siguientes elementos del último `main.tex`; quedan para una próxima sesión si el docente decide abordarlos:
-
-1. La página legal aún dice **“Asignatura homóloga / transversal”** y requiere confirmación institucional.
-2. La subsección de identificación de entregas todavía contiene **“Facultad Politécnica”** en lugar de Facultad de Ciencias Económicas y Administrativas.
-3. La explicación de carga académica conserva 4 h acompañadas + 4 h independientes = aproximadamente 8 h semanales; no debe tratarse como carga oficial sin respaldo institucional específico.
-4. `ICA-035` se mantiene como código histórico/de trabajo mientras no exista confirmación actual de 2026.2.
-5. El ISBN del Volumen 6 permanece pendiente de asignación y no debe inventarse.
+Esta distribución queda marcada como **pendiente de reconfirmación documental**, no como una conclusión definitiva frente al segundo programa recibido hoy.
 
 ## Privacidad
 
 No deben publicarse en GitHub nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos ni formularios completados.
 
-La información diagnóstica individual permanece fuera del repositorio público; únicamente pueden documentarse conclusiones agregadas y pedagógicas.
-
-## Recursos gráficos
-
-La compilación utiliza:
-
-- `portada_presentacion_asignatura_v1.png`;
-- `proceso_iterativo.png`.
+Las comunicaciones institucionales utilizadas para verificar identidad académica se documentarán mediante los datos necesarios, evitando publicar información personal de terceros.
 
 ## Próximos pasos
 
-1. Retomar únicamente si el docente decide corregir alguno de los pendientes registrados.
-2. Compilar y revisar visualmente el PDF final desde la fuente vigente que el docente confirme.
-3. Cargar el PDF definitivo en NotebookLM.
-4. Utilizar el Adversarial Pass Protocol en la actividad prevista.
+1. El docente revisa la v31 generada y confirma si queda aprobada como nueva versión vigente.
+2. Determinar mediante fuente institucional cuál de los dos programas de estudio corresponde específicamente a **ECO-132 / Economía / 2026.2**.
+3. Si el programa rector cambia, generar la siguiente iteración del planeamiento sin mezclar silenciosamente contenidos.
+4. Compilar/revisar el PDF final de presentación.
 5. Desarrollar la primera clase del 10/08/2026.
-6. Registrar después de la clase únicamente conclusiones pedagógicas y ajustes útiles para futuras misiones.
-
-## Cierre de la sesión del 09/08/2026
-
-La preparación de hoy queda cerrada. El estado detallado y los hashes de los dos últimos archivos se conservan en `docs/CIERRE_SESION_20260809.md`.
+6. Registrar después de la clase únicamente conclusiones pedagógicas agregadas y ajustes útiles para futuras misiones.
