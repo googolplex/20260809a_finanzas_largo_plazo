@@ -2,9 +2,11 @@
 
 ## Estado
 
-**En pausa hasta la primera clase del 10/08/2026, 18:15–21:15. Preparación documental preclase cerrada.**
+**En pausa al cierre de la sesión documental del 11/08/2026.**
 
-El programa rector **ECO-132**, la Planificación Didáctica Semestral **v32** y la presentación **v04** fueron aprobados el 10/08/2026. La fuente LaTeX vigente fue compilada con la bibliografía y recursos gráficos presentes en GitHub; el PDF resultante fue revisado y aprobado antes de la clase.
+La preparación documental de la misión se encuentra cerrada por hoy. La misión permanece abierta únicamente para registrar, cuando corresponda, conclusiones pedagógicas agregadas de la experiencia de aula y ajustes posteriores que constituyan una modificación real.
+
+El programa rector **ECO-132**, la Planificación Didáctica Semestral **v32** y la presentación **v04** se encuentran aprobados. La fuente LaTeX vigente fue compilada con la bibliografía y recursos gráficos presentes en GitHub; el PDF resultante fue revisado y aprobado.
 
 ## Identidad vigente
 
@@ -38,7 +40,7 @@ El programa anterior de cinco unidades y el código `ICA-035` quedan únicamente
 
 ## Planeamiento vigente
 
-**Planificación Didáctica Semestral v32 — aprobada el 10/08/2026.**
+**Planificación Didáctica Semestral v32 — aprobada.**
 
 Archivo institucional privado:
 
@@ -67,7 +69,7 @@ Recursos gráficos presentes en la misma carpeta:
 
 La siguiente modificación efectiva de la presentación será **v05**.
 
-## Verificación y compilación — 10/08/2026
+## Verificación y compilación
 
 Se verificó directamente la rama `main` antes de compilar:
 
@@ -75,7 +77,7 @@ Se verificó directamente la rama `main` antes de compilar:
 - `referencias.bib` vigente y alineado con ECO-132 y v32;
 - ambos recursos gráficos presentes.
 
-La compilación se realizó con la secuencia LaTeX/Biber correspondiente y terminó correctamente. El documento resultante contiene **21 páginas A4**.
+La compilación terminó correctamente. El documento resultante contiene **21 páginas A4**.
 
 El control posterior confirmó:
 
@@ -93,7 +95,7 @@ Solo se observó una advertencia tipográfica mínima en una tabla, sin defecto 
 
 ## PDF aprobado
 
-El PDF compilado fue revisado visualmente y **aprobado por el docente el 10/08/2026**.
+El PDF compilado fue revisado visualmente y aprobado por el docente.
 
 Nombre de trabajo:
 
@@ -111,16 +113,49 @@ La IA funciona como interfaz de consulta y apoyo. El documento fuente y las refe
 
 La indagación inicial es no calificativa y está alineada con ECO-132. Incluye administración financiera, estados financieros, costo de capital, CAPM/WACC, análisis de inversiones, EBITDA/EVA, ROE, apalancamiento, UAII/GPA y política de dividendos.
 
+## Protocolo `informefeliz` — aprobado el 11/08/2026
+
+Se incorpora al proyecto el documento:
+
+`docs/PROTOCOLO_INFORMEFELIZ.md`
+
+El protocolo queda **inactivo por defecto** y solo se activa cuando el docente escribe explícitamente:
+
+`protocolo informefeliz`
+
+Su activación es de una sola ejecución y se desactiva automáticamente después de entregar el informe correspondiente.
+
+Particularidades obligatorias:
+
+- antes de generar cualquier informe se debe **reconfirmar siempre el nombre completo del alumno**;
+- no se genera el informe hasta recibir confirmación explícita del nombre;
+- dentro del documento, el nombre se conserva exactamente como fue confirmado;
+- en el nombre del archivo, cada componente del nombre completo se separa mediante guiones bajos `_`;
+- ejemplo: `Juan Carlos Pérez López` → `juan_carlos_perez_lopez`;
+- estructura de salida: `YYYYMMDDa_nombre_completo_del_alumno_titulo_vXX.pdf`;
+- `vXX` es incremental dentro de la misión y siempre constituye el último componente antes de `.pdf`;
+- las salidas individuales de estudiantes no se publican en el repositorio GitHub público;
+- el protocolo aplica los requisitos vigentes de misión, programa, planeamiento, fuentes, privacidad, estilo y control de calidad antes de entregar el informe.
+
+El protocolo puede cancelarse mediante `cancelar protocolo informefeliz` o una instrucción equivalente.
+
 ## Privacidad
 
 Este repositorio es público. No se publicarán nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos, formularios completados ni documentos institucionales privados que no sea necesario exponer.
 
-## Cierre preclase — 10/08/2026
+Los informes individuales generados mediante `informefeliz` permanecen fuera del repositorio público.
 
-La preparación documental queda **cerrada y en pausa** hasta la clase de esta noche.
+## Cierre de la sesión documental — 11/08/2026
 
-Próximo paso después de la clase:
+La sesión de trabajo de hoy queda cerrada.
 
-1. registrar únicamente conclusiones pedagógicas agregadas;
-2. documentar ajustes útiles detectados durante la experiencia;
-3. abrir una nueva iteración solo si existe una modificación real del material.
+Estado al cierre:
+
+- programa rector ECO-132 confirmado;
+- planeamiento v32 aprobado y privado;
+- presentación v04 aprobada y reproducible desde GitHub;
+- bibliografía y recursos gráficos verificados;
+- PDF de presentación compilado y aprobado;
+- Protocolo `informefeliz` aprobado, documentado e inactivo por defecto.
+
+La próxima sesión retomará únicamente desde este estado documentado, sin mezclar silenciosamente versiones anteriores.
