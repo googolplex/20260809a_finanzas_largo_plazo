@@ -48,25 +48,34 @@ Si más de una misión pudiera corresponder al informe y la misión correcta no 
 
 La especificación del proyecto establece como estructura base para las evidencias PDF:
 
-`YYYYMMDDa_nombrealumno_titulo.pdf`
+`YYYYMMDDa_nombre_completo_del_alumno_titulo.pdf`
 
 El Protocolo `informefeliz` amplía esa convención añadiendo obligatoriamente la versión al final del nombre, inmediatamente antes de la extensión:
 
-`YYYYMMDDa_nombrealumno_titulo_vXX.pdf`
+`YYYYMMDDa_nombre_completo_del_alumno_titulo_vXX.pdf`
 
 Donde:
 
 - `YYYYMMDDa` es el identificador cronológico de la misión o actividad correspondiente, respetando la letra asignada a esa misión;
-- `nombrealumno` deriva del **nombre completo previamente confirmado**, normalizado para nombre de archivo, preferentemente en minúsculas, sin espacios, tildes ni caracteres especiales;
+- `nombre_completo_del_alumno` deriva del **nombre completo previamente confirmado**;
+- **cada palabra o componente del nombre completo se separa obligatoriamente mediante un guion bajo `_`**;
+- para el nombre de archivo se utilizan preferentemente minúsculas y se eliminan tildes y caracteres especiales, pero **no se eliminan ni se sustituyen los guiones bajos que separan los componentes del nombre**;
+- no se concatenan nombres ni apellidos entre sí;
+- los artículos, preposiciones o partículas que formen parte del nombre confirmado también se conservan como componentes separados por guiones bajos;
 - `titulo` es la denominación breve aprobada por la misión o por las especificaciones de la actividad; si no existe una denominación expresa, se utiliza una descripción breve, inequívoca y coherente con la misión;
 - `vXX` es la versión incremental de la salida dentro de esa misión, con dos dígitos: `v01`, `v02`, `v03`, etc.;
 - `.pdf` es la extensión de la evidencia principal.
 
 La versión debe ser siempre el **último componente del nombre antes de `.pdf`**.
 
-Ejemplo:
+Ejemplos de normalización del alumno:
 
-`20260811a_juancarlosperezlopez_costodecapital_v01.pdf`
+- `Juan Carlos Pérez López` → `juan_carlos_perez_lopez`
+- `María de la Cruz Gómez` → `maria_de_la_cruz_gomez`
+
+Ejemplo completo:
+
+`20260811a_juan_carlos_perez_lopez_costodecapital_v01.pdf`
 
 ## 4. Regla de versionado `vXX`
 
@@ -179,8 +188,8 @@ Si se genera además una fuente editable (`.docx`, `.tex` u otra), deberá utili
 
 Ejemplo:
 
-- `20260811a_juancarlosperezlopez_costodecapital_v03.pdf`
-- `20260811a_juancarlosperezlopez_costodecapital_v03.docx`
+- `20260811a_juan_carlos_perez_lopez_costodecapital_v03.pdf`
+- `20260811a_juan_carlos_perez_lopez_costodecapital_v03.docx`
 
 ## 12. Control final obligatorio antes de entregar
 
@@ -189,14 +198,15 @@ Antes de presentar el archivo al docente, el protocolo verificará como mínimo:
 1. nombre completo reconfirmado y escrito correctamente dentro del documento;
 2. misión correcta;
 3. título correcto de la actividad;
-4. nombre del archivo conforme a `YYYYMMDDa_nombrealumno_titulo_vXX.pdf`;
-5. versión `vXX` incremental correcta y ubicada al final;
-6. identificación institucional vigente;
-7. cumplimiento de todos los requisitos particulares;
-8. fuentes y citas revisadas;
-9. cálculos y conclusiones controlados cuando corresponda;
-10. ausencia de datos personales innecesarios o firmas reales expuestas;
-11. revisión visual del PDF para detectar cortes, desbordamientos, páginas vacías, textos superpuestos o problemas de legibilidad.
+4. nombre del archivo conforme a `YYYYMMDDa_nombre_completo_del_alumno_titulo_vXX.pdf`;
+5. **cada componente del nombre completo del alumno separado por `_`, sin concatenación de nombres o apellidos**;
+6. versión `vXX` incremental correcta y ubicada al final;
+7. identificación institucional vigente;
+8. cumplimiento de todos los requisitos particulares;
+9. fuentes y citas revisadas;
+10. cálculos y conclusiones controlados cuando corresponda;
+11. ausencia de datos personales innecesarios o firmas reales expuestas;
+12. revisión visual del PDF para detectar cortes, desbordamientos, páginas vacías, textos superpuestos o problemas de legibilidad.
 
 Si alguno de estos controles falla, el informe no se considera terminado.
 
@@ -215,5 +225,7 @@ Para volver a utilizarlo, el docente debe escribir nuevamente:
 Este protocolo complementa las especificaciones existentes del proyecto para la generación de informes individuales.
 
 En particular, la adición obligatoria de `_vXX` al final del nombre de archivo constituye una especificación posterior y específica para las salidas generadas mediante `informefeliz`.
+
+Asimismo, para `informefeliz`, la representación del nombre completo del alumno en el nombre del archivo debe conservar todos sus componentes separados individualmente por guiones bajos `_`.
 
 Ante cualquier contradicción con una misión vigente, no se improvisará una conciliación: se identificará la discrepancia y se solicitará confirmación al docente antes de generar el informe.
