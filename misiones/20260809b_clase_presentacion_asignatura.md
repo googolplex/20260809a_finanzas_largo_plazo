@@ -139,6 +139,26 @@ Particularidades obligatorias:
 
 El protocolo puede cancelarse mediante `cancelar protocolo informefeliz` o una instrucción equivalente.
 
+## Particularidad de asistencia — registrada el 11/08/2026
+
+Para **Finanzas a Largo Plazo — ECO-132 — modalidad presencial**, se registra como requisito operativo de la misión una **asistencia mínima del 60% de las horas efectivamente desarrolladas**.
+
+La verificación realizada sobre el Reglamento Académico de modalidad presencial de la Universidad Americana establece:
+
+- **Art. 35:** para tener derecho a rendir exámenes parciales, el alumno debe contar con una asistencia mínima del **60%**, computada hasta la clase previa al examen;
+- **Art. 40:** cuando la asignatura incluye actividades prácticas, se exige una asistencia efectiva igual o superior al **60%**, sin reducción de ese porcentaje;
+- **Art. 41:** el porcentaje se calcula sobre el total de horas **efectivamente desarrolladas por el docente** en los horarios preestablecidos.
+
+Esta particularidad es especialmente relevante en ECO-132 porque el programa vigente contempla **36 horas prácticas de 51 horas totales**.
+
+### Regla para materiales de la misión
+
+La próxima modificación efectiva de la presentación, **v05**, deberá incorporar explícitamente una formulación equivalente a:
+
+> **Asistencia mínima requerida: 60% de las horas efectivamente desarrolladas en la asignatura.**
+
+Hasta entonces, la presentación v04 permanece aprobada como versión histórica vigente previa a esta incorporación; esta anotación constituye el requisito para la siguiente iteración y no altera retroactivamente el archivo aprobado.
+
 ## Privacidad
 
 Este repositorio es público. No se publicarán nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos, formularios completados ni documentos institucionales privados que no sea necesario exponer.
@@ -156,6 +176,7 @@ Estado al cierre:
 - presentación v04 aprobada y reproducible desde GitHub;
 - bibliografía y recursos gráficos verificados;
 - PDF de presentación compilado y aprobado;
-- Protocolo `informefeliz` aprobado, documentado e inactivo por defecto.
+- Protocolo `informefeliz` aprobado, documentado e inactivo por defecto;
+- requisito de asistencia mínima del **60% de las horas efectivamente desarrolladas** registrado como particularidad de la misión y pendiente de incorporación en la presentación v05.
 
 La próxima sesión retomará únicamente desde este estado documentado, sin mezclar silenciosamente versiones anteriores.
