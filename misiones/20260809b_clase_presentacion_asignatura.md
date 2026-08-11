@@ -2,11 +2,11 @@
 
 ## Estado
 
-**En pausa al cierre de la sesión documental del 11/08/2026.**
+**En pausa al cierre de la sesión documental del 11/08/2026, con una nueva iteración v05 en consolidación.**
 
-La preparación documental de la misión se encuentra cerrada por hoy. La misión permanece abierta únicamente para registrar, cuando corresponda, conclusiones pedagógicas agregadas de la experiencia de aula y ajustes posteriores que constituyan una modificación real.
+El programa rector **ECO-132** y la Planificación Didáctica Semestral **v32** permanecen aprobados. La presentación **v04** continúa siendo la última versión compilada, revisada visualmente y aprobada.
 
-El programa rector **ECO-132**, la Planificación Didáctica Semestral **v32** y la presentación **v04** se encuentran aprobados. La fuente LaTeX vigente fue compilada con la bibliografía y recursos gráficos presentes en GitHub; el PDF resultante fue revisado y aprobado.
+El 11/08/2026 el docente aprobó la incorporación explícita del requisito normativo de asistencia y entregó un nuevo par de archivos fuente que constituye, desde este momento, la **única base autorizada para consolidar la presentación v05**. Esta nueva iteración aún debe compilarse y revisarse antes de declararse versión final aprobada.
 
 ## Identidad vigente
 
@@ -48,13 +48,15 @@ Archivo institucional privado:
 
 Por decisión del docente, el `.docx` no se publica en este repositorio público. La próxima modificación efectiva del planeamiento será **v33**.
 
-## Presentación vigente — v04 aprobada
+## Presentación estable — v04 aprobada
+
+La última versión estable compilada y aprobada continúa siendo **v04**.
 
 Fuente reproducible presente en GitHub:
 
 `entregables/clase_presentacion/20260810a_main_ECO132_v04_final.tex`
 
-Bibliografía canónica utilizada por el LaTeX:
+Bibliografía canónica utilizada por esa versión:
 
 `entregables/clase_presentacion/referencias.bib`
 
@@ -62,46 +64,115 @@ Copia bibliográfica versionada:
 
 `entregables/clase_presentacion/20260810a_referencias_ECO132_v04.bib`
 
-Recursos gráficos presentes en la misma carpeta:
+Recursos gráficos:
 
 - `portada_presentacion_asignatura_v1.png`;
 - `proceso_iterativo.png`.
 
-La siguiente modificación efectiva de la presentación será **v05**.
+El PDF v04 fue compilado correctamente, revisado visualmente y aprobado. Contiene 21 páginas A4.
 
-## Verificación y compilación
+## Base exclusiva para la iteración v05 — recibida el 11/08/2026
 
-Se verificó directamente la rama `main` antes de compilar:
+A partir de la última entrega del docente, las siguientes fuentes constituyen el **único par base autorizado para continuar la presentación**:
 
-- `20260810a_main_ECO132_v04_final.tex` vigente;
-- `referencias.bib` vigente y alineado con ECO-132 y v32;
-- ambos recursos gráficos presentes.
+- archivo recibido: `main(6).tex`;
+- SHA-256: `b9124d5a69a5e5c9a9a3c568d78eb3a126c81807f3350758bc207bf84bb06f70`;
+- archivo recibido: `referencias(3).bib`;
+- SHA-256: `ab9ed153c7b6d9bd09f66f5a6e0781b2a15518acde7d270163546830df8539ed`.
 
-La compilación terminó correctamente. El documento resultante contiene **21 páginas A4**.
+### Regla de trazabilidad
 
-El control posterior confirmó:
+Los sufijos `(6)` y `(3)` pertenecen únicamente a los nombres con que los archivos fueron cargados en la conversación. **No representan versiones académicas del documento.**
 
-- ECO-132 como código vigente;
-- 15 horas teóricas + 36 prácticas = 51 horas;
-- cuatro unidades oficiales;
-- ausencia de `ICA-035` como código vigente;
-- ausencia de Unidad V;
-- ausencia de afirmaciones de asignatura homóloga/transversal;
-- ausencia de `Facultad Politécnica`;
-- ausencia de la regla heredada 4+4=8 horas semanales;
-- citas y bibliografía resueltas.
+La modificación que contienen corresponde a la siguiente iteración efectiva de la presentación, es decir, **v05**, de acuerdo con la regla de incremento exacto `+1` del proyecto.
 
-Solo se observó una advertencia tipográfica mínima en una tabla, sin defecto visual apreciable.
+Por aplicación de `VERSION-002`, toda consolidación, corrección o compilación de v05 debe derivar **exclusivamente** de estos dos archivos. No deben mezclarse silenciosamente contenidos de `main(5).tex`, `main_v04`, `main_ECO132_v04_final.tex`, bibliografías anteriores ni otras copias históricas.
 
-## PDF aprobado
+Los archivos recibidos aún no se consideran sustitutos de la v04 estable en GitHub hasta completar compilación, revisión visual y aprobación final de v05.
 
-El PDF compilado fue revisado visualmente y aprobado por el docente.
+## Particularidad normativa de asistencia — incorporada en la base v05
 
-Nombre de trabajo:
+El nuevo `main(6).tex` incorpora de forma expresa una sección de primer nivel titulada:
 
-`20260810a_Finanzas_Largo_Plazo_ECO132_presentacion_v04.pdf`
+`\section{Registro y requisito de asistencia}`
 
-El PDF no se publica automáticamente en el repositorio; la fuente reproducible (`.tex` + `.bib` + imágenes) sí queda preservada en GitHub.
+La sección establece y fundamenta los siguientes criterios:
+
+- la asistencia es un requisito académico formal para la modalidad presencial;
+- la norma principal es el **Reglamento Académico de la Universidad Americana**, aprobado por el Consejo Superior Universitario mediante **Resolución N.º 26/2015, de fecha 17 de diciembre de 2015**;
+- **art. 35:** para tener derecho a rendir exámenes parciales, el alumno debe contar con una asistencia mínima del **60%**, computada hasta la clase previa al examen correspondiente;
+- **art. 36:** el alumno puede solicitar información sobre su porcentaje acumulado de asistencia y su situación académica;
+- **art. 40:** para una asignatura que implique actividades prácticas se exige una asistencia efectiva igual o superior al **60%**, sin posibilidad de reducción del porcentaje;
+- **art. 41:** el porcentaje se calcula sobre el total de horas **efectivamente desarrolladas por el docente en los horarios preestablecidos** y el cómputo comienza desde el vencimiento del periodo de cambios y retiros determinado por el Calendario Académico;
+- para ECO-132 se explicita la pertinencia particular de la regla porque el programa rector contempla **36 horas prácticas de 51 horas totales**;
+- se incorpora como criterio operativo la relación entre horas efectivamente asistidas por el estudiante y horas efectivamente desarrolladas por el docente;
+- se establece el registro sistemático de la asistencia en cada encuentro presencial;
+- se incorpora un cuadro destacado con el mensaje **«Asistencia mínima requerida: 60%»**.
+
+La base v05 incluye además una identificación explícita de la fuente normativa oficial y enlaces de trazabilidad institucional.
+
+## Bibliografía normativa de asistencia — base `referencias(3).bib`
+
+El archivo `referencias(3).bib` incorpora tres referencias diferenciadas para evitar ambigüedades entre el reglamento original, su modificación posterior y el portal institucional de acceso.
+
+### 1. Norma principal
+
+Clave BibTeX:
+
+`ua2015reglamentoAcademicoPresencial`
+
+Identificación registrada:
+
+- autor institucional: **Universidad Americana. Consejo Superior Universitario**;
+- título: **Reglamento Académico**;
+- tipo: Resolución;
+- número: **26/2015**;
+- fecha: **17/12/2015**;
+- institución: Universidad Americana;
+- ubicación: Asunción, Paraguay;
+- URL directa: `https://www.americana.edu.py/wp-content/uploads/2019/09/resolucion-26-15-reglamento-academico.pdf`;
+- fecha de consulta: 11/08/2026;
+- artículos relevantes documentados: **35, 36, 40 y 41**.
+
+Esta es la **fuente normativa primaria para el requisito y cálculo de asistencia**.
+
+### 2. Modificación posterior
+
+Clave BibTeX:
+
+`ua2019modificacionReglamentoAcademico`
+
+Identificación registrada:
+
+- autor institucional: **Universidad Americana. Consejo Superior Universitario**;
+- Resolución N.º **446/2019**;
+- fecha: **30/12/2019**;
+- objeto: modificación de los artículos **3.º y 4.º** del Reglamento Académico aprobado por Resolución N.º 26/2015;
+- URL directa: `https://www.americana.edu.py/wp-content/uploads/2026/07/RES-446-2019-REGLAMENTO-ACADEMICO-UA.pdf`;
+- fecha de consulta: 11/08/2026;
+- se deja explícito que esta modificación **no modifica los artículos 35, 36, 40 y 41** utilizados para fundamentar el requisito y cálculo de asistencia.
+
+### 3. Portal institucional de reglamentos
+
+Clave BibTeX:
+
+`uaPortalReglamentos`
+
+Identificación registrada:
+
+- autor institucional: Universidad Americana;
+- título: **Reglamentos**;
+- URL: `https://www.americana.edu.py/informaciones/`;
+- fecha de consulta: 11/08/2026;
+- finalidad: documentar el portal institucional oficial desde el cual la Universidad Americana publica y enlaza la Resolución N.º 26/2015 y la Resolución N.º 446/2019.
+
+## Regla para futuras referencias sobre asistencia
+
+Cuando el material explique el **60% de asistencia**, la cita normativa principal debe corresponder a `ua2015reglamentoAcademicoPresencial`, con referencia específica al artículo pertinente cuando resulte útil.
+
+`ua2019modificacionReglamentoAcademico` se utilizará únicamente para documentar la modificación posterior y aclarar su alcance; no debe presentarse como fuente originaria de los artículos 35, 36, 40 y 41.
+
+`uaPortalReglamentos` funciona como referencia de trazabilidad institucional y acceso, no como sustituto del texto normativo primario.
 
 ## Metodología de la primera clase
 
@@ -139,44 +210,21 @@ Particularidades obligatorias:
 
 El protocolo puede cancelarse mediante `cancelar protocolo informefeliz` o una instrucción equivalente.
 
-## Particularidad de asistencia — registrada el 11/08/2026
-
-Para **Finanzas a Largo Plazo — ECO-132 — modalidad presencial**, se registra como requisito operativo de la misión una **asistencia mínima del 60% de las horas efectivamente desarrolladas**.
-
-La verificación realizada sobre el Reglamento Académico de modalidad presencial de la Universidad Americana establece:
-
-- **Art. 35:** para tener derecho a rendir exámenes parciales, el alumno debe contar con una asistencia mínima del **60%**, computada hasta la clase previa al examen;
-- **Art. 40:** cuando la asignatura incluye actividades prácticas, se exige una asistencia efectiva igual o superior al **60%**, sin reducción de ese porcentaje;
-- **Art. 41:** el porcentaje se calcula sobre el total de horas **efectivamente desarrolladas por el docente** en los horarios preestablecidos.
-
-Esta particularidad es especialmente relevante en ECO-132 porque el programa vigente contempla **36 horas prácticas de 51 horas totales**.
-
-### Regla para materiales de la misión
-
-La próxima modificación efectiva de la presentación, **v05**, deberá incorporar explícitamente una formulación equivalente a:
-
-> **Asistencia mínima requerida: 60% de las horas efectivamente desarrolladas en la asignatura.**
-
-Hasta entonces, la presentación v04 permanece aprobada como versión histórica vigente previa a esta incorporación; esta anotación constituye el requisito para la siguiente iteración y no altera retroactivamente el archivo aprobado.
-
 ## Privacidad
 
 Este repositorio es público. No se publicarán nombres de estudiantes, C.I., firmas reales, calificaciones, asistencia individual, correos, teléfonos, formularios completados ni documentos institucionales privados que no sea necesario exponer.
 
 Los informes individuales generados mediante `informefeliz` permanecen fuera del repositorio público.
 
-## Cierre de la sesión documental — 11/08/2026
-
-La sesión de trabajo de hoy queda cerrada.
-
-Estado al cierre:
+## Estado al cierre — 11/08/2026
 
 - programa rector ECO-132 confirmado;
 - planeamiento v32 aprobado y privado;
-- presentación v04 aprobada y reproducible desde GitHub;
-- bibliografía y recursos gráficos verificados;
-- PDF de presentación compilado y aprobado;
-- Protocolo `informefeliz` aprobado, documentado e inactivo por defecto;
-- requisito de asistencia mínima del **60% de las horas efectivamente desarrolladas** registrado como particularidad de la misión y pendiente de incorporación en la presentación v05.
+- presentación v04 permanece como última versión estable compilada y aprobada;
+- `main(6).tex` + `referencias(3).bib` quedan registrados como **base exclusiva para consolidar v05**;
+- requisito de asistencia mínima del **60%** ya está incorporado en esa nueva base con fundamento normativo y trazabilidad bibliográfica;
+- Resolución N.º 26/2015, Resolución N.º 446/2019 y portal institucional quedan diferenciados bibliográficamente;
+- v05 queda pendiente de **compilación, revisión visual y aprobación final**;
+- Protocolo `informefeliz` permanece aprobado, documentado e inactivo por defecto.
 
-La próxima sesión retomará únicamente desde este estado documentado, sin mezclar silenciosamente versiones anteriores.
+La próxima sesión debe retomar exclusivamente desde `main(6).tex` y `referencias(3).bib` para cualquier trabajo sobre v05, sin mezclar versiones anteriores.
