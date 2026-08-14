@@ -22,6 +22,8 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
 - Misión vigente: **20260809b — Clase de presentación de la asignatura**.
 - Estado de la misión vigente: **preparación avanzada; material aprobado por bloques; cierre pendiente de la realización de la clase**.
+- Misión experimental concurrente: **20260814a — Prueba del agente de formación de vocabulario técnico**.
+- Estado de la misión experimental: **activa; primera extracción pendiente de seleccionar los materiales concretos de una clase**.
 - Nuevo directorio de trabajo: [`entregables/clase_presentacion/`](entregables/clase_presentacion/).
 - Bibliografía específica de trabajo para la presentación: [`entregables/clase_presentacion/referencias.bib`](entregables/clase_presentacion/referencias.bib).
 
@@ -42,6 +44,16 @@ El bloque de identificación de los trabajos fue alineado con los requisitos de 
 ### Pendiente antes del PDF final
 
 El borrador de presentación conserva todavía una subsección heredada de otro contexto académico que menciona carga independiente y créditos de FP-UNA. Esa parte está identificada como **pendiente de depuración** y no se considera regla aplicable a Finanzas a Largo Plazo en la Universidad Americana.
+
+## Prueba del agente de vocabulario técnico
+
+La misión experimental `20260814a_prueba_agente_vocabulario_tecnico` evalúa un agente didáctico que trabaja por **clase concreta**, no como glosario enciclopédico de toda la asignatura.
+
+Flujo experimental:
+
+**materiales autorizados de la clase → extracción del vocabulario necesario → diccionario compacto → selección del usuario → desarrollo únicamente de los términos seleccionados**.
+
+La primera extracción queda pendiente hasta identificar el material específico de la clase que se utilizará en la prueba.
 
 ## Jerarquía documental de trabajo
 
@@ -89,6 +101,7 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`entregables/clase_presentacion/README.md`](entregables/clase_presentacion/README.md): estado y control del material para la primera clase.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
 - [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión vigente para la primera clase.
+- [`misiones/20260814a_prueba_agente_vocabulario_tecnico.md`](misiones/20260814a_prueba_agente_vocabulario_tecnico.md): misión experimental para probar extracción y formación selectiva de vocabulario técnico por clase.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
 
 ## Materiales producidos en el proyecto
