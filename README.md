@@ -15,16 +15,16 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Horario: 18:15–21:15.
 - Primera clase del semestre: 10/08/2026.
 - Fecha límite informada para entregar la planificación didáctica: 21/08/2026.
-- Planificación didáctica vigente: **v30 aprobada**.
-- Archivo v30 generado: `20260809a_Planificación_Didáctica_Semestral_2026_2_v30.docx`.
-- Estado del binario v30 en GitHub: **pendiente de carga manual**; el conector de GitHub utilizado por el proyecto no permite subir directamente archivos `.docx` binarios.
-- Próxima iteración documental: **v31**, solamente cuando exista un cambio real que justifique una nueva versión.
+- Planificación didáctica vigente: **v32 aprobada**.
+- Archivo institucional privado: `20260810a_Planificación_Didáctica_Semestral_2026_2_v32.docx`.
+- Estado del binario v32 en GitHub: **no se publica deliberadamente**, por tratarse de un documento institucional privado.
+- Próxima iteración documental: **v33**, solamente cuando exista un cambio real que justifique una nueva versión.
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
 - Misión vigente: **20260809b — Clase de presentación de la asignatura**.
-- Estado de la misión vigente: **preparación avanzada; material aprobado por bloques; cierre pendiente de la realización de la clase**.
+- Estado de la misión vigente: **en pausa; presentación v04 estable y v05 pendiente de consolidación desde la base autorizada vigente**.
 - Misión experimental concurrente: **20260814a — Prueba del agente de formación de vocabulario técnico**.
 - Estado de la misión experimental: **activa; primera extracción pendiente de seleccionar los materiales concretos de una clase**.
-- Nuevo directorio de trabajo: [`entregables/clase_presentacion/`](entregables/clase_presentacion/).
+- Directorio de trabajo de la presentación: [`entregables/clase_presentacion/`](entregables/clase_presentacion/).
 - Bibliografía específica de trabajo para la presentación: [`entregables/clase_presentacion/referencias.bib`](entregables/clase_presentacion/referencias.bib).
 
 ## Primera clase — flujo de trabajo
@@ -37,13 +37,9 @@ Regla académica de la actividad:
 
 **La IA es una interfaz de consulta; el documento fuente conserva la autoridad académica de la actividad.**
 
-El documento de presentación incorpora una indagación inicial de 18 ítems, puntos de control de la clase, calendario de evaluaciones, calendario de clases, carga oficial de 51 horas (36 teóricas + 15 prácticas), relación con la carrera de Economía y un procedimiento de control de calidad de las evidencias.
+El programa rector ECO-132 establece una carga oficial de **51 horas: 15 teóricas y 36 prácticas**.
 
-El bloque de identificación de los trabajos fue alineado con los requisitos de entrega y ya no solicita C.I. ni firma manuscrita real.
-
-### Pendiente antes del PDF final
-
-El borrador de presentación conserva todavía una subsección heredada de otro contexto académico que menciona carga independiente y créditos de FP-UNA. Esa parte está identificada como **pendiente de depuración** y no se considera regla aplicable a Finanzas a Largo Plazo en la Universidad Americana.
+La presentación estable v04 fue compilada y aprobada. La siguiente iteración v05 debe consolidarse exclusivamente desde los archivos base autorizados registrados en la misión `20260809b`, sin mezclar versiones históricas.
 
 ## Prueba del agente de vocabulario técnico
 
@@ -67,13 +63,14 @@ La primera extracción queda pendiente hasta identificar el material específico
 
 Si dos fuentes parecen contradecirse, no se reconciliarán silenciosamente: se registrará el conflicto y se solicitará confirmación institucional cuando corresponda.
 
-## Unidades de la asignatura
+## Unidades oficiales de la asignatura
 
-1. Costo de capital y presupuesto de capital.
-2. Presupuesto de capital en condiciones de riesgo.
-3. Formación de un portfolio.
-4. Estructura financiera óptima.
-5. Valorización de una empresa y política de dividendos.
+1. Introducción a las Finanzas Empresariales.
+2. Estructura de Capital, Fuentes de Financiamiento y Costo de Capital.
+3. Análisis de Inversiones.
+4. Estructuras Financieras Óptimas.
+
+El esquema histórico de cinco unidades queda únicamente como antecedente y no debe utilizarse como estructura curricular rectora.
 
 ## Base didáctica propia 2026
 
@@ -100,7 +97,7 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
 - [`entregables/clase_presentacion/README.md`](entregables/clase_presentacion/README.md): estado y control del material para la primera clase.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
-- [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión vigente para la primera clase.
+- [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión de presentación de la asignatura.
 - [`misiones/20260814a_prueba_agente_vocabulario_tecnico.md`](misiones/20260814a_prueba_agente_vocabulario_tecnico.md): misión experimental para probar extracción y formación selectiva de vocabulario técnico por clase.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
 
