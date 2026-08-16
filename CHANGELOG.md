@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-08-16 — Agente de formación de vocabulario técnico v02 aprobado
+
+- Aprobada por el docente la **especificación v02** del agente de formación de vocabulario técnico.
+- La solicitud **“formación de vocabulario para la clase”** o equivalente activa la extracción del vocabulario necesario para una clase o bloque didáctico concreto.
+- Establecida como regla obligatoria una entrega de **hasta 40 vocablos por bloque de estudio**.
+- Aclarado que 40 es un máximo y no una cuota: si la clase requiere menos términos relevantes, se entregan únicamente los necesarios.
+- Cuando existan más de 40 términos, el agente debe priorizarlos por importancia pedagógica y continuar mediante bloques sucesivos de hasta 40.
+- Incorporada la continuidad mediante la instrucción **“siguiente”**, sin repetir vocablos entre bloques salvo pedido explícito de repaso.
+- El desarrollo profundo permanece limitado a los términos seleccionados por el usuario.
+- Las actividades de comprobación o mini cuestionarios sólo se activan a pedido.
+- Se mantiene la trazabilidad de cada término hacia los materiales autorizados de la clase y la regla de no convertir el vocabulario en sustituto de los textos académicos.
+- Actualizada la misión `misiones/20260814a_prueba_agente_vocabulario_tecnico.md` para registrar la aprobación y el estado operativo vigente.
+- Creado `docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md` como especificación reusable del agente dentro del proyecto.
+- Actualizado `README.md` para mostrar el agente aprobado, su regla de hasta 40 vocablos y su documentación operativa.
+- Primera aplicación real con materiales concretos de Finanzas a Largo Plazo: pendiente.
+
 ## 2026-08-09 — Estado v30
 
 - Inicialización efectiva del repositorio GitHub del proyecto.
