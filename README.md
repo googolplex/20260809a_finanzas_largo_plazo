@@ -22,8 +22,9 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
 - Misión vigente: **20260809b — Clase de presentación de la asignatura**.
 - Estado de la misión vigente: **en pausa; presentación v04 estable y v05 pendiente de consolidación desde la base autorizada vigente**.
-- Misión experimental concurrente: **20260814a — Prueba del agente de formación de vocabulario técnico**.
-- Estado de la misión experimental: **activa; primera extracción pendiente de seleccionar los materiales concretos de una clase**.
+- Misión concurrente: **20260814a — Prueba del agente de formación de vocabulario técnico**.
+- Estado del agente de vocabulario: **especificación v02 aprobada el 16/08/2026; primera aplicación real con materiales concretos pendiente**.
+- Regla operativa principal del agente: **formación de vocabulario para la clase → hasta 40 vocablos por bloque de estudio**.
 - Directorio de trabajo de la presentación: [`entregables/clase_presentacion/`](entregables/clase_presentacion/).
 - Bibliografía específica de trabajo para la presentación: [`entregables/clase_presentacion/referencias.bib`](entregables/clase_presentacion/referencias.bib).
 
@@ -41,15 +42,29 @@ El programa rector ECO-132 establece una carga oficial de **51 horas: 15 teóric
 
 La presentación estable v04 fue compilada y aprobada. La siguiente iteración v05 debe consolidarse exclusivamente desde los archivos base autorizados registrados en la misión `20260809b`, sin mezclar versiones históricas.
 
-## Prueba del agente de vocabulario técnico
+## Agente de formación de vocabulario técnico — aprobado
 
-La misión experimental `20260814a_prueba_agente_vocabulario_tecnico` evalúa un agente didáctico que trabaja por **clase concreta**, no como glosario enciclopédico de toda la asignatura.
+La misión `20260814a_prueba_agente_vocabulario_tecnico` documenta el agente didáctico aprobado para trabajar por **clase concreta**, no como glosario enciclopédico de toda la asignatura.
 
-Flujo experimental:
+Especificación operativa:
 
-**materiales autorizados de la clase → extracción del vocabulario necesario → diccionario compacto → selección del usuario → desarrollo únicamente de los términos seleccionados**.
+[`docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md`](docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md)
 
-La primera extracción queda pendiente hasta identificar el material específico de la clase que se utilizará en la prueba.
+Flujo aprobado:
+
+**materiales autorizados de la clase → selección del vocabulario necesario → bloque de hasta 40 vocablos → selección del usuario o “siguiente” → desarrollo únicamente de los términos seleccionados**.
+
+Reglas principales:
+
+- cada bloque contiene como máximo **40 vocablos**;
+- 40 es un máximo, no una cuota obligatoria;
+- si existen más términos, se priorizan pedagógicamente y se continúan en bloques sucesivos de hasta 40;
+- no se repiten vocablos entre bloques salvo pedido de repaso;
+- el desarrollo profundo se realiza sólo sobre los términos elegidos por el usuario;
+- las actividades de comprobación se generan únicamente a pedido;
+- cada término debe mantener trazabilidad hacia los materiales autorizados de la clase.
+
+La primera aplicación queda pendiente hasta identificar el material específico de una clase que se utilizará en la ejecución real.
 
 ## Jerarquía documental de trabajo
 
@@ -92,13 +107,14 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`docs/REGLAS_MATERIALES_CURSO_PREVIO.md`](docs/REGLAS_MATERIALES_CURSO_PREVIO.md): reglas para antecedentes y materiales históricos.
 - [`docs/MATERIALES_DOCENTE_2026.md`](docs/MATERIALES_DOCENTE_2026.md): registro, mapeo y uso de los cinco cuadernos propios del docente.
 - [`docs/REGLAS_MATERIALES_DOCENTE.md`](docs/REGLAS_MATERIALES_DOCENTE.md): reglas derivadas de la práctica didáctica contenida en los cuadernos.
+- [`docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md`](docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md): especificación operativa aprobada del agente de formación de vocabulario por clase.
 - [`bibliografia/referencias.bib`](bibliografia/referencias.bib): base bibliográfica acumulativa BibTeX/BibLaTeX.
 - [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
 - [`entregables/clase_presentacion/README.md`](entregables/clase_presentacion/README.md): estado y control del material para la primera clase.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
 - [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión de presentación de la asignatura.
-- [`misiones/20260814a_prueba_agente_vocabulario_tecnico.md`](misiones/20260814a_prueba_agente_vocabulario_tecnico.md): misión experimental para probar extracción y formación selectiva de vocabulario técnico por clase.
+- [`misiones/20260814a_prueba_agente_vocabulario_tecnico.md`](misiones/20260814a_prueba_agente_vocabulario_tecnico.md): misión de validación y trazabilidad del agente de formación de vocabulario técnico por clase.
 - [`CHANGELOG.md`](CHANGELOG.md): evolución del proyecto.
 
 ## Materiales producidos en el proyecto
