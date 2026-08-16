@@ -2,7 +2,7 @@
 
 ## Estado
 
-**Activa — misión experimental iniciada el 14/08/2026.**
+**Activa — misión experimental iniciada el 14/08/2026 y actualizada el 16/08/2026.**
 
 Esta misión prueba un agente de apoyo didáctico especializado en identificar, organizar y desarrollar el vocabulario técnico que los estudiantes necesitan para comprender una clase concreta de **Finanzas a Largo Plazo — ECO-132**.
 
@@ -29,9 +29,10 @@ El comportamiento esperado es:
 1. recibir o identificar los materiales autorizados para una clase concreta;
 2. detectar los términos, expresiones, siglas, magnitudes, indicadores y conceptos técnicos cuya comprensión sea necesaria para seguir esa clase;
 3. construir una lista tipo diccionario, compacta y navegable;
-4. esperar la selección del docente o del estudiante;
-5. desarrollar **solamente** los términos seleccionados;
-6. mantener trazabilidad hacia los materiales fuente utilizados.
+4. entregar **hasta 40 vocablos por bloque de estudio**;
+5. esperar la selección del docente o del estudiante;
+6. desarrollar **solamente** los términos seleccionados;
+7. mantener trazabilidad hacia los materiales fuente utilizados.
 
 ## Principio central
 
@@ -99,6 +100,23 @@ Cuando aporte valor puede incluirse entre paréntesis una sigla, símbolo o equi
 La lista debe organizarse alfabéticamente o por bloques conceptuales si ello mejora claramente la comprensión.
 
 En esta fase el agente **no debe desarrollar extensamente cada término**.
+
+## Regla obligatoria — hasta 40 vocablos por bloque de estudio
+
+Cuando el docente o un estudiante pida **“formación de vocabulario para la clase”** o una instrucción equivalente, el agente debe ofrecer una lista de **hasta 40 vocablos por vez** para que el alumno los estudie.
+
+Esta regla se interpreta del siguiente modo:
+
+1. **40 es un máximo por entrega, no una cuota obligatoria.** Si la clase requiere menos términos relevantes, se entregan únicamente los necesarios.
+2. Si se identifican más de 40 términos pertinentes, el primer bloque debe contener los **hasta 40 vocablos de mayor prioridad pedagógica** para comprender la clase.
+3. Los vocablos restantes se reservan para bloques posteriores de hasta 40 términos cada uno.
+4. Al final de un bloque que tenga continuación, el agente debe indicar brevemente que existen más vocablos relevantes y que el usuario puede pedir **“siguiente”** para recibir el próximo bloque.
+5. Los bloques posteriores no deben repetir términos ya entregados, salvo que el usuario solicite explícitamente una revisión o repaso.
+6. La prioridad no se determina por orden de aparición en el libro, sino por la **necesidad del término para comprender la clase**.
+7. El límite de 40 se aplica a la **lista de vocabulario para estudio**; no obliga al usuario a estudiar los 40 ni impide seleccionar inmediatamente uno o varios para desarrollo profundo.
+8. Si el usuario pide expresamente una cantidad menor —por ejemplo, 10 o 20 vocablos— debe respetarse esa cantidad como máximo para esa entrega.
+
+El propósito del límite es mantener una carga de estudio manejable y permitir una formación progresiva del vocabulario técnico.
 
 ## Fase 2 — Desarrollo selectivo
 
@@ -171,20 +189,23 @@ Para cada prueba del agente:
 
 1. seleccionar una clase concreta;
 2. fijar las fuentes que realmente corresponden a esa clase;
-3. pedir al agente la extracción del vocabulario necesario;
-4. revisar si faltan términos esenciales o sobran términos irrelevantes;
-5. seleccionar algunos términos para desarrollo profundo;
-6. comprobar exactitud, claridad, nivel de profundidad y trazabilidad;
-7. registrar ajustes necesarios en esta misión antes de generalizar el agente a otras asignaturas.
+3. pedir al agente la formación de vocabulario necesario;
+4. recibir un primer bloque de **hasta 40 vocablos**;
+5. revisar si faltan términos esenciales o sobran términos irrelevantes;
+6. seleccionar algunos términos para desarrollo profundo o pedir **“siguiente”** si existe otro bloque;
+7. comprobar exactitud, claridad, nivel de profundidad y trazabilidad;
+8. registrar ajustes necesarios en esta misión antes de generalizar el agente a otras asignaturas.
 
 ## Criterios de éxito
 
 La prueba se considerará satisfactoria si:
 
+- cada bloque contiene como máximo 40 vocablos;
 - la lista inicial contiene los términos realmente necesarios para seguir la clase;
 - existe poca o ninguna terminología irrelevante;
 - las definiciones iniciales son suficientemente cortas para funcionar como diccionario;
-- el usuario puede elegir fácilmente qué conceptos profundizar;
+- los términos están priorizados pedagógicamente cuando existen más de 40;
+- el usuario puede elegir fácilmente qué conceptos profundizar o continuar al siguiente bloque;
 - el desarrollo selectivo es correcto y pedagógicamente útil;
 - fórmulas, unidades y relaciones conceptuales son consistentes con las fuentes;
 - puede identificarse la procedencia académica de los términos;
@@ -198,12 +219,17 @@ El docente proporcionará o señalará posteriormente el material de una clase e
 
 Hasta que se identifique el material concreto de la clase, **no debe generarse un vocabulario genérico de toda la asignatura como sustituto de la prueba**.
 
-## Estado al inicio — 14/08/2026
+## Actualización — 16/08/2026
 
-- misión creada;
-- objetivo experimental definido;
+Se establece como regla pedagógica obligatoria que, ante la solicitud de **formación de vocabulario para la clase**, el agente entregue **hasta 40 vocablos por vez**. Si existen más términos relevantes, estos deben presentarse en bloques sucesivos de hasta 40, sin duplicados y priorizando primero los conceptos de mayor importancia para comprender la sesión.
+
+## Estado vigente
+
+- misión activa;
 - extracción limitada a vocabulario necesario para una clase concreta;
 - salida inicial establecida como diccionario compacto;
+- **máximo de 40 vocablos por bloque de estudio**;
+- continuación mediante bloques sucesivos cuando exista más vocabulario relevante;
 - desarrollo profundo limitado a términos seleccionados por el usuario;
 - trazabilidad y límites de reproducción bibliográfica incorporados;
 - primera prueba con materiales concretos de Finanzas a Largo Plazo: **pendiente**.
