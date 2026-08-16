@@ -2,11 +2,15 @@
 
 ## Estado
 
-**Activa — misión experimental iniciada el 14/08/2026 y actualizada el 16/08/2026.**
+**Especificación operativa aprobada por el docente el 16/08/2026. Primera aplicación real con materiales concretos: pendiente.**
 
-Esta misión prueba un agente de apoyo didáctico especializado en identificar, organizar y desarrollar el vocabulario técnico que los estudiantes necesitan para comprender una clase concreta de **Finanzas a Largo Plazo — ECO-132**.
+Esta misión documenta y valida un agente de apoyo didáctico especializado en identificar, organizar y desarrollar el vocabulario técnico que los estudiantes necesitan para comprender una clase concreta de **Finanzas a Largo Plazo — ECO-132**.
 
-La misión es experimental y concurrente con las demás misiones académicas del proyecto. No sustituye el programa, el planeamiento, la bibliografía rectora ni los materiales aprobados de clase.
+La misión es concurrente con las demás misiones académicas del proyecto. No sustituye el programa, el planeamiento, la bibliografía rectora ni los materiales aprobados de clase.
+
+La especificación aprobada se documenta además, para reutilización operativa, en:
+
+`docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md`
 
 ## Identidad de la asignatura
 
@@ -24,13 +28,13 @@ La misión es experimental y concurrente con las demás misiones académicas del
 
 Evaluar si un agente especializado puede transformar los materiales académicos correspondientes a una clase en una **lista de vocabulario técnico útil para el estudiante**, suficientemente completa para facilitar la comprensión de esa clase, pero sin introducir terminología innecesaria ni desarrollar extensamente todos los conceptos de manera automática.
 
-El comportamiento esperado es:
+El comportamiento aprobado es:
 
 1. recibir o identificar los materiales autorizados para una clase concreta;
 2. detectar los términos, expresiones, siglas, magnitudes, indicadores y conceptos técnicos cuya comprensión sea necesaria para seguir esa clase;
 3. construir una lista tipo diccionario, compacta y navegable;
 4. entregar **hasta 40 vocablos por bloque de estudio**;
-5. esperar la selección del docente o del estudiante;
+5. esperar la selección del docente o del estudiante, o la solicitud **“siguiente”**;
 6. desarrollar **solamente** los términos seleccionados;
 7. mantener trazabilidad hacia los materiales fuente utilizados.
 
@@ -183,9 +187,9 @@ La misión trabaja con contenidos de la asignatura y no requiere datos personale
 
 No deben publicarse en el repositorio nombres de estudiantes, resultados individuales, respuestas identificables, calificaciones, asistencia, correos, documentos de identidad ni otros datos personales o sensibles.
 
-## Protocolo experimental inicial
+## Protocolo de aplicación
 
-Para cada prueba del agente:
+Para cada uso del agente:
 
 1. seleccionar una clase concreta;
 2. fijar las fuentes que realmente corresponden a esa clase;
@@ -194,11 +198,11 @@ Para cada prueba del agente:
 5. revisar si faltan términos esenciales o sobran términos irrelevantes;
 6. seleccionar algunos términos para desarrollo profundo o pedir **“siguiente”** si existe otro bloque;
 7. comprobar exactitud, claridad, nivel de profundidad y trazabilidad;
-8. registrar ajustes necesarios en esta misión antes de generalizar el agente a otras asignaturas.
+8. registrar ajustes futuros sólo cuando la experiencia real de uso justifique una modificación de la especificación aprobada.
 
 ## Criterios de éxito
 
-La prueba se considerará satisfactoria si:
+La aplicación se considerará satisfactoria si:
 
 - cada bloque contiene como máximo 40 vocablos;
 - la lista inicial contiene los términos realmente necesarios para seguir la clase;
@@ -211,25 +215,39 @@ La prueba se considerará satisfactoria si:
 - puede identificarse la procedencia académica de los términos;
 - el resultado complementa los materiales de clase sin sustituir indebidamente a las fuentes originales.
 
-## Primera prueba prevista
+## Primera aplicación prevista
 
-La primera ejecución utilizará **Finanzas a Largo Plazo** como entorno de validación.
+La primera ejecución real utilizará **Finanzas a Largo Plazo** como entorno de validación.
 
-El docente proporcionará o señalará posteriormente el material de una clase específica —por ejemplo, capítulos, páginas, PDF, presentación, guía o conjunto de fuentes— y el agente generará a partir de ese material el primer diccionario técnico de prueba.
+El docente proporcionará o señalará el material de una clase específica —por ejemplo, capítulos, páginas, PDF, presentación, guía o conjunto de fuentes— y el agente generará a partir de ese material el primer diccionario técnico de aplicación.
 
 Hasta que se identifique el material concreto de la clase, **no debe generarse un vocabulario genérico de toda la asignatura como sustituto de la prueba**.
 
-## Actualización — 16/08/2026
+## Aprobación — 16/08/2026
 
-Se establece como regla pedagógica obligatoria que, ante la solicitud de **formación de vocabulario para la clase**, el agente entregue **hasta 40 vocablos por vez**. Si existen más términos relevantes, estos deben presentarse en bloques sucesivos de hasta 40, sin duplicados y priorizando primero los conceptos de mayor importancia para comprender la sesión.
+El docente **aprueba la especificación v02 del agente de formación de vocabulario técnico**.
+
+Quedan aprobadas como reglas operativas del proyecto:
+
+- activación mediante la solicitud **“formación de vocabulario para la clase”** o equivalente;
+- trabajo limitado al vocabulario necesario para una clase o bloque concreto;
+- entrega de **hasta 40 vocablos por vez** para estudio;
+- priorización pedagógica cuando existan más de 40 términos;
+- continuidad mediante **“siguiente”** en bloques sucesivos de hasta 40, sin duplicados;
+- desarrollo profundo únicamente de los términos elegidos por el usuario;
+- actividades de comprobación únicamente a pedido;
+- trazabilidad a los materiales autorizados y respeto de los límites de reproducción bibliográfica.
+
+La especificación operativa aprobada queda también registrada en `docs/AGENTE_FORMACION_VOCABULARIO_TECNICO.md` para su reutilización en el proyecto.
 
 ## Estado vigente
 
-- misión activa;
+- **especificación v02 aprobada el 16/08/2026**;
+- agente autorizado para uso didáctico en la asignatura;
 - extracción limitada a vocabulario necesario para una clase concreta;
 - salida inicial establecida como diccionario compacto;
 - **máximo de 40 vocablos por bloque de estudio**;
 - continuación mediante bloques sucesivos cuando exista más vocabulario relevante;
 - desarrollo profundo limitado a términos seleccionados por el usuario;
 - trazabilidad y límites de reproducción bibliográfica incorporados;
-- primera prueba con materiales concretos de Finanzas a Largo Plazo: **pendiente**.
+- primera aplicación con materiales concretos de Finanzas a Largo Plazo: **pendiente**.
