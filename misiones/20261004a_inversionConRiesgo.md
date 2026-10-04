@@ -72,6 +72,10 @@ Este resultado deberá mantenerse alineado con las actividades y evidencias de l
 La misión prioriza los siguientes contenidos para la clase:
 
 - diferencia entre decisión bajo certeza, riesgo e incertidumbre;
+- flujo de fondos de una inversión;
+- valor temporal del dinero;
+- tasa de descuento y tasa mínima requerida;
+- Valor Actual Neto (VAN);
 - rendimiento o resultado esperado;
 - construcción e interpretación de escenarios;
 - análisis de sensibilidad;
@@ -79,78 +83,500 @@ La misión prioriza los siguientes contenidos para la clase:
 - relación entre tasa de descuento, flujos de fondos y valor de la inversión;
 - interpretación del VAN bajo cambios de supuestos;
 - comparación entre resultado esperado y exposición al riesgo;
-- diversificación como introducción conceptual a la reducción del riesgo, sin adelantar innecesariamente desarrollos formales que correspondan a bloques posteriores;
+- diversificación como introducción conceptual a la reducción del riesgo;
 - formulación de una recomendación financiera sustentada.
 
-## Caso base de trabajo
+# Caso de uso desarrollado para la clase
 
-La clase utilizará un caso sencillo de inversión con:
+## Naturaleza del caso
 
-- inversión inicial;
-- horizonte temporal definido;
-- flujos operativos esperados;
-- valor residual cuando corresponda;
-- tasa de descuento;
-- escenarios alternativos;
-- modificación controlada de una variable por vez para el análisis de sensibilidad.
+El ejemplo es **didáctico e hipotético**. Las cifras no deben presentarse como precios, tasas o condiciones reales vigentes del mercado paraguayo.
 
-El caso debe permitir observar que una inversión con VAN positivo en el escenario base puede resultar vulnerable cuando cambian variables críticas.
+### Situación
 
-No se presentará un resultado como recomendación automática: el estudiante deberá **interpretar el riesgo y justificar la decisión**.
+Un inversionista residente en Asunción analiza la posibilidad de instalar un **centro de lavado y detallado automotor** en un local alquilado de una zona urbana de alta circulación.
 
-## Estructura prevista de la clase
+El inversionista no comprará el inmueble. Su desembolso inicial estará concentrado en equipos, adecuación del local, capital de trabajo y gastos de puesta en marcha.
+
+La pregunta que debe responder es:
+
+> **¿Conviene realizar esta inversión si el inversionista exige una rentabilidad mínima del 12% anual y reconoce que los flujos futuros pueden variar?**
+
+## Condiciones supuestas del proyecto
+
+Para simplificar el análisis y concentrar la clase en la lógica financiera, se utilizan los siguientes supuestos:
+
+- moneda de análisis: **guaraníes**;
+- unidad de presentación: **millones de guaraníes**;
+- horizonte de evaluación: **4 años**;
+- los flujos ocurren al final de cada año;
+- la inversión inicial ocurre en el momento 0;
+- la tasa de descuento es anual y consistente con flujos anuales;
+- los flujos presentados son flujos netos de caja estimados del proyecto;
+- el valor residual se recupera al final del año 4;
+- no se supone reinversión posterior al año 4;
+- el ejemplo omite detalles tributarios avanzados y efectos contables de depreciación para mantener el foco en VAN, sensibilidad y riesgo.
+
+## Inversión inicial
+
+La inversión total requerida es de **G. 400 millones**.
+
+Descomposición didáctica:
+
+| Concepto | Millones de G. |
+|---|---:|
+| Equipos de lavado, aspiración y detallado | 220 |
+| Adecuación hidráulica, eléctrica y civil | 100 |
+| Capital de trabajo inicial | 50 |
+| Puesta en marcha, permisos y contingencias | 30 |
+| **Inversión inicial total** | **400** |
+
+La inversión inicial es un **flujo negativo** porque representa una salida de dinero del inversionista en el momento 0.
+
+## Flujo operativo esperado
+
+Se supone que el negocio puede generar un flujo neto de caja de **G. 140 millones por año**.
+
+Para explicar su origen económico, se utiliza la siguiente aproximación:
+
+| Concepto anual | Millones de G. |
+|---|---:|
+| Cobros por servicios | 480 |
+| Egresos operativos de caja | -300 |
+| Mantenimiento, tributos y otros egresos de caja | -40 |
+| **Flujo neto de caja anual estimado** | **140** |
+
+El flujo de caja no debe confundirse con utilidad contable. En evaluación de inversiones interesa el dinero que efectivamente entra y sale del proyecto.
+
+## Valor residual
+
+Al finalizar el cuarto año se supone que algunos equipos conservan valor de reventa y que parte de los activos recuperables pueden convertirse nuevamente en efectivo.
+
+Valor residual supuesto:
+
+**G. 40 millones.**
+
+Por tanto, en el año 4 el flujo total será:
+
+**G. 140 millones + G. 40 millones = G. 180 millones.**
+
+# Línea de tiempo del proyecto
+
+| Momento | Flujo |
+|---|---:|
+| Año 0 | -400 |
+| Año 1 | +140 |
+| Año 2 | +140 |
+| Año 3 | +140 |
+| Año 4 | +180 |
+
+Esta línea de tiempo debe mostrarse antes de comenzar cualquier cálculo.
+
+# Explicación de la tasa de descuento
+
+## ¿Qué es?
+
+La tasa de descuento representa la **rentabilidad mínima exigida por el inversionista** para comprometer recursos en un proyecto con determinado nivel de riesgo.
+
+También puede interpretarse como el costo de oportunidad del capital:
+
+> si el inversionista dispone hoy de G. 400 millones, renuncia a otras alternativas de inversión al destinarlos a este proyecto.
+
+Por eso, recibir G. 140 millones dentro de un año no equivale a recibir G. 140 millones hoy.
+
+## ¿Por qué se utiliza 12%?
+
+En este caso se adopta **12% anual como supuesto didáctico de tasa mínima requerida**.
+
+No debe interpretarse como una tasa oficial, bancaria o de mercado vigente en Paraguay.
+
+La lógica es:
+
+- si el proyecto no alcanza al menos el rendimiento requerido del 12%, no compensa suficientemente el uso del capital;
+- si produce exactamente ese rendimiento, su VAN será aproximadamente cero;
+- si produce más valor que el exigido por esa tasa, el VAN será positivo;
+- si produce menos, el VAN será negativo.
+
+## Regla de consistencia
+
+Los flujos son anuales, por lo tanto la tasa usada debe ser anual.
+
+No debe utilizarse una tasa mensual directamente con flujos anuales ni una tasa anual con flujos mensuales sin conversión.
+
+# Valor Actual Neto
+
+## Concepto
+
+El **Valor Actual Neto (VAN)** compara:
+
+1. el valor presente de los flujos futuros esperados;
+2. con el desembolso inicial requerido hoy.
+
+La fórmula general es:
+
+`VAN = -I0 + Σ [ FCt / (1+k)^t ]`
+
+donde:
+
+- `I0`: inversión inicial;
+- `FCt`: flujo de caja del periodo `t`;
+- `k`: tasa de descuento;
+- `t`: número de periodos.
+
+## Pregunta conceptual antes del cálculo
+
+> ¿Por qué no podemos sumar 140 + 140 + 140 + 180 y restar 400?
+
+Porque los flujos ocurren en fechas distintas.
+
+La suma simple sería:
+
+**600 - 400 = 200 millones**
+
+pero ese cálculo ignora completamente el valor temporal del dinero y el rendimiento mínimo exigido.
+
+# Cálculo completo del VAN
+
+Datos:
+
+- `I0 = 400`
+- `k = 12% = 0,12`
+- `FC1 = 140`
+- `FC2 = 140`
+- `FC3 = 140`
+- `FC4 = 180`
+
+Entonces:
+
+`VAN = -400 + 140/(1,12)^1 + 140/(1,12)^2 + 140/(1,12)^3 + 180/(1,12)^4`
+
+## Año 1
+
+Factor:
+
+`(1,12)^1 = 1,12`
+
+Valor presente:
+
+`140 / 1,12 = 125,00`
+
+## Año 2
+
+Factor:
+
+`(1,12)^2 = 1,2544`
+
+Valor presente:
+
+`140 / 1,2544 = 111,61`
+
+## Año 3
+
+Factor:
+
+`(1,12)^3 = 1,404928`
+
+Valor presente:
+
+`140 / 1,404928 = 99,65`
+
+## Año 4
+
+Factor:
+
+`(1,12)^4 = 1,573519`
+
+El flujo del año 4 incluye operación más valor residual:
+
+`180 / 1,573519 = 114,39`
+
+## Resumen
+
+| Año | Flujo | Factor de descuento | Valor presente |
+|---:|---:|---:|---:|
+| 0 | -400 | 1,0000 | -400,00 |
+| 1 | 140 | 1,1200 | 125,00 |
+| 2 | 140 | 1,2544 | 111,61 |
+| 3 | 140 | 1,4049 | 99,65 |
+| 4 | 180 | 1,5735 | 114,39 |
+
+Suma de los valores presentes positivos:
+
+**G. 450,65 millones**
+
+Por tanto:
+
+**VAN = 450,65 - 400 = G. 50,65 millones**
+
+# Interpretación financiera
+
+El resultado no significa simplemente que el inversionista “ganará G. 50,65 millones”.
+
+Significa algo más preciso:
+
+> después de recuperar económicamente la inversión inicial y de exigir una rentabilidad del 12% anual sobre el capital comprometido, el proyecto todavía genera aproximadamente G. 50,65 millones de valor adicional medido en dinero de hoy.
+
+Regla de decisión:
+
+- `VAN > 0`: el proyecto crea valor bajo los supuestos utilizados;
+- `VAN = 0`: el proyecto alcanza exactamente la rentabilidad mínima exigida;
+- `VAN < 0`: el proyecto no alcanza la rentabilidad mínima exigida.
+
+En el escenario base:
+
+**VAN = +G. 50,65 millones → aceptar, sujeto al análisis del riesgo.**
+
+La expresión “sujeto al análisis del riesgo” es esencial para esta clase.
+
+# El paso de certeza aparente a riesgo
+
+Hasta este punto se utilizaron valores únicos.
+
+Pero la estimación de G. 140 millones anuales depende de supuestos:
+
+- número de clientes;
+- precio promedio;
+- costos de insumos;
+- alquiler;
+- energía;
+- agua;
+- salarios;
+- mantenimiento;
+- competencia;
+- utilización de la capacidad;
+- permanencia de la demanda.
+
+Por tanto, el VAN de G. 50,65 millones no es una certeza. Es el resultado de un conjunto de supuestos.
+
+La siguiente pregunta de clase será:
+
+> **¿Qué sucede si los flujos son menores a los previstos?**
+
+# Análisis de sensibilidad
+
+## Concepto
+
+El análisis de sensibilidad modifica **una variable por vez**, manteniendo las demás constantes.
+
+Su objetivo es identificar qué tan sensible es la decisión a un cambio en una variable crítica.
+
+## Sensibilidad del flujo anual
+
+Se analiza un cambio de ±10% sobre el flujo operativo anual base.
+
+### Escenario de flujo -10%
+
+Flujo anual:
+
+`140 × 0,90 = 126`
+
+Manteniendo el valor residual de G. 40 millones, el flujo del año 4 pasa a G. 166 millones.
+
+Resultado:
+
+**VAN ≈ G. 8,13 millones**
+
+### Escenario base
+
+Flujo anual:
+
+**G. 140 millones**
+
+Resultado:
+
+**VAN ≈ G. 50,65 millones**
+
+### Escenario de flujo +10%
+
+Flujo anual:
+
+`140 × 1,10 = 154`
+
+Con valor residual, el flujo del año 4 es G. 194 millones.
+
+Resultado:
+
+**VAN ≈ G. 93,17 millones**
+
+## Tabla de sensibilidad
+
+| Variación del flujo | Flujo anual | VAN |
+|---|---:|---:|
+| -10% | 126 | 8,13 |
+| Base | 140 | 50,65 |
+| +10% | 154 | 93,17 |
+
+## Interpretación
+
+Una reducción de apenas 10% en los flujos reduce el VAN de G. 50,65 millones a solamente G. 8,13 millones.
+
+La conclusión pedagógica es:
+
+> el proyecto es rentable en el escenario base, pero su margen de seguridad no es muy amplio frente a una caída de los flujos.
+
+# Flujo de equilibrio del proyecto
+
+Podemos plantear una pregunta adicional:
+
+> ¿Cuál es el flujo anual mínimo que hace que el VAN sea exactamente cero?
+
+Manteniendo:
+
+- inversión inicial = 400;
+- tasa = 12%;
+- horizonte = 4 años;
+- valor residual = 40;
+
+el flujo anual de equilibrio es aproximadamente:
+
+**G. 123,32 millones.**
+
+Esto significa que el flujo base de G. 140 millones podría caer aproximadamente **11,9%** antes de llevar el VAN a cero.
+
+Esta medida puede utilizarse como interpretación intuitiva del margen de seguridad.
+
+# Sensibilidad a la tasa de descuento
+
+También podemos mantener los flujos constantes y modificar únicamente la tasa de descuento.
+
+| Tasa de descuento | VAN |
+|---:|---:|
+| 10% | 71,10 |
+| 12% | 50,65 |
+| 14% | 31,60 |
+| 16% | 13,84 |
+
+Interpretación:
+
+> cuanto mayor es la rentabilidad mínima exigida, menor es el valor presente de los flujos futuros y, por tanto, menor tiende a ser el VAN.
+
+# Análisis de escenarios
+
+## Diferencia con sensibilidad
+
+**Sensibilidad:** cambia una variable por vez.
+
+**Escenario:** representa una combinación coherente de condiciones posibles.
+
+Para este caso se simplifica utilizando tres niveles posibles de flujo anual.
+
+| Escenario | Probabilidad | Flujo anual |
+|---|---:|---:|
+| Pesimista | 25% | 100 |
+| Normal | 50% | 140 |
+| Optimista | 25% | 180 |
+
+El valor residual se mantiene en G. 40 millones.
+
+## VAN por escenario
+
+- Pesimista: **VAN ≈ -G. 70,84 millones**
+- Normal: **VAN ≈ +G. 50,65 millones**
+- Optimista: **VAN ≈ +G. 172,14 millones**
+
+## VAN esperado
+
+`E(VAN) = 0,25(-70,84) + 0,50(50,65) + 0,25(172,14)`
+
+Resultado:
+
+**E(VAN) ≈ G. 50,65 millones**
+
+## Pregunta central de interpretación
+
+> Si el VAN esperado es positivo, ¿debemos aceptar automáticamente el proyecto?
+
+No.
+
+El valor esperado resume los resultados ponderados, pero no elimina la posibilidad de pérdida.
+
+En el ejemplo existe un escenario con VAN negativo y una probabilidad didáctica asignada de 25%.
+
+Por tanto, la recomendación debe considerar tanto el valor esperado como la dispersión y la tolerancia al riesgo del inversionista.
+
+# Conclusión esperada del estudiante
+
+Una respuesta adecuada podría expresar:
+
+> El proyecto presenta un VAN base positivo de aproximadamente G. 50,65 millones utilizando una tasa mínima requerida del 12% anual. Bajo esos supuestos crea valor. Sin embargo, el análisis de sensibilidad muestra que una reducción de 10% en el flujo anual disminuye el VAN a aproximadamente G. 8,13 millones y el flujo anual de equilibrio se sitúa alrededor de G. 123,32 millones. Además, el escenario pesimista produce un VAN negativo. Por tanto, el proyecto puede considerarse atractivo, pero la decisión debe condicionarse a la confianza en las proyecciones de demanda, costos y flujos de caja y a la tolerancia al riesgo del inversionista.
+
+# Puente hacia diversificación
+
+Una vez comprendido que una inversión individual puede producir resultados muy distintos según el escenario, se introduce la siguiente pregunta:
+
+> **¿Qué puede hacer un inversionista para no depender completamente del resultado de una sola inversión?**
+
+Respuesta conceptual:
+
+**diversificar.**
+
+La diversificación no significa simplemente tener muchas inversiones. Significa combinar exposiciones cuyos resultados no dependan exactamente de los mismos factores.
+
+En esta clase la diversificación se introduce intuitivamente. Su tratamiento formal mediante riesgo de cartera, covarianza y correlación debe realizarse en el bloque curricular correspondiente.
+
+# Estructura prevista de la clase
 
 Duración total: **18:15–21:15**.
 
-### Inicio
+## Inicio — 18:15 a 18:35
 
-Objetivo: activar conocimientos previos y formular el problema de decisión.
+- presentar la situación del inversionista en Asunción;
+- preguntar si un VAN positivo garantiza una buena inversión;
+- reconstruir conceptos de flujo de caja y valor temporal del dinero;
+- dibujar la línea de tiempo del proyecto.
 
-Actividades sugeridas:
+## Desarrollo 1 — 18:35 a 19:15
 
-- recuperar VAN, flujos de fondos, tasa de descuento y criterio de aceptación;
-- plantear la pregunta: **«Si el VAN es positivo, ¿la inversión es necesariamente segura o conveniente?»**;
-- identificar supuestos que sostienen un VAN calculado;
-- distinguir entre resultado base y robustez de la decisión.
+- explicar tasa de descuento;
+- explicar por qué un guaraní futuro vale menos que un guaraní actual;
+- presentar la fórmula del VAN;
+- calcular cada flujo descontado;
+- obtener el VAN base;
+- interpretar el resultado.
 
-### Desarrollo
+## Desarrollo 2 — 19:15 a 20:00
 
-Objetivo: aplicar herramientas de análisis de riesgo.
+- identificar los supuestos detrás del flujo de G. 140 millones;
+- realizar sensibilidad de -10%, base y +10%;
+- calcular e interpretar el flujo de equilibrio;
+- discutir qué variables operativas podrían provocar la caída del flujo.
 
-Secuencia sugerida:
+## Desarrollo 3 — 20:00 a 20:40
 
-1. explicación breve del análisis de sensibilidad;
-2. ejemplo guiado con modificación de una variable;
-3. comparación de resultados;
-4. construcción o lectura de escenarios;
-5. ejercicio de los estudiantes con datos provistos;
-6. identificación de la variable más crítica;
-7. discusión sobre riesgo, rendimiento esperado y decisión;
-8. introducción intuitiva a la diversificación como mecanismo de reducción de exposición.
+- presentar los tres escenarios;
+- calcular o entregar los VAN de cada escenario;
+- calcular el VAN esperado;
+- discutir por qué valor esperado no equivale a certeza;
+- introducir tolerancia al riesgo.
 
-El cálculo puede realizarse con calculadora o planilla/software, pero la evaluación del aprendizaje debe priorizar la **interpretación financiera**.
+## Desarrollo 4 — 20:40 a 21:00
 
-### Cierre
+- introducir conceptualmente diversificación;
+- contrastar inversión única con combinación de inversiones;
+- evitar todavía formalismo innecesario de cartera si corresponde a una sesión posterior.
 
-Objetivo: consolidar criterios de decisión.
+## Cierre — 21:00 a 21:15
 
-Cada estudiante o grupo deberá poder expresar una conclusión que contenga:
+Cada estudiante o grupo deberá responder:
 
-- resultado cuantitativo relevante;
-- identificación del principal riesgo observado;
-- interpretación de la sensibilidad;
-- decisión recomendada;
-- justificación financiera breve.
+1. ¿Cuál es el VAN base?
+2. ¿Qué significa económicamente ese VAN?
+3. ¿Cuál es la variable crítica observada?
+4. ¿Qué ocurre si el flujo cae 10%?
+5. ¿Cuál es aproximadamente el flujo anual de equilibrio?
+6. ¿Aceptarían la inversión?
+7. ¿Qué condición exigirían antes de comprometer el capital?
 
-## Evaluación formativa
+# Evaluación formativa
 
 Durante la clase se utilizarán preguntas de interpretación y observación del proceso.
 
 Evidencias posibles:
 
-- ejercicio resuelto;
-- tabla de escenarios;
-- análisis de sensibilidad;
+- línea de tiempo correctamente construida;
+- VAN resuelto;
+- tabla de sensibilidad;
+- análisis de escenarios;
 - identificación de variable crítica;
 - recomendación argumentada.
 
@@ -163,18 +589,21 @@ Instrumentos posibles:
 
 La evaluación formativa debe permitir corregir errores antes del cierre de la actividad.
 
-## Errores conceptuales a vigilar
+# Errores conceptuales a vigilar
 
+- sumar flujos futuros sin descontarlos;
+- confundir utilidad contable con flujo de caja;
 - considerar que VAN positivo equivale a ausencia de riesgo;
+- interpretar el VAN como “ganancia contable”;
 - modificar varias variables y denominarlo análisis de sensibilidad de una variable;
 - confundir escenario con sensibilidad;
 - utilizar una tasa de descuento incompatible con la periodicidad del flujo;
 - interpretar el rendimiento esperado como resultado garantizado;
 - comparar alternativas sin explicitar supuestos;
 - recomendar una inversión únicamente porque presenta el mayor resultado esperado;
-- introducir capacidades, probabilidades o parámetros no respaldados por el caso.
+- tratar la tasa del 12% del ejemplo como tasa oficial o vigente del mercado paraguayo.
 
-## Agente de formación de vocabulario técnico
+# Agente de formación de vocabulario técnico
 
 Esta misión constituye una **clase concreta elegible** para aplicar el agente aprobado en:
 
@@ -182,7 +611,7 @@ Esta misión constituye una **clase concreta elegible** para aplicar el agente a
 
 Si el docente solicita **«formación de vocabulario para la clase»**, el agente deberá trabajar exclusivamente sobre los materiales autorizados de `inversionConRiesgo` y entregar **hasta 40 vocablos por bloque**, conforme a la especificación v02 aprobada.
 
-## Bibliografía y fuentes
+# Bibliografía y fuentes
 
 Se utilizarán únicamente fuentes ya registradas o verificadas dentro del proyecto, con prioridad para:
 
@@ -195,7 +624,7 @@ Se utilizarán únicamente fuentes ya registradas o verificadas dentro del proye
 
 No deben inventarse rangos de páginas ni datos bibliográficos. Cualquier dato dependiente del tiempo deberá verificarse antes de tratarse como vigente.
 
-## Materiales previstos
+# Materiales previstos
 
 Durante la misión podrán producirse, según necesidad:
 
@@ -209,7 +638,7 @@ Durante la misión podrán producirse, según necesidad:
 
 Cuando se genere una fuente reproducible o editable, deberá conservarse conforme a `ENTREGA-003` y `ENTREGA-005`.
 
-## Privacidad
+# Privacidad
 
 El repositorio es público.
 
@@ -225,7 +654,7 @@ No deben incorporarse:
 
 Las evidencias individuales deberán permanecer en la plataforma institucional o en otro medio privado autorizado.
 
-## Criterio de finalización
+# Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
 
@@ -235,13 +664,17 @@ La misión podrá marcarse **COMPLETADA** cuando:
 4. los entregables públicos pertinentes hayan sido incorporados al repositorio;
 5. no queden pendientes críticos de trazabilidad académica.
 
-## Estado al crear la misión — 04/10/2026
+# Estado al 04/10/2026
 
-- misión creada;
+- misión activa;
 - nombre aprobado: **inversionConRiesgo**;
 - fecha de clase objetivo: **05/10/2026**;
 - programa rector: **ECO-132**;
 - planificación vigente reconocida: **v32**;
 - ubicación operativa: **Unidad 3 — Análisis de Inversiones**;
-- enfoque: **evaluación de inversiones en condiciones de riesgo**;
+- caso desarrollado incorporado: **centro de lavado y detallado automotor en Asunción**;
+- inversión inicial didáctica: **G. 400 millones**;
+- tasa mínima requerida didáctica: **12% anual**;
+- VAN base: **G. 50,65 millones**;
+- sensibilidad y escenarios incorporados;
 - preparación de materiales y ejecución de clase: **en curso**.
