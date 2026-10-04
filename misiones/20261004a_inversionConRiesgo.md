@@ -713,6 +713,24 @@ Se utilizarán únicamente fuentes ya registradas o verificadas dentro del proye
 
 No deben inventarse rangos de páginas ni datos bibliográficos. Cualquier dato dependiente del tiempo deberá verificarse antes de tratarse como vigente.
 
+# Regla de redacción para materiales de clase
+
+Los materiales destinados a estudiantes, proyección o uso directo en aula deben presentar el contenido académico **como documento autónomo**, sin incorporar automáticamente comentarios editoriales o de control de versiones.
+
+En particular, **no debe incluirse por defecto** una sección del tipo:
+
+- “Qué cambia en esta iteración”;
+- “Novedades de esta versión”;
+- “Esta tercera iteración incorpora…”;
+- comparaciones con versiones anteriores;
+- explicaciones sobre qué se añadió o eliminó respecto de otro PDF.
+
+Ese tipo de información pertenece a la **misión, CHANGELOG o documentación interna del proyecto**, no al cuerpo del material académico.
+
+Solo se incorporará dentro de un PDF o documento para estudiantes si el docente lo solicita expresamente.
+
+La apertura del material debe comenzar directamente con el tema, propósito, caso, problema, objetivos o contenidos pertinentes para la clase.
+
 # Regla de nomenclatura de PDF
 
 Todo PDF generado dentro de esta misión deberá utilizar obligatoriamente el prefijo:
