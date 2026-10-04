@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-04 — Creación de la misión inversionConRiesgo
+
+- Creada la misión **`20261004a_inversionConRiesgo`** por instrucción expresa del docente para la clase del **05/10/2026**.
+- Registrado como nombre operativo de la misión: **`inversionConRiesgo`**.
+- La misión se alinea con el programa rector **ECO-132** y reconoce la Planificación Didáctica Semestral **v32** como vigente.
+- Ubicación curricular operativa: **Unidad 3 — Análisis de Inversiones**.
+- Foco didáctico: evaluación de inversiones en condiciones de riesgo, escenarios, análisis de sensibilidad, identificación de variables críticas, interpretación del VAN y decisión financiera argumentada.
+- Se mantiene la secuencia didáctica aprobada del proyecto: **concepto → ejemplo desarrollado → ejercicio del estudiante → interpretación → decisión/recomendación**.
+- La diversificación se incorpora únicamente como introducción conceptual a la reducción del riesgo, evitando adelantar desarrollos formales innecesarios.
+- Se registra evaluación formativa mediante ejercicios, análisis de sensibilidad, escenarios y recomendación argumentada.
+- La misión queda habilitada como clase concreta para el agente de formación de vocabulario técnico, con la regla de **hasta 40 vocablos por bloque** cuando el docente lo solicite.
+- Actualizado `README.md` para reconocer `inversionConRiesgo` como misión activa.
+- No se modificaron las misiones históricas ni se reintrodujo el esquema curricular anterior de cinco unidades.
+
 ## 2026-08-16 — Agente de formación de vocabulario técnico v02 aprobado
 
 - Aprobada por el docente la **especificación v02** del agente de formación de vocabulario técnico.
