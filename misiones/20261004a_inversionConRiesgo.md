@@ -1156,6 +1156,128 @@ El siguiente prefijo disponible para otro PDF de la fecha es:
 
 `20261005h_`
 
+# Ajuste 20261005h - fórmulas explícitas de sensibilidad
+
+Por instrucción expresa del docente, esta iteración **no modifica los demás elementos académicos ni de diseño** de la versión anterior. El único cambio es hacer explícitas las fórmulas utilizadas para calcular la sensibilidad.
+
+## Regla permanente
+
+Toda tabla o resultado de sensibilidad de esta misión debe estar precedido por la fórmula que transforma la variable analizada en:
+
+1. ingreso o costo afectado;
+2. flujo anual resultante;
+3. VAN resultante.
+
+No deben presentarse valores de sensibilidad únicamente como tabla de resultados.
+
+## Fórmulas del estacionamiento
+
+Ingreso anual de estacionamiento:
+
+`Ingreso_park = N × P × O × 12`
+
+donde:
+
+- `N` = número de espacios;
+- `P` = precio mensual por espacio;
+- `O` = tasa de ocupación en forma decimal.
+
+Con costos directos del estacionamiento de G. 18 millones:
+
+`C_park = Ingreso_park - 18`
+
+Flujo total del Diseño C:
+
+`FC = C_park + 126,36 + 64,68 - 96 - 45`
+
+VAN del Diseño C:
+
+`VAN = -400 + FC × [1/(1,12) + 1/(1,12)^2 + 1/(1,12)^3 + 1/(1,12)^4] + 40/(1,12)^4`
+
+## Sensibilidad al precio
+
+Se modifica únicamente `P`, manteniendo constantes `N=20`, `O=0,90` y las demás variables.
+
+Ejemplo con G. 400.000/mes:
+
+`Ingreso_park = 20 × 0,4 × 0,90 × 12 = 86,40`
+
+`FC = (86,40 - 18) + 126,36 + 64,68 - 96 - 45 = 118,44`
+
+`VAN ≈ -14,84`
+
+## Sensibilidad a la ocupación
+
+Se modifica únicamente `O`, manteniendo `P=0,5` millones por espacio/mes.
+
+Ejemplo con 80% de ocupación:
+
+`Ingreso_park = 20 × 0,5 × 0,80 × 12 = 96,00`
+
+`FC = (96 - 18) + 126,36 + 64,68 - 96 - 45 = 128,04`
+
+`VAN ≈ 14,32`
+
+## Sensibilidad por caída de una línea
+
+Contribuciones base:
+
+- estacionamiento: `C_park = 90`;
+- lavado: `C_lav = 126,36`;
+- detallado: `C_det = 64,68`.
+
+Flujo base:
+
+`FC_base = 90 + 126,36 + 64,68 - 96 - 45 = 140,04`
+
+Si una contribución `C_j` cae 10%:
+
+`C'_j = C_j × (1 - 0,10) = 0,90 C_j`
+
+`FC' = FC_base - 0,10 C_j`
+
+y el VAN se recalcula con el mismo esquema temporal y valor residual de G. 40 millones.
+
+Ejemplo para lavado:
+
+`C'_lav = 126,36 × 0,90 = 113,724`
+
+`FC' = 90 + 113,724 + 64,68 - 96 - 45 = 127,404 ≈ 127,40`
+
+`VAN' ≈ 12,39`
+
+## Shock simultáneo
+
+Si las tres contribuciones caen 10%:
+
+`FC' = 0,90 × (90 + 126,36 + 64,68) - 96 - 45 = 111,936 ≈ 111,94`
+
+`VAN' ≈ -34,59`
+
+## Aumento del alquiler
+
+Si el alquiler mensual sube de G. 8 a G. 12 millones, el costo anual cambia de 96 a 144 millones:
+
+`FC' = 90 + 126,36 + 64,68 - 144 - 45 = 92,04`
+
+`VAN' ≈ -95,02`
+
+## Archivos de esta iteración
+
+Material principal:
+
+`20261005h_CasocentroDeLavado_estacionamiento.pdf`
+
+Formulario separado:
+
+`20261005i_formulario_CasocentroDeLavado_estacionamiento.pdf`
+
+El formulario conserva exactamente la estructura de la versión anterior. La modificación académica se encuentra únicamente en la solución principal, donde se agregan las fórmulas de sensibilidad.
+
+El siguiente prefijo disponible para otro PDF de la fecha será:
+
+`20261005j_`
+
 # Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
@@ -1189,5 +1311,7 @@ La misión podrá marcarse **COMPLETADA** cuando:
 - `20261005e` incorpora alquiler mensual de estacionamiento como tercera línea, precios de referencia Centro/zona de negocios, comparación de tres diseños y pruebas de resistencia;
 - material principal detallado: **`20261005f_CasocentroDeLavado_estacionamiento.pdf`**;
 - formulario independiente: **`20261005g_formulario_CasocentroDeLavado_estacionamiento.pdf`**;
-- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005h_`**;
+- material principal con fórmulas explícitas de sensibilidad: **`20261005h_CasocentroDeLavado_estacionamiento.pdf`**;
+- formulario separado sin cambios de contenido: **`20261005i_formulario_CasocentroDeLavado_estacionamiento.pdf`**;
+- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005j_`**;
 - preparación de materiales y ejecución de clase: **en curso**.
