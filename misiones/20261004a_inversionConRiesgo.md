@@ -86,6 +86,65 @@ La misión prioriza los siguientes contenidos para la clase:
 - diversificación como introducción conceptual a la reducción del riesgo;
 - formulación de una recomendación financiera sustentada.
 
+# Contexto macroeconómico obligatorio de la misión
+
+A partir del 04/10/2026, toda profundización del caso `inversionConRiesgo` debe considerar explícitamente el entorno macroeconómico paraguayo como **contexto de riesgo y de construcción de escenarios**, sin insertar indicadores macroeconómicos de forma mecánica en la fórmula del VAN.
+
+## Variables monetarias BCP a observar
+
+Como panorama general, deben revisarse especialmente:
+
+- meta de inflación;
+- inflación interanual;
+- Tasa de Política Monetaria (TPM);
+- tasa interbancaria;
+- proyección de inflación;
+- crecimiento observado y proyectado del PIB;
+- Reservas Internacionales Netas (RIN);
+- tipo de cambio y, cuando corresponda, expectativas de tipo de cambio.
+
+Para la preparación del material del 05/10/2026 se registran como referencia contextual:
+
+- meta de inflación: **3,5% ± 2 pp**;
+- inflación interanual septiembre 2026: **1,7%**;
+- TPM: **5,50%**;
+- tasa interbancaria al 01/10/2026: **5,39%**;
+- crecimiento PIB 2025: **6,6%**;
+- proyección PIB 2026: **4,5%**;
+- proyección de inflación 2026: **3,3%**;
+- RIN al 25/09/2026: **USD 11.226,9 millones**.
+
+Estas cifras funcionan como contexto vigente al momento de preparar la clase. Deben revalidarse antes de reutilizarlas en una fecha posterior.
+
+## SITUFIN - MEF
+
+El informe SITUFIN debe formar parte del panorama macro-fiscal de la misión. Para agosto de 2026 se consideran, entre otros, los siguientes elementos:
+
+- IMAEP con variación acumulada a julio de aproximadamente **5,6%**;
+- tipo de cambio nominal de referencia en agosto cercano a **G. 5.975 por USD**;
+- apreciación acumulada del guaraní de aproximadamente **11,2%** en el periodo informado;
+- crecimiento acumulado de ingresos totales de **1,2%**;
+- crecimiento acumulado del gasto total de **10,7%**;
+- inversión pública de **G. 4.479 mil millones**;
+- déficit fiscal acumulado de **1,7% del PIB**;
+- resultado fiscal anualizado de **2,9% del PIB**.
+
+El uso pedagógico de estas cifras debe centrarse en sus **canales de transmisión** al proyecto: demanda, costos, tipo de cambio, costo de oportunidad, tasa requerida, inversión inicial, capital de trabajo y valor residual.
+
+## Mercado laboral como contexto complementario
+
+Cuando resulte útil, puede utilizarse la EPHC como contexto complementario para discutir mano de obra, salarios, capacidad de consumo y estructura urbana. Para el primer trimestre de 2026 se registra una tasa de ocupación urbana de **68,6%** y una tasa de desocupación urbana de **5,6%**.
+
+## Regla de interpretación
+
+La misión deberá distinguir siempre:
+
+1. **dato macroeconómico observado o publicado**;
+2. **supuesto del proyecto**;
+3. **shock didáctico utilizado para construir un escenario**.
+
+Por ejemplo, una TPM de 5,50% **no implica** que la tasa de descuento del proyecto deba ser 5,50%. La tasa requerida del proyecto puede incorporar riesgo específico, estructura de financiamiento, liquidez, horizonte y otras primas. En el caso base se conserva **12% anual como supuesto didáctico**.
+
 # Caso de uso desarrollado para la clase
 
 ## Naturaleza del caso
@@ -567,6 +626,36 @@ Cada estudiante o grupo deberá responder:
 6. ¿Aceptarían la inversión?
 7. ¿Qué condición exigirían antes de comprometer el capital?
 
+# Ejercitario guiado asociado al caso
+
+A partir de la iteración `20261005b`, el caso debe incluir una **copia de estudiante tipo ejercitario**, construida como espejo del caso resuelto.
+
+La plantilla debe permitir completar progresivamente:
+
+- inversión inicial;
+- flujo anual;
+- línea de tiempo;
+- tasa de descuento;
+- valores presentes;
+- VAN;
+- sensibilidad;
+- flujo de equilibrio;
+- mapa de transmisión macroeconómica;
+- escenario integrado;
+- diversificación;
+- recomendación final.
+
+La cabecera del ejercitario debe prever espacios para:
+
+- **Nombre y apellido**;
+- **Cédula de identidad**;
+- **Asignatura: Finanzas a Largo Plazo**;
+- **Código: ECO-132**;
+- **Grupo: 80**;
+- **Fecha de la actividad**.
+
+La plantilla en blanco puede mantenerse en el repositorio público. Una copia completada por un estudiante contiene datos personales y evidencia académica, por lo que **no debe publicarse en GitHub** y debe conservarse únicamente en el medio institucional o privado autorizado.
+
 # Evaluación formativa
 
 Durante la clase se utilizarán preguntas de interpretación y observación del proceso.
@@ -646,7 +735,7 @@ Por tanto, el caso desarrollado se denomina:
 
 `20261005a_casoCentroDeLavado.pdf`
 
-El siguiente PDF distinto generado para la misma fecha deberá utilizar `20261005b_`, luego `20261005c_`, y así sucesivamente, sin reutilizar letras ya asignadas.
+El segundo PDF distinto generado para la misma fecha utiliza `20261005b_`. El siguiente PDF disponible deberá utilizar `20261005c_`, luego `20261005d_`, y así sucesivamente, sin reutilizar letras ya asignadas.
 
 Esta regla forma parte de los datos operativos permanentes de la misión `inversionConRiesgo`.
 
@@ -705,5 +794,7 @@ La misión podrá marcarse **COMPLETADA** cuando:
 - sensibilidad y escenarios incorporados;
 - prefijo PDF reservado/utilizado para el primer material del 05/10/2026: **`20261005a_`**;
 - archivo PDF principal: **`20261005a_casoCentroDeLavado.pdf`**;
-- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005b_`**;
+- segundo PDF de la fecha: **`20261005b_casoCentroDeLavado_macro_ejercitario.pdf`**;
+- esta iteración incorpora variables BCP, SITUFIN-MEF, contexto laboral EPHC, explicación ampliada de diversificación y ejercitario guiado;
+- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005c_`**;
 - preparación de materiales y ejecución de clase: **en curso**.
