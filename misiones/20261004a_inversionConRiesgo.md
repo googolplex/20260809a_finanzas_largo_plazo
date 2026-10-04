@@ -787,6 +787,142 @@ No deben incorporarse:
 
 Las evidencias individuales deberán permanecer en la plataforma institucional o en otro medio privado autorizado.
 
+# Mejora 20261005d - alquiler, diversificación y puntos de control
+
+Por instrucción expresa del docente, la siguiente versión académica del caso utiliza el prefijo:
+
+`20261005d_`
+
+La letra `c` queda sin asignar en esta secuencia y **no debe reutilizarse retroactivamente**. Después de `20261005d_`, el siguiente prefijo disponible para otro PDF de la fecha será `20261005e_`.
+
+## Alquiler del predio como variable crítica
+
+La misión debe incorporar referencias observadas de ofertas de terrenos en Asunción para mostrar que el alquiler de un predio grande puede variar ampliamente según ubicación, acceso, superficie y potencial comercial.
+
+La tabla de referencia de la clase debe incluir, al menos, ejemplos como:
+
+| Zona / referencia | Superficie | Alquiler mensual publicado | Referencia aproximada |
+|---|---:|---:|---:|
+| Ita Enramada | 2.759 m² | G. 4,0 millones | G. 1.450/m² |
+| Catedral / Costanera | 2.030 m² | G. 5,0 millones | G. 2.463/m² |
+| Centro | 600 m² | G. 3,0 millones | G. 5.000/m² |
+| Av. Perón | 2.850 m² | USD 1/m² | aprox. G. 5.975/m² |
+| San Jorge | 2.300 m² | USD 3.000 | aprox. G. 7.793/m² |
+| San Pablo | 420 m² | G. 7,9 millones | G. 18.810/m² |
+| Las Lomas | 860 m² | G. 5,0 millones | G. 5.814/m² |
+
+Estas cifras son **precios de oferta**, no contratos cerrados ni promedio oficial municipal. Cuando se conviertan precios en USD para fines didácticos, debe indicarse expresamente el tipo de cambio de referencia utilizado.
+
+Para el caso base se mantiene como supuesto pedagógico:
+
+- alquiler mensual: **G. 8 millones**;
+- alquiler anual: **G. 96 millones**.
+
+El alquiler debe tratarse como variable crítica y someterse a sensibilidad.
+
+## Diversificación operativa dentro del proyecto
+
+La misión debe profundizar la diferencia entre:
+
+- proyecto concentrado: **solo lavado básico**;
+- proyecto diversificado: **lavado + detallado**.
+
+La diversificación se explicará como reducción de dependencia respecto de una sola fuente de ingresos. Debe quedar claro que no elimina los riesgos comunes que afectan simultáneamente a ambas líneas.
+
+### Diseño concentrado
+
+Supuestos didácticos:
+
+- inversión inicial: **G. 360 millones**;
+- flujo anual base: **G. 120 millones**;
+- valor residual: **G. 35 millones**;
+- tasa requerida: **12% anual**;
+- VAN base aproximado: **G. 26,73 millones**.
+
+### Diseño diversificado
+
+Supuestos didácticos:
+
+- inversión inicial: **G. 400 millones**;
+- flujo anual base: **G. 140 millones**;
+- valor residual: **G. 40 millones**;
+- tasa requerida: **12% anual**;
+- VAN base aproximado: **G. 50,65 millones**.
+
+### Prueba de resistencia didáctica
+
+Ante una caída de **5% en los ingresos por lavado**:
+
+- proyecto concentrado: flujo anual aproximado **G. 105,3 millones** y VAN aproximado **-G. 17,92 millones**;
+- proyecto diversificado, suponiendo que el detallado permanece estable: flujo anual aproximado **G. 127,4 millones** y VAN aproximado **G. 12,38 millones**.
+
+La caída aproximada en los ingresos de lavado que lleva el VAN a cero es:
+
+- concentrado: **3,0%**;
+- diversificado, con detallado estable: **6,6%**.
+
+Esto se utilizará para mostrar cuantitativamente la mayor resistencia del flujo cuando las dos líneas no reaccionan exactamente igual.
+
+Si ambas líneas caen simultáneamente 5%, el VAN diversificado se aproxima a **-G. 1,29 millones**, demostrando que la diversificación pierde efectividad cuando existe un shock común o alta correlación.
+
+## Sensibilidad al alquiler
+
+Para el proyecto diversificado:
+
+| Alquiler mensual | Flujo anual | VAN aproximado |
+|---:|---:|---:|
+| G. 5 millones | G. 176 millones | G. 159,99 millones |
+| G. 8 millones | G. 140 millones | G. 50,65 millones |
+| G. 12 millones | G. 92 millones | -G. 95,14 millones |
+
+Esta tabla debe utilizarse para mostrar que la diversificación de servicios no protege frente a todos los riesgos: el alquiler del predio es un costo común.
+
+## Puntos de control de la clase
+
+La sesión del 05/10/2026 debe estructurarse mediante puntos de control, sin reproducir literalmente la redacción histórica de otra clase.
+
+Distribución prevista:
+
+| Hora | Punto de control |
+|---|---|
+| 18:15-18:45 | Apertura, problema de inversión y panorama macro |
+| 18:45-19:15 | Predio, alquiler y estructura de flujos |
+| 19:15-19:45 | VAN de proyecto concentrado y diversificado |
+| 19:45-20:00 | Receso |
+| 20:00-20:15 | Diversificación y pruebas de resistencia |
+| 20:15-20:45 | Ejercitario guiado |
+| 20:45-21:00 | Control crítico de supuestos, cálculos e interpretación |
+| 21:00-21:15 | Síntesis y cierre |
+
+El ejercitario tendrá una duración neta prevista de **30 minutos**.
+
+Distribución sugerida:
+
+- 4 min: identificación y datos base;
+- 8 min: reconstrucción del VAN;
+- 6 min: sensibilidad al alquiler;
+- 6 min: comparación con y sin diversificación;
+- 6 min: recomendación final.
+
+## Material 20261005d
+
+Archivo PDF principal de esta mejora:
+
+`20261005d_casoCentroDeLavado_diversificacion.pdf`
+
+Debe contener:
+
+- panorama macro BCP/MEF;
+- referencias de alquiler;
+- comparación concentrado vs. diversificado;
+- cálculo de VAN;
+- sensibilidad al alquiler;
+- prueba de resistencia por caída de demanda;
+- explicación del límite de la diversificación;
+- puntos de control de la clase;
+- ejercitario de 30 minutos con campos de nombre y C.I.;
+- regla de privacidad para copias completadas.
+
 # Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
@@ -813,6 +949,8 @@ La misión podrá marcarse **COMPLETADA** cuando:
 - prefijo PDF reservado/utilizado para el primer material del 05/10/2026: **`20261005a_`**;
 - archivo PDF principal: **`20261005a_casoCentroDeLavado.pdf`**;
 - segundo PDF de la fecha: **`20261005b_casoCentroDeLavado_macro_ejercitario.pdf`**;
-- esta iteración incorpora variables BCP, SITUFIN-MEF, contexto laboral EPHC, explicación ampliada de diversificación y ejercitario guiado;
-- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005c_`**;
+- versión mejorada solicitada: **`20261005d_casoCentroDeLavado_diversificacion.pdf`**;
+- la letra `c` queda sin asignar por instrucción expresa del docente y no se reutiliza retroactivamente;
+- `20261005d` incorpora alquileres observados, comparación con/sin diversificación, sensibilidad al alquiler, prueba de resistencia, puntos de control y ejercitario de 30 minutos;
+- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005e_`**;
 - preparación de materiales y ejecución de clase: **en curso**.
