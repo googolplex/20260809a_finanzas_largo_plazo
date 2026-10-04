@@ -1324,6 +1324,59 @@ En particular:
 
 La corrección de i **no crea una nueva iteración ni consume una nueva letra**, porque reemplaza el mismo artefacto `20261005i_` para restablecer la correspondencia con el h aprobado.
 
+# Prompt Gemini aprobado para la clase
+
+Se aprueba el prompt completo para Gemini destinado al desarrollo de la clase de inversión con riesgo.
+
+## Estructura pedagógica
+
+El prompt queda organizado en tres fases:
+
+1. **FASE 0 — Introducción académica**
+   - problema central de la decisión de inversión;
+   - objetivos de aprendizaje;
+   - valor temporal del dinero y VAN;
+   - riesgo;
+   - sensibilidad;
+   - diversificación;
+   - riesgo específico y riesgo común;
+   - contexto macroeconómico;
+   - método de trabajo de la clase.
+
+2. **FASE 1 — Selección breve del caso**
+   - presenta exactamente cuatro casos;
+   - no genera todavía cifras financieras;
+   - el Caso 1 es obligatoriamente el centro de estacionamiento, lavado y detallado automotor en Asunción;
+   - los Casos 2, 3 y 4 son propuestos por Gemini;
+   - cada caso se muestra de forma breve;
+   - el alumno elige escribiendo 1, 2, 3 o 4.
+
+3. **FASE 2 — Desarrollo completo del caso elegido**
+   - Gemini genera supuestos didácticos únicamente para el caso seleccionado;
+   - verifica consistencia matemática;
+   - desarrolla el caso completo en una sola respuesta;
+   - incluye inversión, ingresos, costos, flujo, línea de tiempo, VAN, sensibilidad, diversificación, shock específico, shock común, contexto macroeconómico, evaluación integral y recomendación;
+   - no pide al alumno valores ni cálculos intermedios;
+   - no vuelve al menú salvo que el alumno escriba expresamente `CAMBIAR DE CASO`.
+
+## Reglas consolidadas del prompt
+
+- La apertura NO debe incluir encabezado institucional extenso.
+- El tono de la FASE 0 debe ser académico universitario, claro y riguroso.
+- La FASE 1 debe ser breve para evitar una presentación inicial demasiado larga.
+- Los valores financieros se generan solamente después de que el alumno elija un caso.
+- Todos los valores generados por Gemini son supuestos didácticos y no deben presentarse como datos reales de mercado.
+- La sensibilidad debe mostrar explícitamente fórmulas y la cadena:
+  `variable -> ingreso/costo -> flujo -> VAN -> interpretación`.
+- La diversificación debe distinguir riesgo específico y riesgo común.
+- La TPM no debe confundirse automáticamente con la tasa de descuento del proyecto.
+- El resultado de la FASE 2 debe parecer un caso de uso financiero completamente resuelto para una clase universitaria.
+- El prompt no debe solicitar datos personales del alumno.
+
+El prompt aprobado se guarda en el repositorio en:
+
+`prompts/20261005_prompt_gemini_inversion_riesgo.md`
+
 # Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
