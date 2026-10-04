@@ -1056,6 +1056,106 @@ Se mantienen los campos:
 
 Las copias completadas por estudiantes no deben publicarse en GitHub.
 
+# Regla consolidada para materiales desde 20261005f
+
+A partir de esta iteración, los materiales de la misión `inversionConRiesgo` deben respetar las siguientes reglas:
+
+## 1. Cronograma al comienzo
+
+El **cronograma de puntos de control de la clase debe aparecer al comienzo del material académico**, inmediatamente después de la portada o identificación inicial y antes del desarrollo conceptual del caso.
+
+No debe copiarse de forma mecánica la redacción histórica de otras clases; debe adaptarse al contenido específico de la sesión.
+
+Para esta clase se mantiene como referencia:
+
+| Horario | Punto de control |
+|---|---|
+| 18:15-18:45 | Apertura, problema de inversión, objetivos y panorama macro |
+| 18:45-19:15 | Predio, alquiler, estacionamiento y estructura de flujos |
+| 19:15-19:45 | VAN de los tres diseños |
+| 19:45-20:00 | Receso |
+| 20:00-20:15 | Diversificación y pruebas de resistencia |
+| 20:15-20:45 | Ejercitario individual |
+| 20:45-21:00 | Control crítico de supuestos, cálculos e interpretación |
+| 21:00-21:15 | Síntesis, recomendación y cierre |
+
+El ejercitario mantiene una duración neta prevista de **30 minutos**.
+
+## 2. Ejercitario en archivo separado
+
+El ejercitario no debe incorporarse al final del PDF principal.
+
+Debe entregarse como **formulario independiente**, manteniendo el estilo visual aprobado en la versión `20261005c_casoCentroDeLavado_macro_ejercitario.pdf`: bloques claramente separados, espacios amplios para respuestas, tablas incompletas y campos de identificación del estudiante.
+
+La versión de referencia aprobada por el docente contiene una copia del estudiante con ejercicios de reconstrucción de inversión, flujo, VAN, sensibilidad, macroeconomía, diversificación y recomendación.
+
+## 3. Solución detallada en el material principal
+
+El PDF principal debe desarrollar explícitamente los cálculos que corresponden a cada bloque del formulario:
+
+- construcción de ingresos;
+- construcción de costos y contribuciones;
+- flujo neto de cada diseño;
+- valor residual;
+- descuento de cada flujo;
+- VAN año por año;
+- comparación entre diseños;
+- sensibilidad al precio del estacionamiento;
+- sensibilidad a ocupación;
+- shocks específicos;
+- shocks comunes;
+- interpretación de la diversificación;
+- recomendación financiera.
+
+No deben aparecer resultados numéricos sin mostrar previamente la fórmula o el razonamiento que los produce.
+
+## 4. Bibliografía obligatoria
+
+Todo PDF principal de esta misión debe cerrar con una sección de **Bibliografía y fuentes**.
+
+Debe incluir, cuando sean utilizados:
+
+- Banco Central del Paraguay;
+- SITUFIN del Ministerio de Economía y Finanzas;
+- INE / EPHC;
+- Van Horne y Wachowicz;
+- Brigham y Houston;
+- Markowitz para diversificación;
+- fuentes documentales o de mercado usadas para precios de estacionamiento y alquiler.
+
+Las referencias de mercado deben identificarse como precios observados o publicados, no como promedios oficiales.
+
+## 5. Iteración 20261005f y formulario 20261005g
+
+Material principal:
+
+`20261005f_CasocentroDeLavado_estacionamiento.pdf`
+
+Formulario separado:
+
+`20261005g_formulario_CasocentroDeLavado_estacionamiento.pdf`
+
+El material principal incorpora:
+
+- cronograma al comienzo;
+- contexto macro BCP/MEF;
+- referencias de estacionamiento Centro y Villa Morra;
+- tres diseños;
+- flujo detallado de cada diseño;
+- VAN detallado año por año;
+- sensibilidad a precio y ocupación;
+- diversificación y pruebas de resistencia;
+- guía de solución correspondiente al formulario;
+- bibliografía completa.
+
+El formulario conserva campos para nombre, cédula, ECO-132, grupo 80 y fecha.
+
+Las copias completadas por estudiantes no deben publicarse en GitHub.
+
+El siguiente prefijo disponible para otro PDF de la fecha es:
+
+`20261005h_`
+
 # Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
@@ -1087,5 +1187,7 @@ La misión podrá marcarse **COMPLETADA** cuando:
 - `20261005d` incorpora alquileres observados, comparación con/sin diversificación, sensibilidad al alquiler, prueba de resistencia, puntos de control y ejercitario de 30 minutos;
 - iteración de estacionamiento: **`20261005e_CasocentroDeLavado_estacionamiento.pdf`**;
 - `20261005e` incorpora alquiler mensual de estacionamiento como tercera línea, precios de referencia Centro/zona de negocios, comparación de tres diseños y pruebas de resistencia;
-- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005f_`**;
+- material principal detallado: **`20261005f_CasocentroDeLavado_estacionamiento.pdf`**;
+- formulario independiente: **`20261005g_formulario_CasocentroDeLavado_estacionamiento.pdf`**;
+- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005h_`**;
 - preparación de materiales y ejecución de clase: **en curso**.
