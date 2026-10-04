@@ -1278,6 +1278,52 @@ El siguiente prefijo disponible para otro PDF de la fecha será:
 
 `20261005j_`
 
+# Control de correspondencia h-i
+
+## Estado del material h
+
+El archivo:
+
+`20261005h_CasocentroDeLavado_estacionamiento.pdf`
+
+queda **APROBADO** por el docente.
+
+No debe modificarse en esta corrección.
+
+## Corrección del formulario i
+
+El archivo:
+
+`20261005i_formulario_CasocentroDeLavado_estacionamiento.pdf`
+
+debe corresponder exactamente con la sección **“Guía de solución correspondiente al formulario”** del documento h.
+
+La correspondencia obligatoria queda fijada así:
+
+1. datos base de los Diseños A, B y C;
+2. ingreso de estacionamiento del Diseño C;
+3. flujo anual del Diseño A;
+4. flujo anual del Diseño B;
+5. flujo anual del Diseño C;
+6. VAN del Diseño A;
+7. VAN del Diseño B;
+8. VAN del Diseño C;
+9. sensibilidad al precio del estacionamiento;
+10. sensibilidad a la ocupación del estacionamiento;
+11. recomendación final.
+
+Se elimina del formulario i cualquier ejercicio adicional que no tenga una solución numerada equivalente en h.
+
+En particular:
+
+- el antiguo ejercicio independiente de comparación de diseños deja de ocupar un número propio;
+- la comparación de los tres VAN se utiliza dentro de la recomendación final;
+- la sensibilidad al precio debe ser el Ejercicio 9;
+- la sensibilidad a la ocupación debe ser el Ejercicio 10;
+- la recomendación debe ser el Ejercicio 11.
+
+La corrección de i **no crea una nueva iteración ni consume una nueva letra**, porque reemplaza el mismo artefacto `20261005i_` para restablecer la correspondencia con el h aprobado.
+
 # Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
