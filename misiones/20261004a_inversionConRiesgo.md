@@ -923,6 +923,139 @@ Debe contener:
 - ejercitario de 30 minutos con campos de nombre y C.I.;
 - regla de privacidad para copias completadas.
 
+# Mejora 20261005e - estacionamiento como tercera línea de diversificación
+
+Por instrucción expresa del docente, esta iteración utiliza el prefijo:
+
+`20261005e_`
+
+y el archivo principal se denomina:
+
+`20261005e_CasocentroDeLavado_estacionamiento.pdf`
+
+El siguiente prefijo disponible para otro PDF de la fecha será `20261005f_`.
+
+## Tres líneas de diversificación
+
+A partir de esta iteración, el proyecto debe modelarse con tres fuentes posibles de ingreso:
+
+1. **alquiler mensual de espacios de estacionamiento**;
+2. **lavado automotor**;
+3. **detallado automotor**.
+
+El objetivo pedagógico es distinguir entre:
+
+- aumentar rentabilidad agregando actividades;
+- reducir dependencia de una sola fuente de ingresos;
+- reconocer que la diversificación protege mejor frente a riesgos específicos que frente a shocks comunes.
+
+## Referencias de precio del estacionamiento
+
+No se asumirá un promedio oficial municipal para cocheras privadas.
+
+Como referencias observadas:
+
+- Centro de Asunción, México 654: contrato de 10 lugares por G. 4.000.000 mensuales, equivalente a aproximadamente **G. 400.000 por espacio/mes**;
+- Centro / San Roque: referencia privada de aproximadamente **G. 500.000 por cochera adicional/mes**;
+- estacionamiento tarifado municipal: aproximadamente G. 270.000/mes para contribuyentes de Asunción y G. 500.000/mes para no contribuyentes, aclarando que es uso de zonas tarifadas y no espacio privado reservado;
+- Villa Morra: referencia reciente de **G. 500.000 mensuales por cochera adicional**;
+- Las Lomas / eje corporativo: referencia observada de **G. 300.000 mensuales**;
+- Villa Morra: referencia histórica de G. 600.000 mensuales.
+
+Para el caso base se adopta:
+
+**G. 500.000 por espacio/mes**
+
+como supuesto didáctico prudente para zona de negocios.
+
+## Comparación de diseños
+
+### Diseño A - solo estacionamiento
+
+Supuestos:
+
+- 30 espacios;
+- tarifa: G. 500.000/mes;
+- ocupación promedio: 90%;
+- ingreso anual: G. 162,0 millones;
+- costos directos: G. 25 millones;
+- alquiler del predio: G. 96 millones/año;
+- administración y mantenimiento: G. 20 millones;
+- flujo anual: **G. 21 millones**;
+- inversión inicial: G. 130 millones;
+- valor residual: G. 20 millones;
+- VAN al 12%: **-G. 53,51 millones**.
+
+### Diseño B - estacionamiento + lavado
+
+Supuestos:
+
+- 22 espacios de estacionamiento;
+- ingreso anual de estacionamiento: G. 118,8 millones;
+- lavado: 20 vehículos/día a G. 45.000, 26 días/mes;
+- ingreso anual de lavado: G. 280,8 millones;
+- flujo neto anual consolidado: **G. 94,16 millones**;
+- inversión inicial: G. 320 millones;
+- valor residual: G. 35 millones;
+- VAN al 12%: **-G. 11,76 millones**.
+
+### Diseño C - estacionamiento + lavado + detallado
+
+Supuestos:
+
+- 20 espacios de estacionamiento;
+- ingreso anual de estacionamiento: G. 108 millones;
+- contribución anual del estacionamiento luego de costos directos: G. 90 millones;
+- contribución anual del lavado: G. 126,36 millones;
+- contribución anual del detallado: G. 64,68 millones;
+- alquiler anual del predio: G. 96 millones;
+- administración, mantenimiento y comunes: G. 45 millones;
+- flujo neto anual: **G. 140,04 millones**;
+- inversión inicial: G. 400 millones;
+- valor residual: G. 40 millones;
+- VAN al 12%: **G. 50,77 millones**.
+
+## Pruebas de resistencia del diseño C
+
+Con flujo base de G. 140,04 millones:
+
+| Shock didáctico | Flujo anual nuevo | VAN aproximado |
+|---|---:|---:|
+| Estacionamiento -10% | 129,24 | +17,97 |
+| Lavado -10% | 127,40 | +12,39 |
+| Detallado -10% | 133,57 | +31,13 |
+| Las tres líneas -10% | 110,14 | -40,06 |
+| Alquiler del predio sube a G. 12 millones/mes | 92,04 | -95,02 |
+
+La misión debe explicar expresamente que:
+
+- la diversificación reduce dependencia de una sola fuente de ingreso;
+- el estacionamiento puede aportar flujo recurrente por abonos mensuales;
+- el lavado y el detallado reaccionan a factores distintos en cierta medida;
+- la diversificación pierde eficacia cuando todas las líneas sufren el mismo shock;
+- el alquiler del predio sigue siendo un riesgo común a las tres líneas.
+
+## Ejercitario 20261005e
+
+El ejercitario mantiene una extensión neta de **30 minutos** e incorpora:
+
+- precio por espacio de estacionamiento;
+- tasa de ocupación;
+- cálculo de ingreso anual;
+- comparación de VAN de los tres diseños;
+- prueba de resistencia de una línea;
+- recomendación final.
+
+Se mantienen los campos:
+
+- nombre y apellido;
+- cédula de identidad;
+- código ECO-132;
+- grupo 80;
+- fecha.
+
+Las copias completadas por estudiantes no deben publicarse en GitHub.
+
 # Criterio de finalización
 
 La misión podrá marcarse **COMPLETADA** cuando:
@@ -952,5 +1085,7 @@ La misión podrá marcarse **COMPLETADA** cuando:
 - versión mejorada solicitada: **`20261005d_casoCentroDeLavado_diversificacion.pdf`**;
 - la letra `c` queda sin asignar por instrucción expresa del docente y no se reutiliza retroactivamente;
 - `20261005d` incorpora alquileres observados, comparación con/sin diversificación, sensibilidad al alquiler, prueba de resistencia, puntos de control y ejercitario de 30 minutos;
-- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005e_`**;
+- iteración de estacionamiento: **`20261005e_CasocentroDeLavado_estacionamiento.pdf`**;
+- `20261005e` incorpora alquiler mensual de estacionamiento como tercera línea, precios de referencia Centro/zona de negocios, comparación de tres diseños y pruebas de resistencia;
+- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005f_`**;
 - preparación de materiales y ejecución de clase: **en curso**.
