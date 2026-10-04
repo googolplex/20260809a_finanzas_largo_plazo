@@ -20,8 +20,9 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Estado del binario v32 en GitHub: **no se publica deliberadamente**, por tratarse de un documento institucional privado.
 - Próxima iteración documental: **v33**, solamente cuando exista un cambio real que justifique una nueva versión.
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
-- Misión vigente: **20260809b — Clase de presentación de la asignatura**.
-- Estado de la misión vigente: **en pausa; presentación v04 estable y v05 pendiente de consolidación desde la base autorizada vigente**.
+- Misión activa: **20261004a — inversionConRiesgo**, para la clase del **05/10/2026**.
+- Enfoque de la misión activa: **evaluación de inversiones en condiciones de riesgo**, vinculada operativamente con **Unidad 3 — Análisis de Inversiones**.
+- Misión anterior en pausa: **20260809b — Clase de presentación de la asignatura**; presentación v04 estable y v05 pendiente de consolidación desde la base autorizada vigente.
 - Misión concurrente: **20260814a — Prueba del agente de formación de vocabulario técnico**.
 - Estado del agente de vocabulario: **especificación v02 aprobada el 16/08/2026; primera aplicación real con materiales concretos pendiente**.
 - Regla operativa principal del agente: **formación de vocabulario para la clase → hasta 40 vocablos por bloque de estudio**.
@@ -112,6 +113,7 @@ El enfoque didáctico predominante es **concepto → ejemplo desarrollado → ej
 - [`bibliografia/REFERENCIAS_APA.md`](bibliografia/REFERENCIAS_APA.md): vista legible en formato APA.
 - [`entregables/README.md`](entregables/README.md): índice de materiales académicos producidos conjuntamente.
 - [`entregables/clase_presentacion/README.md`](entregables/clase_presentacion/README.md): estado y control del material para la primera clase.
+- [`misiones/20261004a_inversionConRiesgo.md`](misiones/20261004a_inversionConRiesgo.md): misión activa para la clase del 05/10/2026 sobre inversión en condiciones de riesgo.
 - [`misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md`](misiones/20260809a_integracion_institucional_y_preparacion_clase_inicial.md): misión de integración institucional cerrada.
 - [`misiones/20260809b_clase_presentacion_asignatura.md`](misiones/20260809b_clase_presentacion_asignatura.md): misión de presentación de la asignatura.
 - [`misiones/20260814a_prueba_agente_vocabulario_tecnico.md`](misiones/20260814a_prueba_agente_vocabulario_tecnico.md): misión de validación y trazabilidad del agente de formación de vocabulario técnico por clase.
