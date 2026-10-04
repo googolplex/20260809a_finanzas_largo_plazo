@@ -1,0 +1,374 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{top=1.8cm,bottom=1.8cm,left=2.0cm,right=2.0cm}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=black}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.6em,itemsep=2pt,topsep=3pt}
+\renewcommand{\arraystretch}{1.18}
+
+\definecolor{navy}{RGB}{24,57,93}
+\definecolor{softblue}{RGB}{235,243,251}
+\definecolor{softgray}{RGB}{245,245,245}
+\definecolor{softgreen}{RGB}{236,247,239}
+\definecolor{softorange}{RGB}{253,244,232}
+\definecolor{darkgreen}{RGB}{42,92,52}
+\definecolor{darkorange}{RGB}{154,91,24}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small Finanzas a Largo Plazo - ECO-132}
+\rhead{\small Caso: Centro de Lavado}
+\cfoot{\small Página \thepage\ de \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newtcolorbox{concepto}[1][]{colback=softblue,colframe=navy,boxrule=0.7pt,arc=2mm,title=#1,fonttitle=\bfseries}
+\newtcolorbox{pregunta}[1][]{colback=softorange,colframe=darkorange,boxrule=0.7pt,arc=2mm,title=#1,fonttitle=\bfseries}
+\newtcolorbox{resultado}[1][]{colback=softgreen,colframe=darkgreen,boxrule=0.7pt,arc=2mm,title=#1,fonttitle=\bfseries}
+\newtcolorbox{nota}[1][]{colback=softgray,colframe=black!55,boxrule=0.5pt,arc=2mm,title=#1,fonttitle=\bfseries}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{1.6cm}
+{\Large Universidad Americana\\[4pt] Facultad de Ciencias Económicas y Administrativas\\[4pt] Carrera de Economía\par}
+\vspace{1.2cm}
+{\Huge\bfseries casoCentroDeLavado\par}
+\vspace{0.4cm}
+{\LARGE Inversión con riesgo: caso desarrollado paso a paso\par}
+\vspace{1.1cm}
+{\large Finanzas a Largo Plazo - ECO-132 - Grupo 80\par}
+\vspace{0.5cm}
+{\large Clase del 05/10/2026\par}
+\vfill
+\begin{tcolorbox}[colback=softorange,colframe=darkorange,width=0.86\textwidth,arc=2mm]
+\centering\textbf{Advertencia didáctica}\par
+Todas las cifras del caso son supuestos construidos para fines de enseñanza. No representan precios, tasas, costos ni condiciones reales vigentes del mercado paraguayo.
+\end{tcolorbox}
+\vfill
+{\large Docente: Roger Román Armoa García\par}
+\end{titlepage}
+
+\section*{1. Propósito de la clase}
+
+Esta clase utiliza un único caso conductor para integrar los conceptos de inversión inicial, flujo de caja, valor temporal del dinero, tasa de descuento, Valor Actual Neto (VAN), análisis de sensibilidad, escenarios y decisión financiera bajo riesgo.
+
+\begin{concepto}[Resultado de aprendizaje]
+Al finalizar la sesión, el estudiante deberá ser capaz de \textbf{evaluar una alternativa de inversión bajo condiciones de riesgo mediante escenarios y análisis de sensibilidad, interpretando el efecto de cambios en variables críticas y justificando una decisión financiera con base en resultados cuantitativos}.
+\end{concepto}
+
+La secuencia de trabajo será:
+
+\begin{center}
+\textbf{problema económico $\rightarrow$ supuestos $\rightarrow$ flujo de fondos $\rightarrow$ tasa de descuento $\rightarrow$ VAN $\rightarrow$ sensibilidad $\rightarrow$ escenarios $\rightarrow$ decisión}
+\end{center}
+
+\begin{pregunta}[Pregunta conductora]
+¿Qué variables pueden hacer que una inversión deje de ser conveniente y cómo cambia la decisión cuando incorporamos explícitamente el riesgo?
+\end{pregunta}
+
+\section*{2. Caso de uso: una propuesta de inversión en Asunción}
+
+Un inversionista residente en Asunción analiza la posibilidad de instalar un \textbf{centro de lavado y detallado automotor} en un local alquilado situado, hipotéticamente, en una zona urbana de buena circulación vehicular.
+
+El inversionista no comprará el inmueble. Su desembolso inicial estará concentrado en equipos, adecuación del local, capital de trabajo y gastos de puesta en marcha.
+
+Después de un estudio preliminar, estima que deberá invertir \textbf{G. 400 millones hoy}. Espera operar durante cuatro años y generar aproximadamente \textbf{G. 140 millones de flujo neto de caja al final de cada año}. Al finalizar el cuarto año, estima además que podrá vender parte de los equipos y recuperar \textbf{G. 40 millones}.
+
+El inversionista considera que, dado el riesgo del proyecto y las alternativas disponibles para utilizar su dinero, solo estaría dispuesto a invertir si obtiene una rentabilidad mínima del \textbf{12\% anual}.
+
+\begin{pregunta}[Problema de decisión]
+¿Conviene realizar la inversión de G. 400 millones si el inversionista exige una rentabilidad mínima del 12\% anual y reconoce que los flujos futuros pueden variar?
+\end{pregunta}
+
+\section*{3. Supuestos del proyecto}
+
+Para que el ejemplo sea transparente, se fijan expresamente los supuestos:
+
+\begin{itemize}
+\item Moneda de análisis: guaraníes.
+\item Unidad de presentación: millones de guaraníes.
+\item Horizonte: cuatro años.
+\item La inversión inicial ocurre en el momento 0.
+\item Los flujos operativos ocurren al final de cada año.
+\item La tasa de descuento es anual y consistente con flujos anuales.
+\item Los flujos presentados son flujos netos de caja estimados del proyecto.
+\item Al final del cuarto año se recuperan G. 40 millones como valor residual.
+\item No se supone reinversión posterior al año 4.
+\item Para mantener el foco pedagógico, el ejemplo omite detalles tributarios avanzados y efectos contables de depreciación.
+\end{itemize}
+
+\begin{nota}[Regla metodológica]
+Un supuesto no es una verdad. Es una condición adoptada para construir el modelo. La calidad de la decisión depende de la razonabilidad de esos supuestos.
+\end{nota}
+
+\section*{4. ¿Qué significa invertir G. 400 millones?}
+
+La inversión inicial reúne todos los desembolsos necesarios para que el proyecto pueda comenzar a operar.
+
+\begin{center}
+\begin{tabularx}{0.88\textwidth}{Xr}
+\toprule
+\textbf{Concepto} & \textbf{Millones de G.}\\
+\midrule
+Equipos de lavado, aspiración y detallado & 220\\
+Adecuación hidráulica, eléctrica y civil & 100\\
+Capital de trabajo inicial & 50\\
+Permisos, puesta en marcha y contingencias & 30\\
+\midrule
+\textbf{Inversión inicial total} & \textbf{400}\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+En el momento cero:
+\[
+FC_0=-400
+\]
+
+\section*{5. ¿De dónde salen los G. 140 millones anuales?}
+
+\begin{center}
+\begin{tabularx}{0.88\textwidth}{Xr}
+\toprule
+\textbf{Concepto anual} & \textbf{Millones de G.}\\
+\midrule
+Cobros por servicios & 480\\
+Egresos operativos de caja & -300\\
+Mantenimiento, tributos y otros egresos de caja & -40\\
+\midrule
+\textbf{Flujo neto de caja anual estimado} & \textbf{140}\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\[
+FC = 480 - 300 - 40 = 140
+\]
+
+Al finalizar el cuarto año:
+\[
+FC_4=140+40=180
+\]
+
+\section*{6. Línea de tiempo del proyecto}
+
+\begin{center}
+\begin{tabular}{ccccc}
+\textbf{Año 0} & \textbf{Año 1} & \textbf{Año 2} & \textbf{Año 3} & \textbf{Año 4}\\[5pt]
+$-400$ & $+140$ & $+140$ & $+140$ & $+180$\\
+\end{tabular}
+\end{center}
+
+\[
+140+140+140+180=600
+\]
+\[
+600-400=200
+\]
+
+Este cálculo ignora el valor temporal del dinero.
+
+\section*{7. ¿Qué es la tasa de descuento?}
+
+En este caso:
+\[
+k=12\%\;\text{anual}=0{,}12
+\]
+
+El 12\% es un supuesto didáctico de tasa mínima requerida y no una tasa oficial vigente.
+
+\section*{8. ¿Qué significa descontar un flujo futuro?}
+
+\[
+VP=\frac{VF}{1+k}
+\]
+\[
+VP=\frac{140}{1{,}12}=125
+\]
+\[
+125(1{,}12)=140
+\]
+
+\section*{9. Valor Actual Neto: concepto}
+
+\[
+VAN=-I_0+\sum_{t=1}^{n}\frac{FC_t}{(1+k)^t}
+\]
+
+\[
+VAN=-400+\frac{140}{1{,}12}+\frac{140}{1{,}12^2}+\frac{140}{1{,}12^3}+\frac{180}{1{,}12^4}
+\]
+
+\section*{10. Solución paso a paso del VAN}
+
+\[
+VP_1=\frac{140}{1{,}12}=125{,}00
+\]
+\[
+VP_2=\frac{140}{1{,}2544}=111{,}61
+\]
+\[
+VP_3=\frac{140}{1{,}404928}=99{,}65
+\]
+\[
+VP_4=\frac{180}{1{,}573519}=114{,}39
+\]
+
+\[
+125{,}00+111{,}61+99{,}65+114{,}39=450{,}65
+\]
+\[
+VAN=450{,}65-400=\boxed{50{,}65}
+\]
+
+\section*{11. Interpretación del VAN}
+
+Después de recuperar económicamente la inversión inicial y de exigir una rentabilidad del 12\% anual, el proyecto genera aproximadamente G. 50,65 millones de valor adicional medido en dinero de hoy.
+
+\section*{12. ¿De dónde viene el riesgo?}
+
+El flujo depende de clientes, precios, salarios, alquiler, energía, agua, insumos, mantenimiento, competencia y utilización de capacidad. Por tanto, G. 140 millones es una estimación.
+
+\section*{13. Análisis de sensibilidad}
+
+Flujo -10\%:
+\[
+140(1-0{,}10)=126
+\]
+\[
+VAN\approx 8{,}13
+\]
+
+Flujo +10\%:
+\[
+140(1+0{,}10)=154
+\]
+\[
+VAN\approx 93{,}17
+\]
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Situación} & \textbf{Flujo anual} & \textbf{VAN}\\
+\midrule
+Flujo -10\% & 126 & 8,13\\
+Base & 140 & 50,65\\
+Flujo +10\% & 154 & 93,17\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{14. Flujo anual de equilibrio}
+
+\[
+0=-400+F\left(\frac{1}{1{,}12}+\frac{1}{1{,}12^2}+\frac{1}{1{,}12^3}+\frac{1}{1{,}12^4}\right)+\frac{40}{1{,}12^4}
+\]
+
+\[
+F\approx \boxed{123{,}32}
+\]
+
+El flujo base podría caer aproximadamente 11,9\% antes de llevar el VAN a cero.
+
+\section*{15. Sensibilidad a la tasa de descuento}
+
+\begin{center}
+\begin{tabular}{rr}
+\toprule
+\textbf{Tasa} & \textbf{VAN}\\
+\midrule
+10\% & 71,10\\
+12\% & 50,65\\
+14\% & 31,60\\
+16\% & 13,84\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{16. Sensibilidad versus escenarios}
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Escenario} & \textbf{Probabilidad} & \textbf{Flujo anual} & \textbf{VAN}\\
+\midrule
+Pesimista & 25\% & 100 & -70,84\\
+Normal & 50\% & 140 & 50,65\\
+Optimista & 25\% & 180 & 172,14\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{17. VAN esperado}
+
+\[
+E(VAN)=0{,}25(-70{,}84)+0{,}50(50{,}65)+0{,}25(172{,}14)
+\]
+\[
+E(VAN)\approx 50{,}65
+\]
+
+\[
+\boxed{\text{Valor esperado} \neq \text{resultado garantizado}}
+\]
+
+\section*{18. Recomendación financiera esperada}
+
+El proyecto presenta un VAN base positivo de aproximadamente G. 50,65 millones con una tasa mínima requerida del 12\% anual. Sin embargo, una reducción del 10\% en el flujo reduce el VAN a aproximadamente G. 8,13 millones y el escenario pesimista produce VAN negativo. La decisión debe condicionarse a la calidad de las proyecciones y a la tolerancia al riesgo del inversionista.
+
+\section*{19. Puente hacia diversificación}
+
+Diversificar no significa simplemente tener muchas inversiones; significa combinar exposiciones cuyos resultados no dependan exactamente de los mismos factores.
+
+\section*{20. Guion de 180 minutos}
+
+18:15-18:35: caso y línea de tiempo.\\
+18:35-19:15: tasa de descuento y VAN.\\
+19:15-20:00: sensibilidad y flujo de equilibrio.\\
+20:00-20:40: escenarios y VAN esperado.\\
+20:40-21:00: diversificación.\\
+21:00-21:15: síntesis y recomendación.
+
+\section*{21. Preguntas de cierre}
+
+\begin{enumerate}
+\item ¿Cuánto se invierte y por qué se registra con signo negativo?
+\item ¿Qué representa el flujo anual?
+\item ¿Qué significa la tasa mínima del 12\%?
+\item ¿Por qué descontamos?
+\item ¿Cómo se obtiene el VAN?
+\item ¿Qué significa económicamente?
+\item ¿Qué ocurre si el flujo cae 10\%?
+\item ¿Cuál es el flujo de equilibrio?
+\item ¿Qué diferencia existe entre sensibilidad y escenarios?
+\item ¿Aceptarían la inversión y bajo qué condiciones?
+\end{enumerate}
+
+\section*{22. Errores conceptuales a vigilar}
+
+No sumar flujos futuros sin descontar; no confundir utilidad con flujo de caja; no interpretar VAN positivo como ausencia de riesgo; no tratar el 12\% como tasa oficial vigente.
+
+\section*{23. Síntesis final}
+
+\[
+\boxed{\text{Datos} \rightarrow \text{Flujos} \rightarrow \text{Descuento} \rightarrow \text{VAN} \rightarrow \text{Riesgo} \rightarrow \text{Decisión}}
+\]
+
+\end{document}
