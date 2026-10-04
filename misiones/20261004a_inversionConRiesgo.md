@@ -624,6 +624,32 @@ Se utilizarán únicamente fuentes ya registradas o verificadas dentro del proye
 
 No deben inventarse rangos de páginas ni datos bibliográficos. Cualquier dato dependiente del tiempo deberá verificarse antes de tratarse como vigente.
 
+# Regla de nomenclatura de PDF
+
+Todo PDF generado dentro de esta misión deberá utilizar obligatoriamente el prefijo:
+
+`YYYYMMDD<letra>_`
+
+donde:
+
+- `YYYYMMDD` corresponde a la fecha académica o de emisión asignada al material;
+- `<letra>` es una letra minúscula del alfabeto utilizada como identificador secuencial;
+- la letra **no puede repetirse para dos PDF distintos con la misma fecha** dentro de esta misión;
+- la secuencia prevista es `a`, `b`, `c`, etc.;
+- después del prefijo se conserva un nombre descriptivo y estable del material.
+
+Para la clase del **05/10/2026**, el primer prefijo queda reservado y utilizado como:
+
+`20261005a_`
+
+Por tanto, el caso desarrollado se denomina:
+
+`20261005a_casoCentroDeLavado.pdf`
+
+El siguiente PDF distinto generado para la misma fecha deberá utilizar `20261005b_`, luego `20261005c_`, y así sucesivamente, sin reutilizar letras ya asignadas.
+
+Esta regla forma parte de los datos operativos permanentes de la misión `inversionConRiesgo`.
+
 # Materiales previstos
 
 Durante la misión podrán producirse, según necesidad:
@@ -677,4 +703,7 @@ La misión podrá marcarse **COMPLETADA** cuando:
 - tasa mínima requerida didáctica: **12% anual**;
 - VAN base: **G. 50,65 millones**;
 - sensibilidad y escenarios incorporados;
+- prefijo PDF reservado/utilizado para el primer material del 05/10/2026: **`20261005a_`**;
+- archivo PDF principal: **`20261005a_casoCentroDeLavado.pdf`**;
+- siguiente prefijo disponible para otro PDF de la misma fecha: **`20261005b_`**;
 - preparación de materiales y ejecución de clase: **en curso**.
