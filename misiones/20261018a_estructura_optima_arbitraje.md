@@ -1,7 +1,7 @@
 # Misión 20261018a — Estructura financiera óptima y arbitraje de acciones
 
 ## Estado
-**MATERIALES 20261018b APROBADOS POR EL DOCENTE (18/10/2026) — clase presencial programada para el 19/10/2026.** La aprobación se refiere a los materiales, no a la realización de la clase ni a los resultados de estudiantes.
+**CONTENIDO Y MATERIALES DE LA CLASE APROBADOS — versión vigente 20261018d, 18/10/2026.** Clase presencial prevista el 19/10/2026, todavía no realizada. Aprobación académica de contenidos y documentos; no equivale a ejecución ni evaluación de alumnos.
 
 ## Identidad académica
 - Universidad Americana, Facultad de Ciencias Económicas y Administrativas, carrera Economía, sede ASU.
@@ -105,4 +105,19 @@ Preparada a solicitud del docente tras señalar que la sigla «MM» sin identifi
 
 ## Iteración 20261018d — reducción de redundancias y notación matemática
 
-Nueva revisión solicitada por el docente, **pendiente de aprobación expresa**: el ejercitario no debe duplicar el glosario del explicativo. En `20261018d_ejercitario_alumno_estructura_optima_arbitraje.pdf` se quitaron las dos páginas de «Aclaraciones y vocabulario», conservando portada, fuentes APA 7, enunciados, campos de respuesta y preguntas (6 páginas). En `20261018d_explicativo_solucionario_estructura_optima_arbitraje.pdf` se mantuvieron las definiciones introductorias y se intercalaron **dos páginas adicionales inmediatamente antes de la solución paso a paso**, explicando símbolo por símbolo, unidades, significado financiero y ejemplo numérico de las fórmulas: VU=NOI/KeU; I=D×Kd; flujo residual; V=D+E; KeL, WACC; valor observado y diferencia ΔV; préstamo personal y remanente; flujos antes/después; rendimientos observados (13 páginas). En todas se diferencia la valoración teórica del precio observado, USD actuales de USD/año. Ambos documentos mantienen APA 7, caso ALFA inalterado, encabezado, aviso sobre IA y puntos horarios. Distribución: `20261018d_materiales_estructura_optima_arbitraje.zip`, con exactamente dos PDF verificados. La versión C se conserva como antecedente; no se sustituye la versión B congelada sin aprobación de D.
+Revisión **APROBADA EXPRESAMENTE por el docente el 18/10/2026**: el ejercitario no debe duplicar el glosario del explicativo. En `20261018d_ejercitario_alumno_estructura_optima_arbitraje.pdf` se quitaron las dos páginas de «Aclaraciones y vocabulario», conservando portada, fuentes APA 7, enunciados, campos de respuesta y preguntas (6 páginas). En `20261018d_explicativo_solucionario_estructura_optima_arbitraje.pdf` se mantuvieron las definiciones introductorias y se intercalaron **dos páginas adicionales inmediatamente antes de la solución paso a paso**, explicando símbolo por símbolo, unidades, significado financiero y ejemplo numérico de las fórmulas: VU=NOI/KeU; I=D×Kd; flujo residual; V=D+E; KeL, WACC; valor observado y diferencia ΔV; préstamo personal y remanente; flujos antes/después; rendimientos observados (13 páginas). En todas se diferencia la valoración teórica del precio observado, USD actuales de USD/año. Ambos documentos mantienen APA 7, caso ALFA inalterado, encabezado, aviso sobre IA y puntos horarios. Distribución: `20261018d_materiales_estructura_optima_arbitraje.zip`, con exactamente dos PDF verificados. La versión C y la versión B aprobada anteriormente se conservan como antecedentes. La aprobación explícita de D la convierte en nueva referencia vigente.
+
+## Cierre de preparación — aprobación final versión D (18/10/2026)
+
+El docente confirmó **«aprobado»** y ordenó marcar aprobado el **contenido integral de la clase del 19/10/2026**. **Estado: APPROVED / FINISHED / FROZEN para el contenido y los materiales docentes 20261018d.** La ejecución presencial, asistencia y evidencias individuales siguen pendientes de la jornada.
+
+**Particularidades validadas:**
+- El **ejercitario del alumno** no duplica glosarios ni definiciones de variables presentadas en el explicativo. Está destinado a la resolución individual y conserva campos para respuestas, identificación y razonamiento (6 páginas).
+- El **solucionario y explicativo** contiene vocabulario al primer uso, atribuciones/citas APA 7 y referencias bibliográficas, más un bloque especialmente dedicado a **definir todos los símbolos y subíndices de las fórmulas, unidades y aplicación numérica** antes del paso a paso (13 páginas).
+- Identificación de los autores Modigliani y Miller (1958), y de ALFA U (no apalancada) / ALFA L (apalancada, letra L), sin presentar los nombres ficticios como entidades reales.
+- Conservación de las fórmulas y cifras del arbitraje: mismo flujo anual de USD 960 antes/después y USD 1.000 de liquidez liberada inmediatamente, distinguiendo precio observado de valor teórico de equilibrio.
+- Cronograma completo 18:15–21:15, cuatro controles de calidad, advertencia académica sobre IA y preservación del PDF completado para ejercicios siguientes.
+- Prefijo **`20261018d_`** para la versión aprobada. Archivos: `20261018d_ejercitario_alumno_estructura_optima_arbitraje.pdf`, `20261018d_explicativo_solucionario_estructura_optima_arbitraje.pdf` y `20261018d_materiales_estructura_optima_arbitraje.zip` (ambos PDF).
+- No publicar las copias completadas con identificación o respuestas personales en GitHub. Los binarios distribuidos en la conversación no se presumen subidos al repositorio.
+
+**Control de versiones:** A, B y C quedan como historial; D queda aprobada/congelada. Cualquier cambio futuro requiere la iteración `20261018e_` o posterior y aprobación expresa.
