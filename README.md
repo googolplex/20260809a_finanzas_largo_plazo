@@ -20,7 +20,7 @@ El repositorio está diseñado para poder mantenerse **público**. Por ello no d
 - Estado del binario v32 en GitHub: **no se publica deliberadamente**, por tratarse de un documento institucional privado.
 - Próxima iteración documental: **v33**, solamente cuando exista un cambio real que justifique una nueva versión.
 - Base didáctica propia registrada: **Cuadernos de Economía Aplicada, Volúmenes 1–5 (Roger Román Armoa García, 2026)**.
-- Misión activa: **20261018a — Estructura financiera óptima y arbitraje de acciones**, para la clase del **19/10/2026** (Unidad IV, Laboratorio 217).
+- Misión de clase **20261018a — Estructura financiera óptima y arbitraje de acciones**: **contenido y materiales versión 20261018d APROBADOS / FROZEN** el 18/10/2026 para la sesión del **19/10/2026** (Unidad IV, Laboratorio 217; ejecución pendiente).
 - Enfoque de la misión activa: **Modigliani–Miller, NOI/UAII, Ke, WACC y arbitraje con deuda hecha en casa**. La misión de riesgo del 05/10/2026 se conserva como antecedente.
 - Misión anterior en pausa: **20260809b — Clase de presentación de la asignatura**; presentación v04 estable y v05 pendiente de consolidación desde la base autorizada vigente.
 - Misión concurrente: **20260814a — Prueba del agente de formación de vocabulario técnico**.
