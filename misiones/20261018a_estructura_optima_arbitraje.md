@@ -121,3 +121,13 @@ El docente confirmó **«aprobado»** y ordenó marcar aprobado el **contenido i
 - No publicar las copias completadas con identificación o respuestas personales en GitHub. Los binarios distribuidos en la conversación no se presumen subidos al repositorio.
 
 **Control de versiones:** A, B y C quedan como historial; D queda aprobada/congelada. Cualquier cambio futuro requiere la iteración `20261018e_` o posterior y aprobación expresa.
+
+## Iteración 20261018g — aplicaciones paralelas por empresa (18/10/2026)
+
+**Revisión solicitada por el docente, pendiente de aprobación expresa; no sustituye el estado aprobado/congelado de la versión D.** El docente pidió que **toda instancia «Aplicación»** de la explicación de fórmulas contenga un ejemplo numérico o aclaración independiente para **ALFA U** y **ALFA L**, con nombres completos visibles, sin dar por sabido cuál empresa se está calculando. No es correcto presentar un único resultado sin atribución.
+
+Se reemplazó el bloque explicativo de notación por **tres páginas** de comparaciones detalladas, respetando definición de todos los símbolos y unidades. En cada uno de los nueve apartados (valor de empresa; intereses y flujos; patrimonio; costo del capital propio; WACC; valor observado; préstamo personal; comparación de flujos; retornos implícitos) aparecen rótulos explícitos **«Aplicación — ALFA U (sin deuda)»** y **«Aplicación — ALFA L (con deuda)»**. Cuando una fórmula no se aplica de forma directa (por ejemplo deuda personal de quien compra acciones de U), se declara la diferencia sin inventar deuda corporativa para U. La observación del patrimonio de U se interpreta como valor de referencia supuesto para el caso, no como dato adicional inventado.
+
+Se mantiene la precisión de los montos: U = 120.000, L valor teórico = 120.000, valor observado L = 130.000, accionista previo 960/año, posición replicante 960/año y liquidez inmediata 1.000 USD. El contenido adicional se integra **antes de la solución detallada**; se conserva el marco teórico, el bloque en rojo sobre autoría de Modigliani–Miller, el ejemplo ilustrativo de empresas de transporte, referencias APA 7, advertencia sobre IA y puntos de control.
+
+Archivos de revisión: `20261018g_explicativo_solucionario_estructura_optima_arbitraje.pdf` (**14 páginas**), `20261018g_ejercitario_alumno_estructura_optima_arbitraje.pdf` (**6 páginas; contenido inalterado**) y `20261018g_materiales_estructura_optima_arbitraje.zip` (contiene ambos PDF, comprobación ZIP satisfactoria). Las versiones previas se mantienen para trazabilidad. La regla de futuro material explicativo es **aplicaciones explícitas para cada empresa comparada**, o nota de no aplicabilidad justificada.
