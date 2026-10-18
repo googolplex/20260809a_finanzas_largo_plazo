@@ -1,3 +1,11 @@
+## 2026-10-18 — Aprobación final de contenidos de clase 19/10, versión D
+
+- Docente aprobó explícitamente el **contenido de la clase y los materiales `20261018d_`**; misión `misiones/20261018a_estructura_optima_arbitraje.md` declarada **APPROVED / FINISHED / FROZEN** en preparación académica (la clase todavía no se ha realizado).
+- Ejercitario 6 páginas: sin duplicación de glosario ni definiciones del explicativo, con campos de resolución.
+- Explicativo 13 páginas: significados de todos los términos de fórmulas, subíndices y unidades, ejemplos numéricos, APA 7, contraste teórico y arbitraje resuelto.
+- Conservadas reglas de citas, glosario a primera aparición, aviso de IA, puntos de control, conservación de evidencia y privacidad de alumnos.
+- ZIP final aprobado: `20261018d_materiales_estructura_optima_arbitraje.zip` (dos PDF). Versiones A–C quedan como antecedentes; cambios futuros exigen una nueva letra.
+
 ## 2026-10-18 — Misión clase 19/10/2026: estructura óptima y arbitraje
 
 - Registrada `misiones/20261018a_estructura_optima_arbitraje.md` para Unidad IV, ECO-132, Grupo 80, Laboratorio 217, Universidad Americana; docente Roger Román Armoa García.
