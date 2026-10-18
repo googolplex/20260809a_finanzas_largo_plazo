@@ -1,3 +1,10 @@
+## 2026-10-18 — Aprobada versión H de la clase 19/10/2026
+
+- Aprobación expresa del docente para `20261018h_`: **APPROVED / FINISHED / FROZEN** (contenido y materiales, no ejecución presencial).
+- Ejemplo de transporte con cuentas operativas desglosadas e idéntico NOI de USD 12.000 en ALFA U y ALFA L; intereses separados del NOI.
+- PDF explicativo 15 páginas; ejercitario 6 páginas; ZIP `20261018h_materiales_estructura_optima_arbitraje.zip`.
+- Versiones anteriores conservadas como historial. Misión: `misiones/20261018a_estructura_optima_arbitraje.md`.
+
 ## 2026-10-18 — Aprobación final de contenidos de clase 19/10, versión D
 
 - Docente aprobó explícitamente el **contenido de la clase y los materiales `20261018d_`**; misión `misiones/20261018a_estructura_optima_arbitraje.md` declarada **APPROVED / FINISHED / FROZEN** en preparación académica (la clase todavía no se ha realizado).
