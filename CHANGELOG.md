@@ -1,3 +1,11 @@
+## 2026-10-18 — Misión clase 19/10/2026: estructura óptima y arbitraje
+
+- Registrada `misiones/20261018a_estructura_optima_arbitraje.md` para Unidad IV, ECO-132, Grupo 80, Laboratorio 217, Universidad Americana; docente Roger Román Armoa García.
+- Especificados los dos entregables `20261018a_`: **EJERCITARIO** y **SOLUCIONARIO Y EXPLICATIVO**, ambos con título prominente y aviso sobre limitaciones de IA, resolución propia y conservación de PDF.
+- Documentados los supuestos y resultados del caso ALFA, su arbitraje replicante y la pregunta adversarial.
+- Incorporados los nueve puntos horarios del cronograma y cuatro controles de calidad.
+- La misión del 05/10 permanece como antecedente sin modificar su contenido.
+
 # Changelog
 
 ## 2026-10-04 — Creación de la misión inversionConRiesgo
