@@ -91,3 +91,14 @@ A pedido del docente, ambos PDF y el ZIP avanzan de `20261018a_` a **`20261018b_
 - `20261018b_materiales_estructura_optima_arbitraje.zip` — distribución conjunta de ambos.
 
 **Estado final documental: APPROVED / FROZEN (versión B); clase pendiente de ejecución.**
+
+## Iteración 20261018c — adecuación bibliográfica APA 7 (18/10/2026)
+
+Preparada a solicitud del docente tras señalar que la sigla «MM» sin identificación bibliográfica impide reconocer a los autores. Se conserva la versión B como antecedente aprobado y congelado; la **C es revisión bibliográfica elaborada, pendiente de aprobación expresa**.
+
+- En **ambos PDF** se introduce, después de la portada y antes del vocabulario y ejercicios, una página nueva «Fuentes académicas y citas APA 7», con primera mención narrativa **Modigliani y Miller (1958)**, cita parentética **(Modigliani & Miller, 1958)** y sigla MM solo después de identificar autores.
+- Se explican con autor-año las proposiciones I y II, el arbitraje y el carácter hipotético de ALFA U y ALFA L. Se distingue el artículo de 1963 (impuestos) del modelo sin impuestos aplicado.
+- Referencias completas de los originales: Modigliani y Miller (1958), *The American Economic Review*, 48(3), 261–297, JSTOR 1809766; Modigliani y Miller (1963), *The American Economic Review*, 53(3), 433–443, JSTOR 1809167. Fuente didáctica de Armoa García (2026), Vol. 4, identificada como material de cátedra; sin inventar identificadores.
+- Se preservan sin cambios las cifras, la solución replicante, los campos del alumno, el aviso sobre IA y los puntos de control. El ejercitario C tiene **8 páginas** y el explicativo C **11 páginas**.
+- Archivos: `20261018c_ejercitario_alumno_estructura_optima_arbitraje.pdf`, `20261018c_explicativo_solucionario_estructura_optima_arbitraje.pdf`, `20261018c_materiales_estructura_optima_arbitraje.zip`. ZIP comprobado; contiene exactamente ambos PDFs.
+- **Regla metodológica propuesta:** en materiales futuros introducir autores y año, fuente en referencias completas APA 7 y definir términos/siglas en su primera aparición; no atribuir datos hipotéticos a publicaciones originales. Aplicar como criterio de revisión sin reabrir versiones congeladas automáticamente.
