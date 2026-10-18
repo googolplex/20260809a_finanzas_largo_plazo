@@ -1,7 +1,7 @@
 # Misión 20261018a — Estructura financiera óptima y arbitraje de acciones
 
 ## Estado
-**PREPARADA — clase presencial del lunes 19/10/2026.** Registro y actualización documental del 18/10/2026. No se considera ejecutada ni aprobada su evaluación hasta la confirmación docente.
+**MATERIALES 20261018b APROBADOS POR EL DOCENTE (18/10/2026) — clase presencial programada para el 19/10/2026.** La aprobación se refiere a los materiales, no a la realización de la clase ni a los resultados de estudiantes.
 
 ## Identidad académica
 - Universidad Americana, Facultad de Ciencias Económicas y Administrativas, carrera Economía, sede ASU.
@@ -68,3 +68,26 @@ Se incorporó pedagógicamente el documento fuente `20261019a_tema_central_estru
 ## Revisión 20261018b — identificación y definiciones técnicas
 
 A pedido del docente, ambos PDF y el ZIP avanzan de `20261018a_` a **`20261018b_`**. Se incorporaron dos páginas iniciales de lectura guiada, antes de los ejercicios y del marco teórico, con identificación expresa de **MM = Franco Modigliani y Merton Miller** (autores, no empresas), **ALFA U = firma hipotética sin deuda (unlevered)** y **ALFA L = firma hipotética con deuda (levered)**; la letra es **L, no M**. Primera explicación de siglas y términos clave: NOI/UAII/EBIT, D/E/V, Kd, Ke, WACC, apalancamiento, perpetuidad, valoración teórica y de mercado, arbitraje, sobrevaluación y replicación de deuda personal. Se mantienen sin cambios los cálculos y el caso ALFA, aviso sobre IA y puntos de control. Archivos finales: `20261018b_ejercitario_alumno_estructura_optima_arbitraje.pdf` (7 páginas), `20261018b_explicativo_solucionario_estructura_optima_arbitraje.pdf` (10 páginas), `20261018b_materiales_estructura_optima_arbitraje.zip`. No se publican respuestas individuales.
+
+## Acta de aprobación docente — 18/10/2026
+
+**Decisión explícita:** el docente declaró **«aprobado»** el paquete **20261018b**, y solicitó documentar todas sus particularidades. Esta es la **versión vigente, aprobada y congelada** de los materiales para la clase del 19/10/2026. No reemplazarla automáticamente con versiones preliminares `20261018a_`; modificaciones futuras requerirán una nueva iteración alfabética y autorización docente.
+
+### Particularidades aprobadas
+1. **Dos PDF complementarios, diferenciados por título destacado:** **EJERCITARIO** (alumno; 7 páginas) y **SOLUCIONARIO Y EXPLICATIVO** (guía didáctica; 10 páginas). Entrega conjunta por ZIP para facilitar descarga.
+2. **Encabezado institucional:** Universidad Americana, Finanzas de Largo Plazo, ECO-132, grupo 80, Laboratorio 217, Prof. Roger Román Armoa García y fecha **lunes 19/10/2026**; prefijo de archivos `20261018b_` (fecha de preparación, distinta de la fecha de clase).
+3. **Identidades sin ambigüedad:** MM designa **Modigliani–Miller**, autores de las proposiciones, **no una empresa**; ALFA U = empresa ficticia sin deuda, ALFA L = empresa ficticia con deuda (**L**, no «M»). No atribuirles cotizaciones reales.
+4. **Regla pedagógica de primera mención:** definir un término técnico y desplegar sus siglas en la primera aparición; introducir significado económico antes de su notación o cálculo. Glosario inicial de lectura guiada incluido en ambos PDFs. Incluye NOI/UAII/EBIT, V, D, E, Kd, Ke, WACC, apalancamiento, deuda personal, arbitraje, perpetuidad, valor teórico y valor observado, sobrevaluación, y réplica de flujos; desarrollar otros términos técnicos al aparecer en futuras versiones.
+5. **Secuencia del explicativo:** aviso académico; fundamentos de lectura y definiciones; contraste teoría tradicional frente a MM sin impuestos, interpretación de NOI, apalancamiento y arbitraje; caso y solución paso a paso; control adversarial; cronograma y criterios de verificación. El texto del «tema central» se integra conceptualmente, no como anexo aislado.
+6. **Secuencia del alumno:** identificación y enunciado completos, lenguaje accesible y campos específicos para cálculos, resultados, interpretación, dirección de operación y refutación crítica; **sin respuestas** en el documento del alumno.
+7. **Integridad matemática:** distinguir equilibrio MM de precio observado. V_U=120.000; D_L=40.000; E_L teórico=80.000; V_L de mercado=130.000 (E_L observado=90.000). Venta de 10% de L=9.000, deuda hecha en casa=4.000, compra de 10% de U=12.000, efectivo inmediato remanente=1.000; ingreso neto futuro constante=960 anuales. El WACC observado 9,23% es diagnóstico de precios inconsistentes bajo MM, **no** prueba de que la deuda creó valor.
+8. **Aviso explícito sobre IA:** no se recomienda usar IA para confeccionar la solución, por errores detectados en esta asignatura. Seguir el procedimiento paso a paso y completar individualmente el ejercitario. NotebookLM/IA, si se emplea en el segmento del cronograma, se limita a **contrastar y auditar críticamente** con las fuentes, sin sustituir el razonamiento financiero.
+9. **Persistencia de evidencia:** al final de la clase, el estudiante debe **guardar su PDF completado**, destinado a ejercicios posteriores; no publicar copias completadas con nombre, CI o respuestas en un repositorio de eventual acceso público.
+10. **Controles de clase:** mantener íntegros los horarios 18:15, 18:45, 19:15, 19:45, 20:00, 20:15, 20:45, 21:00 y 21:15, además de cuatro verificaciones: procedencia de datos, coherencia de cálculos, consistencia de recomendación y trazabilidad bibliográfica.
+
+### Archivos de la versión aprobada
+- `20261018b_ejercitario_alumno_estructura_optima_arbitraje.pdf` — 7 páginas.
+- `20261018b_explicativo_solucionario_estructura_optima_arbitraje.pdf` — 10 páginas.
+- `20261018b_materiales_estructura_optima_arbitraje.zip` — distribución conjunta de ambos.
+
+**Estado final documental: APPROVED / FROZEN (versión B); clase pendiente de ejecución.**
