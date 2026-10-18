@@ -60,3 +60,7 @@ La cátedra **no recomienda el uso de IA para obtener la solución**: se ha comp
 
 ## Privacidad, publicación y continuidad
 No publicar PDF completados de alumnos, CI, respuestas individuales ni notas en el repositorio. Mantener formularios vacíos y descripción didáctica. Archivos PDF finales se distribuyen en la conversación; esta misión registra sus nombres y versiones, no presupone que sus binarios están alojados en GitHub. La misión anterior de riesgo y el examen parcial no se modifican.
+
+## Actualización 18/10/2026 — Tema central integrado al explicativo
+
+Se incorporó pedagógicamente el documento fuente `20261019a_tema_central_estructura_financiera_optima.pdf` al PDF `20261018a_explicativo_solucionario_estructura_optima_arbitraje.pdf`, como dos páginas de fundamentos **antes** del caso resuelto. Temas: comparación enfoque tradicional/MM sin impuestos, relevancia del NOI/UAII y mismo riesgo operativo, proposiciones I y II, deuda personal «hecha en casa», secuencia de arbitraje, lecturas obligatorias y puente con el control adversarial. El documento explicativo queda en **8 páginas**. Se preserva el ejercitario del alumno. Se regeneró `20261018a_materiales_estructura_optima_arbitraje.zip` con ambos PDF. Precisión central: el ejemplo mantiene USD 960 de flujo neto anual y libera USD 1.000 en t=0; no implica aumento del flujo anual.
